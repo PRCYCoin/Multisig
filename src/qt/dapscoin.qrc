@@ -68,7 +68,6 @@
         <file alias="staking_waiting">res/icons/staking_waiting.png</file>
     </qresource>
     <qresource prefix="/css">
-        <file alias="light">res/css/Light.css</file>
         <file alias="dark">res/css/Dark.css</file>
     </qresource>
     <qresource prefix="/images">
