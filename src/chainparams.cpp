@@ -124,12 +124,30 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
     (209577, uint256("5231320be89de8a0fdebbd45d4d0c58abb1ea7a134ba52a11a2036f32d90e66c"))
     (215000, uint256("f114538988fbba92c21418e18dd8f32ed9579f0ee980949467044dfc8b5a444b"))
     (221000, uint256("573a615b64089e31204b9ed642346179858cb4d31749be210f65c95b5e34a5c3"))
-    
+	(225000, uint256("87cabfee989514eeebc1b1b15baf91caade99444ae66cda36705161123a04bd0"))
+    (230000, uint256("578a5eeee8d8d2d5c9f961db6f4ad42dcc830aaadf103b7bd4dfc6384ddd5d68"))
+    (235000, uint256("f91427c4ae7e75c7630c2e3fade78db8ce3aa830b07861435d90a8e2a26222a7"))
+    (239830, uint256("a17a68a3399dc67992815f5e0ee3fbac7bb0b3777e64a5446b728dc25bc3b113"))
+    (240000, uint256("404633fe3349ee3b8fb6d615ba25646532823f35cd0863f7029d90f9fb00f804"))
+    (245000, uint256("0541e509e049e02ce17cff6c1d4178c98a5ac0f3ee2a7db41008db8997389686"))
+    (250000, uint256("d4a1b457984d818d728288d2b1fb30355feb3e8e9309b99e165dfc0a22523216"))
+    (255000, uint256("a7e29e83aee66c7e2eb097ef8f729dcc44d5235a5533fb357e70fa14cf345bd6"))
+    (260000, uint256("556f5deedff1c551551b6fda517fe939e0fb6810d35664fd55b5c5c2b6ec33c7"))
+    (265000, uint256("84598b4790a1df395e5ef724c4a2784b27679ef07d9e864ff2fa1b91fcca0751"))
+    (270000, uint256("533f7d0f72700d23c3086fbf7f7f01e1b5e0b3c3d24a5f854187eb333610d266"))
+    (275000, uint256("7b1d412bc6bf0c994d46c830e6a52fd36e7dbfbde057f44d6c9e8655f50f8720"))
+    (280000, uint256("4ddc6eafeb7bcdb14d2836dfe5b5b9d053400a1fb91eae9534e6d7b55e22629a"))
+    (285000, uint256("b3b578a10bcc8d9f9251ce6694689c9df8d5956a5b5c536054c75cb39096a1be"))
+    (290000, uint256("49c13c93d22f4de36dd8cab41ef8fb879e657198d8b16dd97c4225d199126169"))
+    (295000, uint256("e6742077e1d536bdbd4d4e1f440371be5045b604b21bbe5ab9cf5bed30747e46"))
+    (300000, uint256("28fe81715aa6450890103e65fbfa3e9d0b4bac3baf86a480ce0c630e82a32e62"))
+    (458733, uint256("51d7f917147f3bec3f2e6767fd70c14730a0b0773a7b967e827336e936cf50e2"))
+    (458734, uint256("35ff8e3884036187ed56e7d4a4adda3e0f75eac5655afd4cef8605954b28362f"))
     ;
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1578085486, // * UNIX timestamp of last checkpoint block
-    555549,    // * total number of transactions between genesis and last checkpoint
+    1582819136, // * UNIX timestamp of last checkpoint block
+    741138,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     0        // * estimated number of transactions per day after checkpoint
 };
@@ -188,7 +206,8 @@ public:
         nModifierUpdateBlock = 615800;
         nPoABlockTime = 60 * 60; //a PoA block every 30 minutes
         nMinNumPoSBlocks = 59;
-
+        nMaxNumPoSBlocks = 120;
+		
         /**
          * Build the genesis block. Note that the output of the genesis coinbase cannot
          * be spent as it did not originally exist in the database.
