@@ -82,6 +82,7 @@ OptionsPage::OptionsPage(QWidget* parent) : QDialog(parent, Qt::WindowSystemMenu
     ui->code_6->setVisible(false);
 
     ui->toggleStaking->setVisible(false);
+    ui->toggleTheme->setVisible(false);
 }
 
 void OptionsPage::setStakingToggle()
