@@ -203,7 +203,7 @@ public:
     }
 };
 
-typedef enum MultiSigType {
+enum MultiSigType {
 	FULL_N_N = 0,
 	PARTIAL_N_1_N
 };
