@@ -6539,16 +6539,16 @@ std::string CWallet::MyMultisigPubAddress()
 	std::string spendMultisigPubLabel = "spendmultisigpub";
 	CAccount viewAccount;
 	if (!pDB.ReadAccount(viewMultisigKeyLabel, viewAccount)) {
-		LogPrintf("\nMultisig key is not configured\n");
+        LogPrintf("%s: Multisig key is not configured\n", __func__);
 		return "";
 	}
 	CAccount spendAccount;
 	if (!pDB.ReadAccount(spendMultisigPubLabel, spendAccount)) {
-		LogPrintf("\nMultisig pub spend key is not configured\n");
+        LogPrintf("%s: Multisig pub spend key is not configured\n", __func__);
 		return "";
 	}
 	multiSigPubSpend = spendAccount.vchPubKey;
-	LogPrintf("\nSuccessfully loaded multisig key, multisig spend key\n");
+    LogPrintf("%s: Successfully loaded multisig key, multisig spend key\n", __func__);
 	std::string ret;
 	EncodeStealthPublicAddress(viewAccount.vchPubKey, spendAccount.vchPubKey, ret);
 	//load combokeys
@@ -6996,7 +6996,7 @@ void CWallet::createMasterKey() const
                 i++;
                 continue;
             }
-            LogPrintf("Created master account");
+            LogPrintf("%s: Created master account\n", __func__);
             break;
         }
 
@@ -7012,22 +7012,22 @@ bool CWallet::LoadMultisigKey() const
 	std::string spendMultisigPubLabel = "spendmultisigpub";
 	CAccount viewAccount;
 	if (!pDB.ReadAccount(viewMultisigKeyLabel, viewAccount)) {
-		LogPrintf("\nMultisig key is not configured\n");
+        LogPrintf("%s: Multisig key is not configured\n", __func__);
 		return true;
 	}
-	LogPrintf("\nLoading multisig key\n");
+    LogPrintf("%s: Loading multisig key\n");
 	GetKey(viewAccount.vchPubKey.GetID(), multiSigPrivView);
 	if (!multiSigPrivView.IsValid()) {
-		LogPrintf("\nFailed to load Multisig view key\n");
+        LogPrintf("%s: Failed to load Multisig view key\n", __func__);
 		return true;
 	}
 	CAccount spendAccount;
 	if (!pDB.ReadAccount(spendMultisigPubLabel, spendAccount)) {
-		LogPrintf("\nMultisig pub spend key is not configured\n");
+        LogPrintf("%s: Multisig pub spend key is not configured\n", __func__);
 		return true;
 	}
 	multiSigPubSpend = spendAccount.vchPubKey;
-	LogPrintf("\nSuccessfully loaded multisig key, multisig spend key = %s\n", multiSigPubSpend.GetHex());
+    LogPrintf("%s: Successfully loaded multisig key, multisig spend key = %s\n", __func__, multiSigPubSpend.GetHex());
 	return true;
 }
 
@@ -7035,14 +7035,14 @@ bool CWallet::mySpendPrivateKey(CKey& spend) const {
 	{
 		LOCK2(cs_main, cs_wallet);
 		if (IsLocked()) {
-			LogPrintf("\n%s:Wallet is locked\n", __func__);
+            LogPrintf("%s: Wallet is locked\n", __func__);
 			return false;
 		}
 		std::string spendAccountLabel = "spendaccount";
 		CAccount spendAccount;
 		CWalletDB pDB(strWalletFile);
 		if (!pDB.ReadAccount(spendAccountLabel, spendAccount)) {
-			LogPrintf("Cannot Load Spend private key, now create the master keys");
+            LogPrintf("%s: Cannot Load Spend private key, now create the master keys\n", __func__);
 			createMasterKey();
 			pDB.ReadAccount(spendAccountLabel, spendAccount);
 		}
@@ -7056,14 +7056,14 @@ bool CWallet::myViewPrivateKey(CKey& view) const
     {
         LOCK2(cs_main, cs_wallet);
         if (IsLocked()) {
-            LogPrintf("%s:Wallet is locked\n", __func__);
+            LogPrintf("%s: Wallet is locked\n", __func__);
             return false;
         }
         std::string viewAccountLabel = "viewaccount";
         CAccount viewAccount;
         CWalletDB pDB(strWalletFile);
         if (!pDB.ReadAccount(viewAccountLabel, viewAccount)) {
-            LogPrintf("Cannot Load view private key, now create the master keys");
+            LogPrintf("%s: Cannot Load view private key, now create the master keys\n", __func__);
             createMasterKey();
             pDB.ReadAccount(viewAccountLabel, viewAccount);
         }
