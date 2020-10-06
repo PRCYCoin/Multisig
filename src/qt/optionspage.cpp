@@ -53,6 +53,7 @@ OptionsPage::OptionsPage(QWidget* parent) : QDialog(parent, Qt::WindowSystemMenu
     ui->line_2->setVisible(false);
     ui->lineEditWithhold->setVisible(false);
     ui->labelStaking->setVisible(false);
+    ui->labelTheme->setVisible(false);
     ui->label_2->setVisible(false);
     ui->pushButtonSave->setVisible(false);
     ui->pushButtonDisable->setVisible(false);
