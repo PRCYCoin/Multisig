@@ -963,6 +963,14 @@ void BitcoinGUI::setNumBlocks(int count)
         tooltip += QString("<br>");
         tooltip += tr("Transactions after this will not yet be visible.");
     }
+    if (count == 0) {
+        blockCount->setText(tr("Loading Blocks..."));
+    } else if (clientModel->inInitialBlockDownload()) {
+        blockCount->setText(tr("Syncing Blocks..."));
+    } else {
+        blockCount->setText(tr("%n Blocks", "", count));
+    }
+    blockCount->setToolTip(tooltip);
 }
 
 void BitcoinGUI::message(const QString& title, const QString& message, unsigned int style, bool* ret)
