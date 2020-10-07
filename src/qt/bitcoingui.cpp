@@ -547,8 +547,8 @@ void BitcoinGUI::createToolBars()
 
         bottomToolbar->setObjectName("bottomToolbar");
 
-        QHBoxLayout* layout = new QHBoxLayout(this);
-        QVBoxLayout* navLayout = new QVBoxLayout(this);
+        QHBoxLayout* layout = new QHBoxLayout();
+        QVBoxLayout* navLayout = new QVBoxLayout();
         QWidget* navWidget = new QWidget(this);
         navWidget->setObjectName("navLayout");
 
