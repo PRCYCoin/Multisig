@@ -47,7 +47,7 @@ KeyImageSync::KeyImageSync(QWidget* parent) : QDialog(parent),
 
 	ui->copyButton->setStyleSheet("background:transparent;");
     ui->copyButton->setIcon(QIcon(":/icons/editcopy"));
-	connect(ui->copyButton, SIGNAL(clicked()), this, SLOT(on_copyButton_Clicked()));
+        connect(ui->copyButton, SIGNAL(clicked()), this, SLOT(on_copyButton_clicked()));
 }
 
 void KeyImageSync::setClientModel(ClientModel* clientModel)
@@ -78,7 +78,7 @@ void KeyImageSync::setBalance(const CAmount& balance, const CAmount& unconfirmed
     }
 }
 
-void KeyImageSync::on_copyButton_Clicked() 
+void KeyImageSync::on_copyButton_clicked()
 {
     QClipboard *clipboard = QApplication::clipboard();
     clipboard->setText(ui->signedHex->toPlainText());

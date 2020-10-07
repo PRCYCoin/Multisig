@@ -75,7 +75,7 @@ private slots:
     void coinControlClipboardLowOutput();
     void coinControlClipboardChange();
 
-    void on_copyButton_Clicked();
+    void on_copyButton_clicked();
 signals:
 
 };
