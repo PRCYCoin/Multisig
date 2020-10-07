@@ -342,9 +342,6 @@ void OverviewPage::showBlockSync(bool fShow)
 
 void OverviewPage::showBlockCurrentHeight()
 {
-    TRY_LOCK(cs_main, lockMain);
-    if (!lockMain)
-        return;
 	ui->labelBlockCurrent->setText(QString::number(chainActive.Height()));
 }
 
