@@ -67,6 +67,10 @@
 #include <QUrlQuery>
 #endif
 
+#define BASE_WINDOW_WIDTH 800
+#define BASE_WINDOW_HEIGHT 768
+#define BASE_WINDOW_MIN_HEIGHT 600
+
 const QString BitcoinGUI::DEFAULT_WALLET = "~Default";
 
 BitcoinGUI::BitcoinGUI(const NetworkStyle* networkStyle, QWidget* parent) : QMainWindow(parent),
@@ -114,8 +118,16 @@ BitcoinGUI::BitcoinGUI(const NetworkStyle* networkStyle, QWidget* parent) : QMai
     /* Open CSS when configured */
     this->setStyleSheet(GUIUtil::loadStyleSheet());
 
-    this->setMinimumSize(1147, 768);
-    GUIUtil::restoreWindowGeometry("nWindow", QSize(1147, 768), this);
+    this->setMinimumSize(BASE_WINDOW_WIDTH, BASE_WINDOW_MIN_HEIGHT);
+
+    // Adapt screen size
+    QRect rec = QApplication::desktop()->screenGeometry();
+    int adaptedHeight = (rec.height() < BASE_WINDOW_HEIGHT) ?  BASE_WINDOW_MIN_HEIGHT : BASE_WINDOW_HEIGHT;
+    GUIUtil::restoreWindowGeometry(
+            "nWindow",
+            QSize(BASE_WINDOW_WIDTH, adaptedHeight),
+            this
+    );
 
     QString windowTitle = tr("DAPS Coin") + " ";
 #ifdef ENABLE_WALLET
