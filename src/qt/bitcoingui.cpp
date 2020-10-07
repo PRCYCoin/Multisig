@@ -388,6 +388,8 @@ void BitcoinGUI::createActions(const NetworkStyle* networkStyle)
     networkAction->setIconText("   Network Status");
     connectionCount = new QLabel(this);
     connectionCount->setObjectName("connectionCount");
+    blockCount = new QLabel(this);
+    blockCount->setObjectName("blockCount");
 
     toggleHideAction = new QAction(networkStyle->getAppIcon(), tr("&Show / Hide"), this);
     toggleHideAction->setStatusTip(tr("Show or hide the main Window"));
@@ -555,6 +557,7 @@ void BitcoinGUI::createToolBars()
 
         bottomToolbar->addAction(networkAction);
         bottomToolbar->addWidget(connectionCount);
+        bottomToolbar->addWidget(blockCount);
         bottomToolbar->setStyleSheet("QToolBar{spacing:5px;}");
 
         bottomToolbar->setObjectName("bottomToolbar");
