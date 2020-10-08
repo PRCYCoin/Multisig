@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The DAPS Project developers
+// Copyright (c) 2015-2019 The DAPS Project developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -47,7 +47,7 @@ SendCoinsDialog::SendCoinsDialog(QWidget* parent) : QDialog(parent, Qt::WindowSy
     addEntry();
 
     //connect(ui->addButton, SIGNAL(clicked()), this, SLOT(addEntry()));
-    connect(ui->copyButton, SIGNAL(clicked()), this, SLOT(on_copyButton_Clicked()));
+    connect(ui->copyButton, SIGNAL(clicked()), this, SLOT(on_copyButton_clicked()));
     // #HIDE multisend
     ui->addButton->setVisible(false);
 
@@ -166,7 +166,7 @@ void SendCoinsDialog::setModel(WalletModel* model)
     }
 }
 
-void SendCoinsDialog::on_copyButton_Clicked() 
+void SendCoinsDialog::on_copyButton_clicked()
 {
     QClipboard *clipboard = QApplication::clipboard();
     clipboard->setText(ui->hexCode->toPlainText());

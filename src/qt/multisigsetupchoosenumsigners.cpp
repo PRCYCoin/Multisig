@@ -15,6 +15,7 @@ MultiSigSetupChooseNumSigners::MultiSigSetupChooseNumSigners(QWidget *parent) :
 
     connect(ui->btnNext, SIGNAL(clicked()), this, SLOT(on_btnNext()));
     connect(ui->btnCancel, SIGNAL(clicked()), this, SLOT(on_btnCancel()));
+    connect(ui->numSignerSlider, SIGNAL(valueChanged(int)), this, SLOT(on_updateSigners(int)));
     setWindowFlags(Qt::Dialog | Qt::MSWindowsFixedSizeDialogHint);
 }
 
@@ -65,4 +66,9 @@ void MultiSigSetupChooseNumSigners::on_btnNext()
 		pwalletMain->WriteScreenIndex(idx);
 	}
 	accept();
+}
+
+void MultiSigSetupChooseNumSigners::on_updateSigners(int val)
+{
+    ui->numSigners->setText("Selected number of co-signers: " + QString::number(val));
 }

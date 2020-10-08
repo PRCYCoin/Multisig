@@ -52,7 +52,6 @@ public slots:
     void updateTotalBlocksLabel();
     int tryNetworkBlockCount();
     void updateRecentTransactions();
-    void refreshRecentTransactions();
     void setSpendableBalance(bool isStaking);
     void showBlockCurrentHeight();
     void updateBalance();

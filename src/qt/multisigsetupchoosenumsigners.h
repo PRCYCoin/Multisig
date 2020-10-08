@@ -20,6 +20,7 @@ public:
 private slots:
 	void on_btnCancel();
 	void on_btnNext();
+    void on_updateSigners(int);
 
 private:
     Ui::MultiSigSetupChooseNumSigners *ui;

@@ -395,7 +395,6 @@ RES_IMAGES = \
   qt/res/images/about.png \
   qt/res/images/splash.png \
   qt/res/images/splash_testnet.png \
-  qt/res/images/dapscoin_logo_horizontal.png \
   qt/res/images/downArrow.png \
   qt/res/images/downArrow_small.png \
   qt/res/images/upArrow_small.png \
@@ -411,7 +410,6 @@ RES_IMAGES = \
   qt/res/images/walletFrame_bg.png
 
 RES_CSS = \
-  qt/res/css/Light.css \
   qt/res/css/Dark.css
 
 RES_MOVIES = $(wildcard $(srcdir)/qt/res/movies/spinner-*.png)

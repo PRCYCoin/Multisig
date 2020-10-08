@@ -121,15 +121,6 @@ QString ClientModel::getLastBlockHash() const
         return QString::fromStdString(Params().GenesisBlock().GetHash().ToString()); // Genesis block's hash of current network
 }
 
-int ClientModel::getChainHeight() const
-{
-    LOCK(cs_main);
-    if (chainActive.Tip())
-        return chainActive.Tip()->nHeight;
-    else 
-        return 0;
-}
-
 double ClientModel::getVerificationProgress() const
 {
     LOCK(cs_main);

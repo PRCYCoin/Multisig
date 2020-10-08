@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018-2019 The DAPS Project developers
+// Copyright (c) 2018-2020 The DAPS Project developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -19,9 +19,12 @@
 
 typedef unsigned char MessageStartChars[MESSAGE_START_SIZE];
 
-struct CDNSSeedData {
+class CDNSSeedData {
+public:
     std::string name, host;
-    CDNSSeedData(const std::string& strName, const std::string& strHost) : name(strName), host(strHost) {}
+    bool supportsServiceBitsFiltering;
+    std::string getHost(uint64_t requiredServiceBits) const;
+    CDNSSeedData(const std::string& strName, const std::string& strHost, bool supportsServiceBitsFilteringIn = false) : name(strName), host(strHost), supportsServiceBitsFiltering(supportsServiceBitsFilteringIn) {}
 };
 
 /**
@@ -101,10 +104,13 @@ public:
     int LAST_POW_BLOCK() const { return nLastPOWBlock; }
     int START_POA_BLOCK() const { return nStartPOABlock; }
     int Block_Enforce_Invalid() const { return nBlockEnforceInvalidUTXO; }
-
+    int SoftFork() const { return nSoftForkBlock;}
+    int HardFork() const { return nHardForkBlock;}
+	
     //For PoA block time
     int POA_BLOCK_TIME() const { return nPoABlockTime; }
     int MIN_NUM_POS_BLOCKS_AUDITED() const {return nMinNumPoSBlocks;}
+	int MAX_NUM_POS_BLOCKS_AUDITED() const {return nMaxNumPoSBlocks;}
     int nLastPOWBlock;
     int TEAM_REWARD_FREQUENCY = 3; //every  TEAM_REWARD_FREQUENCY PoA blocks, reward the daps team
     double MAX_MONEY;
@@ -128,6 +134,8 @@ protected:
     int64_t nTargetTimespan;
     int64_t nTargetSpacing;
     int nStartPOABlock;
+    int nSoftForkBlock;
+    int nHardForkBlock;
     int nMasternodeCountDrift;
     int nMaturity;
     int nModifierUpdateBlock;
@@ -161,6 +169,7 @@ protected:
     //For PoA blocks
     int nPoABlockTime;
     int nMinNumPoSBlocks;
+	int nMaxNumPoSBlocks;
 public:
     void ChangeMaxReorg(int num) const {
         nMaxReorganizationDepth = num;

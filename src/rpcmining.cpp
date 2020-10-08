@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018-2019 The DAPS Project developers
+// Copyright (c) 2018-2020 The DAPS Project developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -221,7 +221,9 @@ UniValue generatepoa(const UniValue& params, bool fHelp)
 
     if (pwalletMain == NULL)
         throw JSONRPCError(RPC_METHOD_NOT_FOUND, "Method not found (disabled)");
-
+	
+    // We need this here as CreateNewPoABlockWithKey requires unlocked wallet to GenerateAddress
+    EnsureWalletIsUnlocked();
 
     int period = 60;//default value
     if (params.size() > 1) {
@@ -702,6 +704,10 @@ UniValue getpoablocktemplate(const UniValue& params, bool fHelp)
 
                 "\nExamples:\n" +
                 HelpExampleCli("getpoablocktemplate", "") + HelpExampleRpc("getpoablocktemplate", ""));
+				
+    // We need this here as CreateNewPoABlockWithKey requires unlocked wallet to GenerateAddress
+    EnsureWalletIsUnlocked();
+
     LOCK(cs_main);
 
     {

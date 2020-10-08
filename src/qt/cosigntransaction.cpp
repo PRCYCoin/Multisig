@@ -45,7 +45,7 @@ CoSignTransaction::CoSignTransaction(QWidget* parent) : QDialog(parent),
 
     ui->copyButton->setStyleSheet("background:transparent;");
     ui->copyButton->setIcon(QIcon(":/icons/editcopy"));
-	connect(ui->copyButton, SIGNAL(clicked()), this, SLOT(on_copyButton_Clicked()));
+    connect(ui->copyButton, SIGNAL(clicked()), this, SLOT(on_copyButton_clicked()));
 }
 
 void CoSignTransaction::setClientModel(ClientModel* clientModel)
@@ -56,7 +56,7 @@ void CoSignTransaction::setClientModel(ClientModel* clientModel)
     }
 }
 
-void CoSignTransaction::on_copyButton_Clicked() 
+void CoSignTransaction::on_copyButton_clicked()
 {
     QClipboard *clipboard = QApplication::clipboard();
     clipboard->setText(ui->signedHex->toPlainText());

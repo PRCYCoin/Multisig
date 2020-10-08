@@ -203,7 +203,7 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     font.setBold(true);
     ui->labelBalance_2->setFont(font);   
 
-    refreshRecentTransactions();
+    updateRecentTransactions();
 }
 
 // show/hide watch-only labels
@@ -245,7 +245,6 @@ void OverviewPage::setWalletModel(WalletModel* model)
     this->walletModel = model;
     if (model && model->getOptionsModel()) {
         // Set up transaction list
-        LogPrintf("%s:setWalletModel\n", __func__);
         filter = new TransactionFilterProxy(this);
         filter->setSourceModel(model->getTransactionTableModel());
         filter->setLimit(NUM_ITEMS);
@@ -322,27 +321,27 @@ void OverviewPage::showBalanceSync(bool fShow){
 
 void OverviewPage::showBlockSync(bool fShow)
 {
-    ui->labelBlockStatus->setVisible(true);
     ui->labelBlockOf->setVisible(fShow);
     ui->labelBlocksTotal->setVisible(fShow);
 
     isSyncingBlocks = fShow;
 
-    ui->labelBlockCurrent->setText(QString::number(clientModel->getNumBlocks()));
+    int count = clientModel->getNumBlocks();
+    ui->labelBlockCurrent->setText(QString::number(count));
+
     if (isSyncingBlocks){
         ui->labelBlockStatus->setText("(syncing)");
+        ui->labelBlockStatus->setToolTip("The displayed information may be out of date. Your wallet automatically synchronizes with the DAPS network after a connection is established, but this process has not completed yet.");
         ui->labelBlockCurrent->setAlignment((Qt::AlignRight|Qt::AlignVCenter));
     } else {
         ui->labelBlockStatus->setText("(synced)");
+        ui->labelBlockStatus->setToolTip("Your wallet is fully synchronized with the DAPS network.");
         ui->labelBlockCurrent->setAlignment((Qt::AlignHCenter|Qt::AlignVCenter));
     }
 }
 
 void OverviewPage::showBlockCurrentHeight()
 {
-    TRY_LOCK(cs_main, lockMain);
-    if (!lockMain)
-        return;
 	ui->labelBlockCurrent->setText(QString::number(chainActive.Height()));
 }
 
@@ -352,7 +351,8 @@ void OverviewPage::initSyncCircle(float ratioToParent)
     animTicker->setInterval(17); //17 mSecs or ~60 fps
     animClock = new QElapsedTimer();
     connect(animTicker, SIGNAL(timeout()), this, SLOT(onAnimTick()));
-    animTicker->start(); animClock->start();
+    animTicker->start(); 
+	animClock->start();
 
     blockAnimSyncCircle = new QWidget(ui->widgetSyncBlocks);
     blockAnimSyncCircle->setStyleSheet("image:url(':/images/syncb')");//"background-image: ./image.png");
@@ -442,7 +442,7 @@ int OverviewPage::tryNetworkBlockCount(){
     return -1;
 }
 
-void OverviewPage::updateRecentTransactions(){
+void OverviewPage::updateRecentTransactions() {
     if (!pwalletMain) return;
     {
         LOCK2(cs_main, pwalletMain->cs_wallet);
@@ -510,10 +510,6 @@ void OverviewPage::updateRecentTransactions(){
             LogPrintf("pwalletMain has not been initialized\n");
         }
     }
-}
-
-void OverviewPage::refreshRecentTransactions() {
-	updateRecentTransactions();
 }
 
 void OverviewPage::on_lockUnlock() {

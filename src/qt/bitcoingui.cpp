@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018-2019 The DAPS Project developers
+// Copyright (c) 2018-2020 The DAPS Project developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -67,6 +67,10 @@
 #include <QUrlQuery>
 #endif
 
+#define BASE_WINDOW_WIDTH 800
+#define BASE_WINDOW_HEIGHT 768
+#define BASE_WINDOW_MIN_HEIGHT 600
+
 const QString BitcoinGUI::DEFAULT_WALLET = "~Default";
 
 BitcoinGUI::BitcoinGUI(const NetworkStyle* networkStyle, QWidget* parent) : QMainWindow(parent),
@@ -114,8 +118,16 @@ BitcoinGUI::BitcoinGUI(const NetworkStyle* networkStyle, QWidget* parent) : QMai
     /* Open CSS when configured */
     this->setStyleSheet(GUIUtil::loadStyleSheet());
 
-    this->setMinimumSize(1147, 768);
-    GUIUtil::restoreWindowGeometry("nWindow", QSize(1147, 768), this);
+    this->setMinimumSize(BASE_WINDOW_WIDTH, BASE_WINDOW_MIN_HEIGHT);
+
+    // Adapt screen size
+    QRect rec = QApplication::desktop()->screenGeometry();
+    int adaptedHeight = (rec.height() < BASE_WINDOW_HEIGHT) ?  BASE_WINDOW_MIN_HEIGHT : BASE_WINDOW_HEIGHT;
+    GUIUtil::restoreWindowGeometry(
+            "nWindow",
+            QSize(BASE_WINDOW_WIDTH, adaptedHeight),
+            this
+    );
 
     QString windowTitle = tr("DAPS Coin") + " ";
 #ifdef ENABLE_WALLET
@@ -376,6 +388,8 @@ void BitcoinGUI::createActions(const NetworkStyle* networkStyle)
     networkAction->setIconText("   Network Status");
     connectionCount = new QLabel(this);
     connectionCount->setObjectName("connectionCount");
+    blockCount = new QLabel(this);
+    blockCount->setObjectName("blockCount");
 
     toggleHideAction = new QAction(networkStyle->getAppIcon(), tr("&Show / Hide"), this);
     toggleHideAction->setStatusTip(tr("Show or hide the main Window"));
@@ -543,19 +557,20 @@ void BitcoinGUI::createToolBars()
 
         bottomToolbar->addAction(networkAction);
         bottomToolbar->addWidget(connectionCount);
+        bottomToolbar->addWidget(blockCount);
         bottomToolbar->setStyleSheet("QToolBar{spacing:5px;}");
 
         bottomToolbar->setObjectName("bottomToolbar");
 
-        QHBoxLayout* layout = new QHBoxLayout(this);
-        QVBoxLayout* navLayout = new QVBoxLayout(this);
+        QHBoxLayout* layout = new QHBoxLayout();
+        QVBoxLayout* navLayout = new QVBoxLayout();
         QWidget* navWidget = new QWidget(this);
         navWidget->setObjectName("navLayout");
 
         bottomToolbar->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Minimum);
         toolbar->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Expanding);
         QLabel* dapsico = new QLabel;
-        dapsico->setPixmap(QIcon(":icons/bitcoin").pixmap(130, 107));
+        dapsico->setPixmap(QIcon(":icons/dapsico").pixmap(130, 130));
         dapsico->setObjectName("dapsico");
 
         navLayout->addWidget(dapsico);
@@ -963,6 +978,14 @@ void BitcoinGUI::setNumBlocks(int count)
         tooltip += QString("<br>");
         tooltip += tr("Transactions after this will not yet be visible.");
     }
+    if (count == 0) {
+        blockCount->setText(tr("Loading Blocks..."));
+    } else if (clientModel->inInitialBlockDownload()) {
+        blockCount->setText(tr("Syncing Blocks..."));
+    } else {
+        blockCount->setText(tr("%n Blocks", "", count));
+    }
+    blockCount->setToolTip(tooltip);
 }
 
 void BitcoinGUI::message(const QString& title, const QString& message, unsigned int style, bool* ret)

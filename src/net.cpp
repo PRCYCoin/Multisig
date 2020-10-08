@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018-2019 The DAPS Project developers
+// Copyright (c) 2018-2020 The DAPS Project developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -1218,11 +1218,12 @@ void ThreadDNSAddressSeed() {
         } else {
             vector <CNetAddr> vIPs;
             vector <CAddress> vAdd;
-            if (LookupHost(seed.host.c_str(), vIPs)) {
+            uint64_t requiredServiceBits = NODE_NETWORK;
+            if (LookupHost(seed.getHost(requiredServiceBits).c_str(), vIPs, 0, true)) {
                 for (CNetAddr & ip : vIPs)
                 {
                     int nOneDay = 24 * 3600;
-                    CAddress addr = CAddress(CService(ip, Params().GetDefaultPort()));
+                    CAddress addr = CAddress(CService(ip, Params().GetDefaultPort()), requiredServiceBits);
                     addr.nTime =
                             GetTime() - 3 * nOneDay - GetRand(4 * nOneDay); // use a random age between 3 and 7 days old
                     vAdd.push_back(addr);
