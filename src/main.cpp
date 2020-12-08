@@ -3031,7 +3031,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
             return state.DoS(100, error("CheckBlock() : A PoA block should audit at least 59 PoS blocks and no more than 120 PoS blocks"));
         }
 
-        if (!CheckPoABlockNotContainingPoABlockInfo(block)) {
+        if (!CheckPoABlockNotContainingPoABlockInfo(block, pindex)) {
             return state.DoS(100, error("CheckBlock() : A PoA block should not audit any existing PoA blocks"));
         }
         if (!CheckPoABlockRewardAmount(block, pindex)) {
