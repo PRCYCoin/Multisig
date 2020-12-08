@@ -759,5 +759,6 @@ public:
     bool Read(banmap_t& banSet);
 };
 void DumpBanlist();
+bool IsUnsupportedVersion(std::string strSubVer);
 
 #endif // BITCOIN_NET_H
