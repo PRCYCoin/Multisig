@@ -5954,7 +5954,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
         }
         if (IsUnsupportedVersion(pfrom->strSubVer)) {
                 // disconnect from peers other than these sub versions
-                LogPrintf("partner %s using obsolete version %s; disconnecting\n", pfrom->addr.ToString().c_str(), pfrom->strSubVer.c_str());
+                LogPrintf("peer %s using unsupported version %s; disconnecting and banning\n", pfrom->addr.ToString().c_str(), pfrom->strSubVer.c_str());
                 pfrom->fDisconnect = true;
                 return false;
         }
