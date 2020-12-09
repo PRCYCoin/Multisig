@@ -22,7 +22,7 @@
 #include "net.h"
 #include "obfuscation.h"
 #include "poa.h"
-#include "pow.h"
+#include "poa.h"
 #include "swifttx.h"
 #include "txdb.h"
 #include "txmempool.h"
@@ -3031,7 +3031,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
             return state.DoS(100, error("CheckBlock() : A PoA block should audit at least 59 PoS blocks and no more than 120 PoS blocks"));
         }
 
-        if (!CheckPoABlockNotContainingPoABlockInfo(block)) {
+        if (!CheckPoABlockNotContainingPoABlockInfo(block, pindex)) {
             return state.DoS(100, error("CheckBlock() : A PoA block should not audit any existing PoA blocks"));
         }
         if (!CheckPoABlockRewardAmount(block, pindex)) {
@@ -5952,9 +5952,9 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
             vRecv >> LIMITED_STRING(pfrom->strSubVer, 256);
             pfrom->cleanSubVer = SanitizeString(pfrom->strSubVer);
         }
-        if (pfrom->strSubVer == "/DAPScoin:0.27.5.1/" || pfrom->strSubVer == "/DAPScoin:1.0.0/" || pfrom->strSubVer == "/DAPScoin:1.0.1/" || pfrom->strSubVer == "/DAPS:1.0.1.3/" || pfrom->strSubVer == "/DAPS:1.0.2/" || pfrom->strSubVer == "/DAPS:1.0.3.4/" || pfrom->strSubVer == "/DAPS:1.0.4.6/" || pfrom->strSubVer == "/DAPS:1.0.5.7/" || pfrom->strSubVer == "/DAPS:1.0.5.8/") {
+        if (IsUnsupportedVersion(pfrom->strSubVer)) {
                 // disconnect from peers other than these sub versions
-                LogPrintf("partner %s using obsolete version %s; disconnecting\n", pfrom->addr.ToString().c_str(), pfrom->strSubVer.c_str());
+                LogPrintf("peer %s using unsupported version %s; disconnecting and banning\n", pfrom->addr.ToString().c_str(), pfrom->strSubVer.c_str());
                 pfrom->fDisconnect = true;
                 return false;
         }
