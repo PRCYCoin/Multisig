@@ -1,3 +1,5 @@
+![Github Actions CI for PRCY](https://github.com/PRCYcoin/PRCYCoin-dev/workflows/Github%20Actions%20CI%20for%20PRCY/badge.svg?branch=master)
+
 Welcome to PRCY
 =====================================
 
@@ -6,25 +8,23 @@ Welcome to PRCY
 
 PRCYcoin is a cutting edge cryptocurrency, with many features not available in most other cryptocurrencies.
 - Anonymized transactions using Stealth addresses, RingCT and Bulletproofs.
-- Masternode is secured with a collateral of 1,000,000 PRCY.
+- Masternode is secured with a collateral of 5,000 PRCY
+- Minimum Staking Amount is 2,500 PRCY
 PRCY is a cryptocurrency designed for corporate entities, traders, and individuals to have the autonomy to transactions business freely around the world safely and securely without the exposure to malicious actors that threaten financial transactions through traceability.
 
 PRCY is a privacy coin that aims to be the most private and secure privacy coin on the market in a hybrid chain of PoW, PoSv3 and PoA. We aim to set our protocol to become the new standard of privacy coins.
 
-What makes PRCY special is that PRCY is the first to solve the "trust problem" for fully private chains with our PoA (Proof of Audit) algorithm which audits the chain for any abnormalities without compromising the chain's anonymity features.
-
-PRCY is the world's first coin to implement Bulletproofs and RingCT & Ring Signatures in a staking chain. With PRCY it is possible to stake, run masternodes and mine PoA blocks. In 2019 PRCY completed two successful testnets, sponsored Consensus 2019 NYC and Futurist Conference in Canada, achieved and kept top 200 coin status, passed security audit by Red4Sec, launched mainnet and achieved over 3000 hosted masternodes in the first month, staying in the top 10.
+The team of PRCY solves the trust issue of privacy coins and their management as follows:
+- The community will get access to view the number of the PRCY project coins and their actions
+- Each quarter the team explains their actions and displays their project balance of coins
+- Upfront the allocation is published as a starting point
 
 ## About this Project
 
 PRCY is a non-ICO community driven project. The project has funded itself to deliver ground-breaking technology in the privacy coin industry.
 
 PRCY Team
-The team consists of a total of 20 members located worldwide.
-
-## How we Compare to Other Privacy Projects
-
-![Privacy Coin Chart](https://prcycoin.com/prcy-coin-comparison-chart-2020/)
+The team consists of a total of 10 members located worldwide.
 
 ## How to Contribute to PRCY
 
@@ -35,30 +35,29 @@ We welcome developers from all backgrounds to take a look at our code and welcom
 
 ## Social
 
-Facebook - (https://www.facebook.com/officialPRCYcoin/)
+Facebook - (https://www.facebook.com/Prcycoin-101534778505838)
 
 Twitter - (https://twitter.com/PRCYcoin)
 
-LinkedIn - (https://www.linkedin.com/company/prcy-coin/)
-
 Reddit - (https://www.reddit.com/r/PRCYCoin/)
 
-Forum - (https://forum.prcycoin.com/)
+Telegram - (https://t.me/prcycoinofficial) 
 
-Telegram - (https://t.me/prcycoin) 
+Telegram - Tech Support - (https://t.me/prycSupport)
 
-Discord - (https://discord.gg/hxfmWpR)
+Medium - (https://prcycoin.medium.com/)
 
-Bitcointalk - (https://bitcointalk.org/index.php?topic=5146718.0)
+Bitcointalk - (https://bitcointalk.org/index.php?topic=5301128)
 
+Instagram - (https://www.instagram.com/prcycoin/)
 
-More information at [prcycoin.com](https://prcycoin.com) Visit our ANN thread at [BitcoinTalk](https://bitcointalk.org/index.php?topic=5146718)
+More information at [prcycoin.com](https://prcycoin.com) Visit our ANN thread at [BitcoinTalk](https://bitcointalk.org/index.php?topic=5301128)
 
 ### Coin Specs
 <table>
 <tr><td>Algo</td><td>PoW-PoA-PoS</td></tr>
 <tr><td>Block Time</td><td>60 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
-<tr><td>Max Coin Supply</td><td>70,000,000,000 PRCY</td></tr>
-<tr><td>Premine</td><td>60 000 000 000 PRCY</td></tr>
+<tr><td>Max Coin Supply</td><td>70,000,000 PRCY</td></tr>
+<tr><td>Premine</td><td>60,000,000 PRCY</td></tr>
 </table>
