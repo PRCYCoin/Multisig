@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your DAPS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços DAPS para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
+        <source>These are your PRCY addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços PRCY para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your DAPS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços DAPS para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your PRCY addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços PRCY para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Confirmar criptografia de carteira</translation>
     </message>
     <message>
-        <source>DAPS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DAPSs from being stolen by malware infecting your computer.</source>
-        <translation>DAPS vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas DAPSs de serem roubadas por malwares infectando seu computador.</translation>
+        <source>PRCY will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PRCYs from being stolen by malware infecting your computer.</source>
+        <translation>PRCY vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas PRCYs de serem roubadas por malwares infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Você tem certeza que deseja criptografar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DAPS&lt;/b&gt;!</source>
-        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS DAPS&lt;b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PRCY&lt;/b&gt;!</source>
+        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS PRCY&lt;b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -243,8 +243,8 @@
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>The DAPS address to sign the message with</source>
-        <translation>O endereço DAPS para assinar a mensagem</translation>
+        <source>The PRCY address to sign the message with</source>
+        <translation>O endereço PRCY para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DAPS address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço DAPS</translation>
+        <source>Sign the message to prove you own this PRCY address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço PRCY</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -295,12 +295,12 @@
         <translation>&amp;Descriptografar BIP 38</translation>
     </message>
     <message>
-        <source>The DAPS address the message was signed with</source>
-        <translation>O endereço DAPS que assinou a mensagem</translation>
+        <source>The PRCY address the message was signed with</source>
+        <translation>O endereço PRCY que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DAPS address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço DAPS especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified PRCY address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço PRCY especificado.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -614,16 +614,16 @@
         <translation>Ferramentas de abas</translation>
     </message>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS</translation>
+        <source>PRCY</source>
+        <translation>PRCY</translation>
     </message>
     <message>
-        <source>Send coins to a DAPS address</source>
-        <translation>Enviar moedas para um endereço DAPS</translation>
+        <source>Send coins to a PRCY address</source>
+        <translation>Enviar moedas para um endereço PRCY</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dapscoin: URIs)</source>
-        <translation>Requisitar pagamentos (gera códigos QR e dapscoin: URIs)</translation>
+        <source>Request payments (generates QR codes and prcycoin: URIs)</source>
+        <translation>Requisitar pagamentos (gera códigos QR e prcycoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -638,24 +638,24 @@
         <translation>Procurar masternodes</translation>
     </message>
     <message>
-        <source>&amp;About DAPS</source>
-        <translation>&amp;Sobre o DAPS</translation>
+        <source>&amp;About PRCY</source>
+        <translation>&amp;Sobre o PRCY</translation>
     </message>
     <message>
-        <source>Show information about DAPS</source>
-        <translation>Mostra informação sobre o DAPS</translation>
+        <source>Show information about PRCY</source>
+        <translation>Mostra informação sobre o PRCY</translation>
     </message>
     <message>
-        <source>Modify configuration options for DAPS</source>
-        <translation>Modificar opções de configuração para DAPS</translation>
+        <source>Modify configuration options for PRCY</source>
+        <translation>Modificar opções de configuração para PRCY</translation>
     </message>
     <message>
-        <source>Sign messages with your DAPS addresses to prove you own them</source>
-        <translation>Assine mensagens com seus endereços DAPS para provar que você os detém</translation>
+        <source>Sign messages with your PRCY addresses to prove you own them</source>
+        <translation>Assine mensagens com seus endereços PRCY para provar que você os detém</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DAPS addresses</source>
-        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços DAPS especificados</translation>
+        <source>Verify messages to ensure they were signed with specified PRCY addresses</source>
+        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços PRCY especificados</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -686,8 +686,8 @@
         <translation>Abrir arquivo de configuração de Masternode</translation>
     </message>
     <message>
-        <source>Open a DAPS: URI or payment request</source>
-        <translation>Abrir um DAPS: URI ou requisição de pagamento</translation>
+        <source>Open a PRCY: URI or payment request</source>
+        <translation>Abrir um PRCY: URI ou requisição de pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -698,12 +698,12 @@
         <translation>Janela de exploração de blocos</translation>
     </message>
     <message>
-        <source>Show the DAPS help message to get a list with possible DAPS command-line options</source>
-        <translation>Mostra a ajuda da DAPS para receber uma lista com possíveis opções de linha de comando DAPS</translation>
+        <source>Show the PRCY help message to get a list with possible PRCY command-line options</source>
+        <translation>Mostra a ajuda da PRCY para receber uma lista com possíveis opções de linha de comando PRCY</translation>
     </message>
     <message>
-        <source>DAPS client</source>
-        <translation>Cliente Core DAPS</translation>
+        <source>PRCY client</source>
+        <translation>Cliente Core PRCY</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -858,8 +858,8 @@ MultiSend: %1</translation>
         <translation>Rótulo</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (dapscoin.conf).</source>
-        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (dapscoin.conf). </translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (prcycoin.conf).</source>
+        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (prcycoin.conf). </translation>
     </message>
 </context>
 <context>
@@ -1143,8 +1143,8 @@ MultiSend: %1</translation>
         <translation>Editar endereço remetente</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid DAPS address.</source>
-        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de DAPS</translation>
+        <source>The entered address "%1" is not a valid PRCY address.</source>
+        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de PRCY</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1189,16 +1189,16 @@ MultiSend: %1</translation>
         <translation>versão</translation>
     </message>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS</translation>
+        <source>PRCY</source>
+        <translation>PRCY</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About DAPS</source>
-        <translation>Sobre o DAPS</translation>
+        <source>About PRCY</source>
+        <translation>Sobre o PRCY</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1240,16 +1240,16 @@ MultiSend: %1</translation>
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to DAPS.</source>
-        <translation>Bem-vindo ao DAPS.</translation>
+        <source>Welcome to PRCY.</source>
+        <translation>Bem-vindo ao PRCY.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where DAPS will store its data.</source>
-        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde DAPS vai armazenar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where PRCY will store its data.</source>
+        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde PRCY vai armazenar os seus dados.</translation>
     </message>
     <message>
-        <source>DAPS will download and store a copy of the DAPS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>DAPS vai baixar e armazenar uma cópia da blockchain DAPS. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
+        <source>PRCY will download and store a copy of the PRCY block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>PRCY vai baixar e armazenar uma cópia da blockchain PRCY. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1260,8 +1260,8 @@ MultiSend: %1</translation>
         <translation>Usar um diretório personalizado de dados:</translation>
     </message>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS</translation>
+        <source>PRCY</source>
+        <translation>PRCY</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1555,48 +1555,48 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Favor selecionar o nível de privacidade.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000000 DAPS</source>
-        <translation>Use 2 masternodes separados para embaralhar fundos até 1000000 DAPS</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000000 PRCY</source>
+        <translation>Use 2 masternodes separados para embaralhar fundos até 1000000 PRCY</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000000 DAPS</source>
-        <translation>Use 8 masternodes separados para embaralhar fundos até 1000000 DAPS</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000000 PRCY</source>
+        <translation>Use 8 masternodes separados para embaralhar fundos até 1000000 PRCY</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Use 16 masternodes separados</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DAPS to anonymize 10000 DAPS</source>
-        <translation>Está opção é a mais rápida e vai custar em torno de ~0.025 DAPS para anonimizar 10000 DAPS</translation>
+        <source>This option is the quickest and will cost about ~0.025 PRCY to anonymize 10000 PRCY</source>
+        <translation>Está opção é a mais rápida e vai custar em torno de ~0.025 PRCY para anonimizar 10000 PRCY</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DAPS to anonymize 10000 DAPS</source>
-        <translation>Está opção moderamente rápida e vai custar em torno de ~0.05 DAPS para anonimizar 10000 DAPS</translation>
+        <source>This option is moderately fast and will cost about 0.05 PRCY to anonymize 10000 PRCY</source>
+        <translation>Está opção moderamente rápida e vai custar em torno de ~0.05 PRCY para anonimizar 10000 PRCY</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Esta é a opção mais lenta e mais segura. Usando a anonimização máxima vai custar</translation>
     </message>
     <message>
-        <source>0.1 DAPS per 10000 DAPS you anonymize.</source>
-        <translation>0.1 DAPS por 10000 DAPS que deixar anônima.</translation>
+        <source>0.1 PRCY per 10000 PRCY you anonymize.</source>
+        <translation>0.1 PRCY por 10000 PRCY que deixar anônima.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Configuração de ofuscação</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening DAPS's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela DAPS's.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening PRCY's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela PRCY's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening DAPS's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela DAPS's.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening PRCY's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela PRCY's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening DAPS's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela DAPS's.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening PRCY's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela PRCY's.</translation>
     </message>
 </context>
 <context>
@@ -1649,8 +1649,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>C&amp;arteira</translation>
     </message>
     <message>
-        <source>Automatically open the DAPS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automaticamente a porta do cliente DAPS no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
+        <source>Automatically open the PRCY client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automaticamente a porta do cliente PRCY no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1669,12 +1669,12 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start DAPS after logging in to the system.</source>
-        <translation>Iniciar automaticamente DAPS depois de logar no sistema.</translation>
+        <source>Automatically start PRCY after logging in to the system.</source>
+        <translation>Iniciar automaticamente PRCY depois de logar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start DAPS on system login</source>
-        <translation>&amp;Iniciar DAPS ao logar no sistema</translation>
+        <source>&amp;Start PRCY on system login</source>
+        <translation>&amp;Iniciar PRCY ao logar no sistema</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1689,18 +1689,18 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting DAPS.</source>
-        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do DAPS.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting PRCY.</source>
+        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do PRCY.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/dapscoin-project/dapscoin-project-translations</source>
+https://www.transifex.com/prcycoin-project/prcycoin-project-translations</source>
         <translation>Linguagem não encontrada ou tradução incompleta? Ajude contribuido com traduções aqui:
-https://www.transifex.com/dapscoin-project/dapscoin-project-translations</translation>
+https://www.transifex.com/prcycoin-project/prcycoin-project-translations</translation>
     </message>
     <message>
-        <source>Connect to the DAPS network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede DAPS através de um proxy SOCKS5</translation>
+        <source>Connect to the PRCY network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede PRCY através de um proxy SOCKS5</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1818,8 +1818,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Formulário</translation>
     </message>
     <message>
-        <source>DAPS Balances</source>
-        <translation>Balanços DAPS</translation>
+        <source>PRCY Balances</source>
+        <translation>Balanços PRCY</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1842,8 +1842,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Imaturo:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DAPS network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede DAPS após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PRCY network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede PRCY após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1870,16 +1870,16 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Disponível:</translation>
     </message>
     <message>
-        <source>DAPS:</source>
-        <translation>DAPS:</translation>
+        <source>PRCY:</source>
+        <translation>PRCY:</translation>
     </message>
     <message>
         <source>0 %</source>
         <translation>0 %</translation>
     </message>
     <message>
-        <source>0.000 000 00 DAPS</source>
-        <translation>0.000 000 00 DAPS</translation>
+        <source>0.000 000 00 PRCY</source>
+        <translation>0.000 000 00 PRCY</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -1959,8 +1959,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Quantidade</translation>
     </message>
     <message>
-        <source>Enter a DAPS address (e.g. %1)</source>
-        <translation>Insira um endereço DAPS (e.g. %1)</translation>
+        <source>Enter a PRCY address (e.g. %1)</source>
+        <translation>Insira um endereço PRCY (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2221,8 +2221,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>saída:</translation>
     </message>
     <message>
-        <source>Welcome to the DAPS RPC console.</source>
-        <translation>Bem-vindo ao console da DAPS RPC</translation>
+        <source>Welcome to the PRCY RPC console.</source>
+        <translation>Bem-vindo ao console da PRCY RPC</translation>
     </message>
     <message>
         <source>Do you want to continue?.&lt;br /&gt;</source>
@@ -2481,8 +2481,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Tamanho UTXO:</translation>
     </message>
     <message>
-        <source>0 DAPS</source>
-        <translation>0 DAPS</translation>
+        <source>0 PRCY</source>
+        <translation>0 PRCY</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2525,12 +2525,12 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Tempo de confirmação:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uDAPSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDAPSs in fee,&lt;br /&gt;while "at least" pays 1000 uDAPSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Se a taxa padrão estiver definida para 1000 uDAPSs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uDAPSs em taxa,&lt;br /&gt; pagará pelo menos 1000 uDAPSs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uPRCYs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPRCYs in fee,&lt;br /&gt;while "at least" pays 1000 uPRCYs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Se a taxa padrão estiver definida para 1000 uPRCYs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uPRCYs em taxa,&lt;br /&gt; pagará pelo menos 1000 uPRCYs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for DAPS transactions than the network can process.</source>
-        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de DAPS do que a rede pode processar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for PRCY transactions than the network can process.</source>
+        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de PRCY do que a rede pode processar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2573,8 +2573,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Adicionar &amp;Recipiente</translation>
     </message>
     <message>
-        <source>Anonymized DAPS</source>
-        <translation>DAPS anonimizadas</translation>
+        <source>Anonymized PRCY</source>
+        <translation>PRCY anonimizadas</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -2617,8 +2617,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>fundos anônimos</translation>
     </message>
     <message>
-        <source>Warning: Invalid DAPS address</source>
-        <translation>Aviso: endereço DAPS inválido</translation>
+        <source>Warning: Invalid PRCY address</source>
+        <translation>Aviso: endereço PRCY inválido</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2716,8 +2716,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The DAPS address to send the payment to</source>
-        <translation>O endereço DAPS para enviar o pagamento</translation>
+        <source>The PRCY address to send the payment to</source>
+        <translation>O endereço PRCY para enviar o pagamento</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2779,8 +2779,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>DAPS is shutting down...</source>
-        <translation>DAPS está desligando...</translation>
+        <source>PRCY is shutting down...</source>
+        <translation>PRCY está desligando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2798,8 +2798,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>&amp;Assinar mensagem</translation>
     </message>
     <message>
-        <source>The DAPS address to sign the message with</source>
-        <translation>O endereço DAPS para assinar a mensagem</translation>
+        <source>The PRCY address to sign the message with</source>
+        <translation>O endereço PRCY para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2830,16 +2830,16 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DAPS address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço DAPS</translation>
+        <source>Sign the message to prove you own this PRCY address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço PRCY</translation>
     </message>
     <message>
-        <source>The DAPS address the message was signed with</source>
-        <translation>O endereço DAPS que assinou a mensagem</translation>
+        <source>The PRCY address the message was signed with</source>
+        <translation>O endereço PRCY que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DAPS address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço DAPS especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified PRCY address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço PRCY especificado.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2921,8 +2921,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS</translation>
+        <source>PRCY</source>
+        <translation>PRCY</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2937,8 +2937,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Os desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>The DAPS Project developers</source>
-        <translation>Os desenvolvedores do DAPS</translation>
+        <source>The PRCY Project developers</source>
+        <translation>Os desenvolvedores do PRCY</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3481,7 +3481,7 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
     </message>
 </context>
 <context>
-    <name>dapscoin-core</name>
+    <name>prcycoin-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes da blockchain através de -rescan na inicialização</translation>
@@ -3499,12 +3499,12 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Executar o comando quando uma transação da carteira mudar (%s no cmd será substituído pela TxID)</translation>
     </message>
     <message>
-        <source>Fees (in DAPS/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Taxas (em DAPS/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
+        <source>Fees (in PRCY/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Taxas (em PRCY/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
     </message>
     <message>
-        <source>Fees (in DAPS/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Taxas (em DAPS/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
+        <source>Fees (in PRCY/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Taxas (em PRCY/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
     </message>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
@@ -3523,8 +3523,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Define o tamanho máximo de transações de alta prioridade/taxa baixa em bytes (padrão: %d)</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 DAPS.</source>
-        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 DAPS.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 PRCY.</source>
+        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 PRCY.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3539,8 +3539,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Aviso: -paytxfee está definido como muito alto! Está e a taxa de transação que você irá pagar se enviar uma transação.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong DAPS will not work properly.</source>
-        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core DAPS não vai funcionar corretamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong PRCY will not work properly.</source>
+        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core PRCY não vai funcionar corretamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3619,8 +3619,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Todos os direitos reservados (C) 2014-%i aos Desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The DAPS Project developers</source>
-        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do DAPS</translation>
+        <source>Copyright (C) 2015-%i The PRCY Project developers</source>
+        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do PRCY</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3679,8 +3679,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Erro no carregamento da wallet.dat: Carteira corrompida</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of DAPS</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da DAPS</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of PRCY</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da PRCY</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -3719,8 +3719,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Falhou em ler o bloco</translation>
     </message>
     <message>
-        <source>Fee (in DAPS/kB) to add to transactions you send (default: %s)</source>
-        <translation>Taxa (em DAPS/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
+        <source>Fee (in PRCY/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxa (em PRCY/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4173,8 +4173,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Carteira está travada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart DAPS to complete</source>
-        <translation>A carteira precisa ser reescrita: reinicia o DAPS para completar</translation>
+        <source>Wallet needed to be rewritten: restart PRCY to complete</source>
+        <translation>A carteira precisa ser reescrita: reinicia o PRCY para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>

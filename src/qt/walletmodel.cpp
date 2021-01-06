@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2015-2018 The PIVX developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2018-2019 The DAPS Project developers
+// Copyright (c) 2018-2019 The PRCY Project developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -290,7 +290,7 @@ WalletModel::SendCoinsReturn WalletModel::prepareTransaction(WalletModelTransact
                 return InvalidAmount;
             }
             total += subtotal;
-        } else { // User-entered dapscoin address / amount:
+        } else { // User-entered prcycoin address / amount:
             if (!validateAddress(rcp.address)) {
                 return InvalidAddress;
             }
@@ -684,7 +684,7 @@ StakingStatusError WalletModel::getStakingStatusError(QString& error)
     	CAmount balance = pwalletMain->GetSpendableBalance();
     	if (!fMintable || nReserveBalance > balance) {
     		if (balance < CWallet::MINIMUM_STAKE_AMOUNT) {
-    			error = "\nBalance is under the minimum 400,000 staking threshold.\nPlease send more DAPS to this wallet.\n";
+    			error = "\nBalance is under the minimum 400,000 staking threshold.\nPlease send more PRCY to this wallet.\n";
     			return StakingStatusError::STAKING_OK;
     		}
     		if (nReserveBalance > balance || (balance > nReserveBalance && balance - nReserveBalance < CWallet::MINIMUM_STAKE_AMOUNT)) {

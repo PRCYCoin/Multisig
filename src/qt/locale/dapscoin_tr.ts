@@ -62,12 +62,12 @@
         <translation>Alıcı Adres</translation>
     </message>
     <message>
-        <source>These are your DAPS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Bunlar ödemeleri göndermek için olan DAPS adreslerinizdir.Coinleri göndermeden önce her zaman gönderilen miktarı ve adresi kontrol edin</translation>
+        <source>These are your PRCY addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Bunlar ödemeleri göndermek için olan PRCY adreslerinizdir.Coinleri göndermeden önce her zaman gönderilen miktarı ve adresi kontrol edin</translation>
     </message>
     <message>
-        <source>These are your DAPS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Bunlar ödemeleri almak için olan DAPS adreslerinizdirHer işlem için yeni bir adres kullanmanız önerilir.</translation>
+        <source>These are your PRCY addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Bunlar ödemeleri almak için olan PRCY adreslerinizdirHer işlem için yeni bir adres kullanmanız önerilir.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,15 +176,15 @@
         <translation>cüzdan şifrelemesini onayla</translation>
     </message>
     <message>
-        <source>DAPS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DAPSs from being stolen by malware infecting your computer.</source>
-        <translation>DAPS şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, DAPS'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
+        <source>PRCY will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PRCYs from being stolen by malware infecting your computer.</source>
+        <translation>PRCY şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, PRCY'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DAPS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PRCY&lt;/b&gt;!</source>
         <translation>Dikkat! Eğer cüzdanınızı şifrelerseniz ve şifrenizi unutursanız &lt;b&gt;Tüm Pıvlerinizi kaybedersiniz&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -251,8 +251,8 @@
         <translation>adres</translation>
     </message>
     <message>
-        <source>The DAPS address to sign the message with</source>
-        <translation>Ile mesaj imzalamak için DAPS adresi
+        <source>The PRCY address to sign the message with</source>
+        <translation>Ile mesaj imzalamak için PRCY adresi
 </translation>
     </message>
     <message>
@@ -289,8 +289,8 @@
 </translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DAPS address</source>
-        <translation>Bu DAPS adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
+        <source>Sign the message to prove you own this PRCY address</source>
+        <translation>Bu PRCY adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
 </translation>
     </message>
     <message>
@@ -316,12 +316,12 @@
         <translation>BIP 38 şifreli özel anahtarını girin. Orta kutuya şifreyi  girin. Özel anahtarı hesaplamak için Anahtarın Çözülmesini tıklayın. Anahtar çözüldükten sonra 'Alma Adresi'ni tıklamak, bu özel anahtarı cüzdana ekleyecektir.</translation>
     </message>
     <message>
-        <source>The DAPS address the message was signed with</source>
-        <translation>Mesajın imzalandığı DAPS adresi</translation>
+        <source>The PRCY address the message was signed with</source>
+        <translation>Mesajın imzalandığı PRCY adresi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DAPS address</source>
-        <translation>Belirtilen DAPS adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
+        <source>Verify the message to ensure it was signed with the specified PRCY address</source>
+        <translation>Belirtilen PRCY adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -613,16 +613,16 @@
         <translation>Sekme tablosu</translation>
     </message>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS CORE</translation>
+        <source>PRCY</source>
+        <translation>PRCY CORE</translation>
     </message>
     <message>
-        <source>Send coins to a DAPS address</source>
-        <translation>Koinleri DAPS adresine gönder</translation>
+        <source>Send coins to a PRCY address</source>
+        <translation>Koinleri PRCY adresine gönder</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dapscoin: URIs)</source>
-        <translation>Ödeme talep etme (QR kodları ve dapscoin üretir: URI'ler)</translation>
+        <source>Request payments (generates QR codes and prcycoin: URIs)</source>
+        <translation>Ödeme talep etme (QR kodları ve prcycoin üretir: URI'ler)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -637,24 +637,24 @@
         <translation>Masternodları ara</translation>
     </message>
     <message>
-        <source>&amp;About DAPS</source>
+        <source>&amp;About PRCY</source>
         <translation>Pıvx core Hakkında</translation>
     </message>
     <message>
-        <source>Show information about DAPS</source>
+        <source>Show information about PRCY</source>
         <translation>Pıvx Core hakkında bilgi göster</translation>
     </message>
     <message>
-        <source>Modify configuration options for DAPS</source>
-        <translation>DAPS için yapılandırma seçeneklerini değiştirin</translation>
+        <source>Modify configuration options for PRCY</source>
+        <translation>PRCY için yapılandırma seçeneklerini değiştirin</translation>
     </message>
     <message>
-        <source>Sign messages with your DAPS addresses to prove you own them</source>
-        <translation>Sahip olduğunuzu kanıtlamak için mesajlarınızı DAPS adresleriyle imzalayın</translation>
+        <source>Sign messages with your PRCY addresses to prove you own them</source>
+        <translation>Sahip olduğunuzu kanıtlamak için mesajlarınızı PRCY adresleriyle imzalayın</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DAPS addresses</source>
-        <translation>Belirtilen DAPS adresleriyle imzalanmış olduklarından emin olmak için iletileri doğrulayın</translation>
+        <source>Verify messages to ensure they were signed with specified PRCY addresses</source>
+        <translation>Belirtilen PRCY adresleriyle imzalanmış olduklarından emin olmak için iletileri doğrulayın</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -686,8 +686,8 @@
         <translation>Açık Masternode yapılandırma dosyası</translation>
     </message>
     <message>
-        <source>Open a DAPS: URI or payment request</source>
-        <translation>Bir DAPS: URI veya ödeme isteği açın</translation>
+        <source>Open a PRCY: URI or payment request</source>
+        <translation>Bir PRCY: URI veya ödeme isteği açın</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -698,12 +698,12 @@
         <translation>Kaşif penceresini engelle</translation>
     </message>
     <message>
-        <source>Show the DAPS help message to get a list with possible DAPS command-line options</source>
-        <translation>Olası DAPS komut satırı seçeneklerine sahip bir liste almak için DAPS yardım mesajını gösterin</translation>
+        <source>Show the PRCY help message to get a list with possible PRCY command-line options</source>
+        <translation>Olası PRCY komut satırı seçeneklerine sahip bir liste almak için PRCY yardım mesajını gösterin</translation>
     </message>
     <message>
-        <source>DAPS client</source>
-        <translation>DAPS istemci</translation>
+        <source>PRCY client</source>
+        <translation>PRCY istemci</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -830,8 +830,8 @@ Adres: %4</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (dapscoin.conf).</source>
-        <translation>Tüm işlemler gösterilmez. Tüm işlemleri görmek için yapılandırma dosyasında txindex = 1 ayarlamanız gerekir (dapscoin.conf).
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (prcycoin.conf).</source>
+        <translation>Tüm işlemler gösterilmez. Tüm işlemleri görmek için yapılandırma dosyasında txindex = 1 ayarlamanız gerekir (prcycoin.conf).
 </translation>
     </message>
 </context>
@@ -1117,8 +1117,8 @@ Adres: %4</translation>
         <translation>versiyon</translation>
     </message>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS CORE</translation>
+        <source>PRCY</source>
+        <translation>PRCY CORE</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -1140,16 +1140,16 @@ Adres: %4</translation>
         <translation>Hoşgeldiniz</translation>
     </message>
     <message>
-        <source>Welcome to DAPS.</source>
-        <translation>DAPS'a hoşgeldiniz.</translation>
+        <source>Welcome to PRCY.</source>
+        <translation>PRCY'a hoşgeldiniz.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
         <translation>Varsayılan veri dosyasını kullanınız</translation>
     </message>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS CORE</translation>
+        <source>PRCY</source>
+        <translation>PRCY CORE</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1443,8 +1443,8 @@ Adres: %4</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The DAPS address to sign the message with</source>
-        <translation>Ile mesaj imzalamak için DAPS adresi
+        <source>The PRCY address to sign the message with</source>
+        <translation>Ile mesaj imzalamak için PRCY adresi
 </translation>
     </message>
     <message>
@@ -1473,17 +1473,17 @@ Adres: %4</translation>
 </translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DAPS address</source>
-        <translation>Bu DAPS adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
+        <source>Sign the message to prove you own this PRCY address</source>
+        <translation>Bu PRCY adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
 </translation>
     </message>
     <message>
-        <source>The DAPS address the message was signed with</source>
-        <translation>Mesajın imzalandığı DAPS adresi</translation>
+        <source>The PRCY address the message was signed with</source>
+        <translation>Mesajın imzalandığı PRCY adresi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DAPS address</source>
-        <translation>Belirtilen DAPS adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
+        <source>Verify the message to ensure it was signed with the specified PRCY address</source>
+        <translation>Belirtilen PRCY adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1522,8 +1522,8 @@ Adres: %4</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS CORE</translation>
+        <source>PRCY</source>
+        <translation>PRCY CORE</translation>
     </message>
     </context>
 <context>
@@ -1622,7 +1622,7 @@ Adres: %4</translation>
     </message>
     </context>
 <context>
-    <name>dapscoin-core</name>
+    <name>prcycoin-core</name>
     <message>
         <source>Error</source>
         <translation>hata</translation>

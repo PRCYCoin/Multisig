@@ -62,12 +62,12 @@
         <translation>Adresy pro přijetí peněz</translation>
     </message>
     <message>
-        <source>These are your DAPS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto jsou Vaše DAPS adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
+        <source>These are your PRCY addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto jsou Vaše PRCY adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
     </message>
     <message>
-        <source>These are your DAPS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto jsou Vaše DAPS adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
+        <source>These are your PRCY addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto jsou Vaše PRCY adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>DAPS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DAPSs from being stolen by malware infecting your computer.</source>
-        <translation>DAPS se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše DAPSy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>PRCY will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PRCYs from being stolen by malware infecting your computer.</source>
+        <translation>PRCY se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše PRCYy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Opravdu chcete zašifrovat Vaši peněženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DAPS&lt;/b&gt;!</source>
-        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE DAPSy&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PRCY&lt;/b&gt;!</source>
+        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE PRCYy&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -240,15 +240,15 @@
     </message>
     <message>
         <source>Enter a Dapscoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadejte DAPS adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
+        <translation>Zadejte PRCY adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The DAPS address to sign the message with</source>
-        <translation>DAPS adresa pro podepsání zprávy</translation>
+        <source>The PRCY address to sign the message with</source>
+        <translation>PRCY adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DAPS address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto DAPS adresu</translation>
+        <source>Sign the message to prove you own this PRCY address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto PRCY adresu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Vložte BIP 38 šifrovaný privítní klíc. Frázové heslo vložte do prostředního boxu. Kliknětě na Dešifrovat Klíč pro výpočet privátního klíče. Poté co bude klíč dešifrován, kliknutím na 'Importovat Adresu' přidáte privátní klíč do Vaší peněženky.</translation>
     </message>
     <message>
-        <source>The DAPS address the message was signed with</source>
-        <translation>DAPS adresa zprávy byla podpsána</translation>
+        <source>The PRCY address the message was signed with</source>
+        <translation>PRCY adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DAPS address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou DAPS adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified PRCY address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou PRCY adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -630,16 +630,16 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS</translation>
+        <source>PRCY</source>
+        <translation>PRCY</translation>
     </message>
     <message>
-        <source>Send coins to a DAPS address</source>
-        <translation>Odeslat platbuna DAPS adresu</translation>
+        <source>Send coins to a PRCY address</source>
+        <translation>Odeslat platbuna PRCY adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dapscoin: URIs)</source>
-        <translation>Vyžádat platbu (generování QK kódu a dapscoin: URIs)</translation>
+        <source>Request payments (generates QR codes and prcycoin: URIs)</source>
+        <translation>Vyžádat platbu (generování QK kódu a prcycoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -654,24 +654,24 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About DAPS</source>
-        <translation>&amp;O DAPS</translation>
+        <source>&amp;About PRCY</source>
+        <translation>&amp;O PRCY</translation>
     </message>
     <message>
-        <source>Show information about DAPS</source>
-        <translation>Zobraz informace o DAPS</translation>
+        <source>Show information about PRCY</source>
+        <translation>Zobraz informace o PRCY</translation>
     </message>
     <message>
-        <source>Modify configuration options for DAPS</source>
-        <translation>Upravit možnosti konfigurace pro DAPS</translation>
+        <source>Modify configuration options for PRCY</source>
+        <translation>Upravit možnosti konfigurace pro PRCY</translation>
     </message>
     <message>
-        <source>Sign messages with your DAPS addresses to prove you own them</source>
-        <translation>Podepsat zprávy Vaší DAPS adresou pro prokázaní, že jste jejich vlastníkem</translation>
+        <source>Sign messages with your PRCY addresses to prove you own them</source>
+        <translation>Podepsat zprávy Vaší PRCY adresou pro prokázaní, že jste jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DAPS addresses</source>
-        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými DAPS adresami</translation>
+        <source>Verify messages to ensure they were signed with specified PRCY addresses</source>
+        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými PRCY adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -702,8 +702,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a DAPS: URI or payment request</source>
-        <translation>Otevřít DAPS: URI nebo platební žádost</translation>
+        <source>Open a PRCY: URI or payment request</source>
+        <translation>Otevřít PRCY: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -714,16 +714,16 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the DAPS help message to get a list with possible DAPS command-line options</source>
-        <translation>Zobrazit DAPS pomocnou zpráv pro získání seznamu možných parametrů DAPS pro příkazy do příkazové řádky</translation>
+        <source>Show the PRCY help message to get a list with possible PRCY command-line options</source>
+        <translation>Zobrazit PRCY pomocnou zpráv pro získání seznamu možných parametrů PRCY pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>DAPS client</source>
-        <translation>DAPS klient</translation>
+        <source>PRCY client</source>
+        <translation>PRCY klient</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to DAPS network</source>
-        <translation><numerusform>Aktivních připojení do sítě DAPS: %n</numerusform><numerusform>Aktivních připojení do sítě DAPS: %n</numerusform><numerusform>Aktivních připojení do sítě DAPS: %n</numerusform></translation>
+        <source>%n active connection(s) to PRCY network</source>
+        <translation><numerusform>Aktivních připojení do sítě PRCY: %n</numerusform><numerusform>Aktivních připojení do sítě PRCY: %n</numerusform><numerusform>Aktivních připojení do sítě PRCY: %n</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -873,8 +873,8 @@ MultiSend: %1</translation>
         <translation>TextPopisku</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (dapscoin.conf).</source>
-        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (dapscoin.conf) txindex=1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (prcycoin.conf).</source>
+        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (prcycoin.conf) txindex=1.</translation>
     </message>
 </context>
 <context>
@@ -1134,8 +1134,8 @@ MultiSend: %1</translation>
         <translation>Upravit adresu k odeslání platby</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid DAPS address.</source>
-        <translation>Zadaná adresa "%1" není validní DAPS adresa.</translation>
+        <source>The entered address "%1" is not a valid PRCY address.</source>
+        <translation>Zadaná adresa "%1" není validní PRCY adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1180,12 +1180,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS</translation>
+        <source>PRCY</source>
+        <translation>PRCY</translation>
     </message>
     <message>
-        <source>About DAPS</source>
-        <translation>O DAPS</translation>
+        <source>About PRCY</source>
+        <translation>O PRCY</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1219,16 +1219,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to DAPS.</source>
-        <translation>Vítejte v DAPS.</translation>
+        <source>Welcome to PRCY.</source>
+        <translation>Vítejte v PRCY.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where DAPS will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude DAPS ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where PRCY will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude PRCY ukládat svá data.</translation>
     </message>
     <message>
-        <source>DAPS will download and store a copy of the DAPS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>DAPS stáhne a uloží kopii DAPS blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>PRCY will download and store a copy of the PRCY block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>PRCY stáhne a uloží kopii PRCY blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1239,8 +1239,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS</translation>
+        <source>PRCY</source>
+        <translation>PRCY</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1521,24 +1521,24 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Vyberte úrpvěň ochrany soukromí</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000000 DAPS</source>
-        <translation>Použí 2 oddělené masternody k promíchání prostředků až do 10000 DAPS</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000000 PRCY</source>
+        <translation>Použí 2 oddělené masternody k promíchání prostředků až do 10000 PRCY</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Použít 16 oddělených masternodů</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DAPS to anonymize 10000 DAPS</source>
-        <translation>Tato možnost je nejrychleší a bude stát zhruba ~0.025 DAPS pro anonymizaci 10000 DAPS</translation>
+        <source>This option is the quickest and will cost about ~0.025 PRCY to anonymize 10000 PRCY</source>
+        <translation>Tato možnost je nejrychleší a bude stát zhruba ~0.025 PRCY pro anonymizaci 10000 PRCY</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Toto je nejpomalejší a nejvíce bezpečná volba. Použití maximalní anonymity bude stát</translation>
     </message>
     <message>
-        <source>0.1 DAPS per 10000 DAPS you anonymize.</source>
-        <translation>0.1 DAPS za 10000 DAPS anonymizujete.</translation>
+        <source>0.1 PRCY per 10000 PRCY you anonymize.</source>
+        <translation>0.1 PRCY za 10000 PRCY anonymizujete.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1603,12 +1603,12 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start DAPS after logging in to the system.</source>
-        <translation>Automaticky spustit DAPS po přihlášení do systému</translation>
+        <source>Automatically start PRCY after logging in to the system.</source>
+        <translation>Automaticky spustit PRCY po přihlášení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start DAPS on system login</source>
-        <translation>&amp;Spusti DAPS při přihlášení do systému</translation>
+        <source>&amp;Start PRCY on system login</source>
+        <translation>&amp;Spusti PRCY při přihlášení do systému</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
@@ -2061,8 +2061,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Změna:</translation>
     </message>
     <message>
-        <source>0 DAPS</source>
-        <translation>0 DAPS</translation>
+        <source>0 PRCY</source>
+        <translation>0 PRCY</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2186,8 +2186,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The DAPS address to sign the message with</source>
-        <translation>DAPS adresa pro podepsání zprávy</translation>
+        <source>The PRCY address to sign the message with</source>
+        <translation>PRCY adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2214,16 +2214,16 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DAPS address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto DAPS adresu</translation>
+        <source>Sign the message to prove you own this PRCY address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto PRCY adresu</translation>
     </message>
     <message>
-        <source>The DAPS address the message was signed with</source>
-        <translation>DAPS adresa zprávy byla podpsána</translation>
+        <source>The PRCY address the message was signed with</source>
+        <translation>PRCY adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DAPS address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou DAPS adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified PRCY address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou PRCY adresou</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2265,8 +2265,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS</translation>
+        <source>PRCY</source>
+        <translation>PRCY</translation>
     </message>
     </context>
 <context>
@@ -2369,7 +2369,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     </context>
 <context>
-    <name>dapscoin-core</name>
+    <name>prcycoin-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

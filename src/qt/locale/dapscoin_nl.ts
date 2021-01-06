@@ -62,12 +62,12 @@
         <translation>Ontvangstadressen</translation>
     </message>
     <message>
-        <source>These are your DAPS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw DAPSadressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
+        <source>These are your PRCY addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw PRCYadressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
     </message>
     <message>
-        <source>These are your DAPS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw DAPSadressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
+        <source>These are your PRCY addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dit zijn uw PRCYadressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>DAPS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DAPSs from being stolen by malware infecting your computer.</source>
-        <translation>DAPS zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw DAPSs stelen.</translation>
+        <source>PRCY will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PRCYs from being stolen by malware infecting your computer.</source>
+        <translation>PRCY zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw PRCYs stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DAPS&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW DAPS VERLIEZEN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PRCY&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW PRCY VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -240,15 +240,15 @@
     </message>
     <message>
         <source>Enter a Dapscoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Voer een DAPS adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
+        <translation>Voer een PRCY adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adres:</translation>
     </message>
     <message>
-        <source>The DAPS address to sign the message with</source>
-        <translation>Het DAPS adres om het bericht met te ondertekenen</translation>
+        <source>The PRCY address to sign the message with</source>
+        <translation>Het PRCY adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DAPS address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het DAPS adres bezit</translation>
+        <source>Sign the message to prove you own this PRCY address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het PRCY adres bezit</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Voer de BIP 38 versleutelde geheime sleutel in. Voer het wachtwoord in, in het middelste veld. Druk op Ontsleutelen Sleutel om de geheime sleutel te berekenen.  Nadat de geheime sleutel is ontsleuteld, zal het klikken op 'Adres Importeren' de geheime sleutel toevoegen aan de portemonnee.</translation>
     </message>
     <message>
-        <source>The DAPS address the message was signed with</source>
-        <translation>Het DAPS adres waarmee het bericht was ondertekend</translation>
+        <source>The PRCY address the message was signed with</source>
+        <translation>Het PRCY adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DAPS address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde DAPS adres</translation>
+        <source>Verify the message to ensure it was signed with the specified PRCY address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde PRCY adres</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -602,16 +602,16 @@
         <translation>Tabblad werkbalk</translation>
     </message>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS Kern</translation>
+        <source>PRCY</source>
+        <translation>PRCY Kern</translation>
     </message>
     <message>
-        <source>Send coins to a DAPS address</source>
-        <translation>Verstuur munten naar een DAPS adres</translation>
+        <source>Send coins to a PRCY address</source>
+        <translation>Verstuur munten naar een PRCY adres</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dapscoin: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR-codes en DAPS: URI's)</translation>
+        <source>Request payments (generates QR codes and prcycoin: URIs)</source>
+        <translation>Vraag betaling aan (genereert QR-codes en PRCY: URI's)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -626,24 +626,24 @@
         <translation>Bekijk masternodes</translation>
     </message>
     <message>
-        <source>&amp;About DAPS</source>
-        <translation>&amp;Over DAPS Kern</translation>
+        <source>&amp;About PRCY</source>
+        <translation>&amp;Over PRCY Kern</translation>
     </message>
     <message>
-        <source>Show information about DAPS</source>
-        <translation>Toon informatie over DAPS Kern</translation>
+        <source>Show information about PRCY</source>
+        <translation>Toon informatie over PRCY Kern</translation>
     </message>
     <message>
-        <source>Modify configuration options for DAPS</source>
-        <translation>Wijzig DAPS configuratie opties</translation>
+        <source>Modify configuration options for PRCY</source>
+        <translation>Wijzig PRCY configuratie opties</translation>
     </message>
     <message>
-        <source>Sign messages with your DAPS addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw DAPS adressen om te bewijzen dat u deze adressen bezit</translation>
+        <source>Sign messages with your PRCY addresses to prove you own them</source>
+        <translation>Onderteken berichten met uw PRCY adressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DAPS addresses</source>
-        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde DAPS adressen</translation>
+        <source>Verify messages to ensure they were signed with specified PRCY addresses</source>
+        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde PRCY adressen</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -674,8 +674,8 @@
         <translation>Open Masternode configuratiebestand</translation>
     </message>
     <message>
-        <source>Open a DAPS: URI or payment request</source>
-        <translation>Open een DAPS: URI of betaalverzoek</translation>
+        <source>Open a PRCY: URI or payment request</source>
+        <translation>Open een PRCY: URI of betaalverzoek</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -686,16 +686,16 @@
         <translation>Block verkenner venster</translation>
     </message>
     <message>
-        <source>Show the DAPS help message to get a list with possible DAPS command-line options</source>
-        <translation>Toon het DAPS help bericht om een ​​lijst te krijgen met mogelijke DAPS command line opties</translation>
+        <source>Show the PRCY help message to get a list with possible PRCY command-line options</source>
+        <translation>Toon het PRCY help bericht om een ​​lijst te krijgen met mogelijke PRCY command line opties</translation>
     </message>
     <message>
-        <source>DAPS client</source>
-        <translation>DAPS client</translation>
+        <source>PRCY client</source>
+        <translation>PRCY client</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to DAPS network</source>
-        <translation><numerusform>%n actieve verbinding(en) naar het DAPS netwerk</numerusform><numerusform>%n actieve verbinding(en) naar het DAPS netwerk</numerusform></translation>
+        <source>%n active connection(s) to PRCY network</source>
+        <translation><numerusform>%n actieve verbinding(en) naar het PRCY netwerk</numerusform><numerusform>%n actieve verbinding(en) naar het PRCY netwerk</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -841,8 +841,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (dapscoin.conf).</source>
-        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (dapscoin.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (prcycoin.conf).</source>
+        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (prcycoin.conf).</translation>
     </message>
 </context>
 <context>
@@ -1130,8 +1130,8 @@ MultiSend: %1</translation>
         <translation>Wijzig verzendadres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid DAPS address.</source>
-        <translation>Het ingevoerde adres: "%1" is geen geldig DAPS adres.</translation>
+        <source>The entered address "%1" is not a valid PRCY address.</source>
+        <translation>Het ingevoerde adres: "%1" is geen geldig PRCY adres.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1176,16 +1176,16 @@ MultiSend: %1</translation>
         <translation>versie</translation>
     </message>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS Kern</translation>
+        <source>PRCY</source>
+        <translation>PRCY Kern</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About DAPS</source>
-        <translation>Over DAPS</translation>
+        <source>About PRCY</source>
+        <translation>Over PRCY</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1223,16 +1223,16 @@ MultiSend: %1</translation>
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>Welcome to DAPS.</source>
-        <translation>Welkom bij DAPS</translation>
+        <source>Welcome to PRCY.</source>
+        <translation>Welkom bij PRCY</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where DAPS will store its data.</source>
-        <translation>Aangezien dit de eerste keer is dat het programma is gestart, kun je kiezen waar DAPS zijn gegevens opslaat.</translation>
+        <source>As this is the first time the program is launched, you can choose where PRCY will store its data.</source>
+        <translation>Aangezien dit de eerste keer is dat het programma is gestart, kun je kiezen waar PRCY zijn gegevens opslaat.</translation>
     </message>
     <message>
-        <source>DAPS will download and store a copy of the DAPS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>DAPS zal een kopie van de DAPS blockchain downloaden en opslaan. Tenminste %1GB aan data zal worden opgeslagen in deze map en het zal over de tijd groeien. De portemonnee wordt ook in deze map opgeslagen.</translation>
+        <source>PRCY will download and store a copy of the PRCY block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>PRCY zal een kopie van de PRCY blockchain downloaden en opslaan. Tenminste %1GB aan data zal worden opgeslagen in deze map en het zal over de tijd groeien. De portemonnee wordt ook in deze map opgeslagen.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1243,8 +1243,8 @@ MultiSend: %1</translation>
         <translation>Gebruik een aangepaste data directory:</translation>
     </message>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS Kern</translation>
+        <source>PRCY</source>
+        <translation>PRCY Kern</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1385,12 +1385,12 @@ MultiSend: %1</translation>
         <translation>Vul het verzendadres in</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other DAPS addresses after it matures.
-To Add: enter percentage to give and DAPS address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PRCY addresses after it matures.
+To Add: enter percentage to give and PRCY address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend stelt je in staat om automatisch 100% van uw inzet of masternode-beloning automatisch te verzenden naar een lijst van andere DAPS adressen nadat het volwassen is.
-Toevoegen: voer percentage in om te geven en DAPS adres om toe te voegen aan de MultiSend vector.
+        <translation>MultiSend stelt je in staat om automatisch 100% van uw inzet of masternode-beloning automatisch te verzenden naar een lijst van andere PRCY adressen nadat het volwassen is.
+Toevoegen: voer percentage in om te geven en PRCY adres om toe te voegen aan de MultiSend vector.
 Verwijderen: Voer adres in om te verwijderen en druk op delete.
 MultiSend wordt niet geactiveerd, tenzij je op Activeer hebt geklikt</translation>
     </message>
@@ -1546,48 +1546,48 @@ Controleer het adres alsjeblieft en probeer het opnieuw.</translation>
         <translation>Selecteer de privacy level.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000000 DAPS</source>
-        <translation>Gebruik 2 aparte masternodes om fondsen te mixen tot 1000000 DAPS</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000000 PRCY</source>
+        <translation>Gebruik 2 aparte masternodes om fondsen te mixen tot 1000000 PRCY</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000000 DAPS</source>
-        <translation>Gebruik 8 aparte masternodes om fondsen te mixen tot 1000000 DAPS</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000000 PRCY</source>
+        <translation>Gebruik 8 aparte masternodes om fondsen te mixen tot 1000000 PRCY</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Gebruik 16 aparte masternodes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DAPS to anonymize 10000 DAPS</source>
-        <translation>Deze optie is het snelst en kost ongeveer ~0,025 DAPS om 10000 DAPS te anonimiseren</translation>
+        <source>This option is the quickest and will cost about ~0.025 PRCY to anonymize 10000 PRCY</source>
+        <translation>Deze optie is het snelst en kost ongeveer ~0,025 PRCY om 10000 PRCY te anonimiseren</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DAPS to anonymize 10000 DAPS</source>
-        <translation>Deze optie is gematigd snel en kost ongeveer 0,05 DAPS om 10000 DAPS te anonimiseren</translation>
+        <source>This option is moderately fast and will cost about 0.05 PRCY to anonymize 10000 PRCY</source>
+        <translation>Deze optie is gematigd snel en kost ongeveer 0,05 PRCY om 10000 PRCY te anonimiseren</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Dit is de langzaamste en veiligste optie. Het gebruik van maximale anonimiteit kost</translation>
     </message>
     <message>
-        <source>0.1 DAPS per 10000 DAPS you anonymize.</source>
-        <translation>je anonimiseert 0,1 DAPS per 10000 DAPS.</translation>
+        <source>0.1 PRCY per 10000 PRCY you anonymize.</source>
+        <translation>je anonimiseert 0,1 PRCY per 10000 PRCY.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Verduistering configuratie</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening DAPS's configuration screen.</source>
-        <translation>Verduistering is succesvol ingesteld op basic (%1 en 2 rondes). Je kunt dit op elk gewenst moment wijzigen door het configuratiescherm van DAPS te openen.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening PRCY's configuration screen.</source>
+        <translation>Verduistering is succesvol ingesteld op basic (%1 en 2 rondes). Je kunt dit op elk gewenst moment wijzigen door het configuratiescherm van PRCY te openen.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening DAPS's configuration screen.</source>
-        <translation>Verduistering is succesvol ingesteld op hoog (%1 en 8 rondes). U kunt dit op elk gewenst moment wijzigen door het configuratiescherm van DAPS te openen.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening PRCY's configuration screen.</source>
+        <translation>Verduistering is succesvol ingesteld op hoog (%1 en 8 rondes). U kunt dit op elk gewenst moment wijzigen door het configuratiescherm van PRCY te openen.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening DAPS's configuration screen.</source>
-        <translation>Verduistering is succesvol ingesteld op hoog (%1 en 16 rondes). U kunt dit op elk gewenst moment wijzigen door het configuratiescherm van DAPS te openen.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening PRCY's configuration screen.</source>
+        <translation>Verduistering is succesvol ingesteld op hoog (%1 en 16 rondes). U kunt dit op elk gewenst moment wijzigen door het configuratiescherm van PRCY te openen.</translation>
     </message>
 </context>
 <context>
@@ -1648,8 +1648,8 @@ Controleer het adres alsjeblieft en probeer het opnieuw.</translation>
         <translation>Als je de uitgaven van onbevestigde wijzigingen uitschakelt, de wijziging van een transactie&lt;br/&gt;kan niet worden gebruikt tot die transactie tenminste één bevestiging heeft.&lt;br/&gt;Dit beïnvloedt ook hoe uw saldo is berekend.</translation>
     </message>
     <message>
-        <source>Automatically open the DAPS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de DAPS client poort automatisch op de router. Dit werkt alleen als je router UPnP ondersteunt en het is ingeschakeld.</translation>
+        <source>Automatically open the PRCY client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Open de PRCY client poort automatisch op de router. Dit werkt alleen als je router UPnP ondersteunt en het is ingeschakeld.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1668,12 +1668,12 @@ Controleer het adres alsjeblieft en probeer het opnieuw.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start DAPS after logging in to the system.</source>
-        <translation>DAPS automatisch opstarten na inloggen op het systeem.</translation>
+        <source>Automatically start PRCY after logging in to the system.</source>
+        <translation>PRCY automatisch opstarten na inloggen op het systeem.</translation>
     </message>
     <message>
-        <source>&amp;Start DAPS on system login</source>
-        <translation>&amp;DAPS starten bij systeemlogin</translation>
+        <source>&amp;Start PRCY on system login</source>
+        <translation>&amp;PRCY starten bij systeemlogin</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1700,22 +1700,22 @@ Controleer het adres alsjeblieft en probeer het opnieuw.</translation>
         <translation>&amp;Netwerk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting DAPS.</source>
-        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van DAPS.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting PRCY.</source>
+        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van PRCY.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/dapscoin-project/dapscoin-project-translations</source>
+https://www.transifex.com/prcycoin-project/prcycoin-project-translations</source>
         <translation>Taal ontbreekt of vertaling onvolledig? Help om bij te dragen aan vertalingen:
-https://www.transifex.com/dapscoin-project/dapscoin-project-translations</translation>
+https://www.transifex.com/prcycoin-project/prcycoin-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Map poort gebruikt &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the DAPS network through a SOCKS5 proxy.</source>
-        <translation>Maak verbinding met het DAPS netwerk via een SOCKS5 proxy.</translation>
+        <source>Connect to the PRCY network through a SOCKS5 proxy.</source>
+        <translation>Maak verbinding met het PRCY netwerk via een SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1845,8 +1845,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Formulier</translation>
     </message>
     <message>
-        <source>DAPS Balances</source>
-        <translation>DAPS Saldi</translation>
+        <source>PRCY Balances</source>
+        <translation>PRCY Saldi</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1873,8 +1873,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Staked of masternode beloningen die nog niet volwassen zijn</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DAPS network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het DAPS netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PRCY network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het PRCY netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1909,16 +1909,16 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Uitgeefbaar:</translation>
     </message>
     <message>
-        <source>DAPS:</source>
-        <translation>DAPS:</translation>
+        <source>PRCY:</source>
+        <translation>PRCY:</translation>
     </message>
     <message>
         <source>0 %</source>
         <translation>0 %</translation>
     </message>
     <message>
-        <source>0.000 000 00 DAPS</source>
-        <translation>0.000 000 00 DAPS</translation>
+        <source>0.000 000 00 PRCY</source>
+        <translation>0.000 000 00 PRCY</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -1952,12 +1952,12 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Ongeldig betalingsadres %1</translation>
     </message>
     <message>
-        <source>Cannot start dapscoin: click-to-pay handler</source>
-        <translation>Kan dapscoin niet starten: click-to-pay handler</translation>
+        <source>Cannot start prcycoin: click-to-pay handler</source>
+        <translation>Kan prcycoin niet starten: click-to-pay handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid DAPS address or malformed URI parameters.</source>
-        <translation>URL kan niet ontleed worden! Dit kan worden veroorzaakt door een ongeldig DAPS adres of misvormde URL parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid PRCY address or malformed URI parameters.</source>
+        <translation>URL kan niet ontleed worden! Dit kan worden veroorzaakt door een ongeldig PRCY adres of misvormde URL parameters.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2042,8 +2042,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Hoeveelheid</translation>
     </message>
     <message>
-        <source>Enter a DAPS address (e.g. %1)</source>
-        <translation>Voer een DAPS adres in (b.v. %1)</translation>
+        <source>Enter a PRCY address (e.g. %1)</source>
+        <translation>Voer een PRCY adres in (b.v. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2180,8 +2180,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Blockchain</translation>
     </message>
     <message>
-        <source>Open the DAPS debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het DAPS debug log bestand uit de huidige data directory. Dit kan enkele seconden duren voor grote logbestanden.</translation>
+        <source>Open the PRCY debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open het PRCY debug log bestand uit de huidige data directory. Dit kan enkele seconden duren voor grote logbestanden.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2348,8 +2348,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Uit:</translation>
     </message>
     <message>
-        <source>Welcome to the DAPS RPC console.</source>
-        <translation>Welkom bij de DAPS RPC console.</translation>
+        <source>Welcome to the PRCY RPC console.</source>
+        <translation>Welkom bij de PRCY RPC console.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2419,12 +2419,12 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Een optioneel label om te associëren met het nieuwe ontvangstadres.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DAPS network.</source>
-        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend. Opmerking: het bericht wordt niet verzonden met de betaling via het DAPS netwerk.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the PRCY network.</source>
+        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend. Opmerking: het bericht wordt niet verzonden met de betaling via het PRCY netwerk.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DAPS network.</source>
-        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend.&lt;br&gt;Opmerking: het bericht wordt niet verzonden met de betaling via het DAPS netwerk.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the PRCY network.</source>
+        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend.&lt;br&gt;Opmerking: het bericht wordt niet verzonden met de betaling via het PRCY netwerk.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2648,8 +2648,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>UTXO grootte:</translation>
     </message>
     <message>
-        <source>0 DAPS</source>
-        <translation>0 DAPS</translation>
+        <source>0 PRCY</source>
+        <translation>0 PRCY</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2700,16 +2700,16 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Munten automatisch geselecteerd</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uDAPSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDAPSs in fee,&lt;br /&gt;while "at least" pays 1000 uDAPSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uDAPSs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uDAPS's in vergoeding,&lt;br /&gt;terwijl "minstens" 1000 uDAPS's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uPRCYs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPRCYs in fee,&lt;br /&gt;while "at least" pays 1000 uPRCYs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uPRCYs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uPRCY's in vergoeding,&lt;br /&gt;terwijl "minstens" 1000 uPRCY's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uDAPSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDAPSs in fee,&lt;br /&gt;while "total at least" pays 1000 uDAPSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uDAPSs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uDAPS's in vergoeding,&lt;br /&gt;terwijl "totaal minstens" 1000 uDAPS's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uPRCYs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPRCYs in fee,&lt;br /&gt;while "total at least" pays 1000 uPRCYs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uPRCYs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uPRCY's in vergoeding,&lt;br /&gt;terwijl "totaal minstens" 1000 uPRCY's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for DAPS transactions than the network can process.</source>
-        <translation>Alleen de minimale vergoeding betalen is prima, zolang er minder transactie volume is dan ruimte in de blokken. &lt;br /&gt;Maar wees ervan bewust dat dit kan leiden tot een nooit bevestigende transactie wanneer er meer vraag is naar DAPS transacties dan het netwerk kan verwerken.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for PRCY transactions than the network can process.</source>
+        <translation>Alleen de minimale vergoeding betalen is prima, zolang er minder transactie volume is dan ruimte in de blokken. &lt;br /&gt;Maar wees ervan bewust dat dit kan leiden tot een nooit bevestigende transactie wanneer er meer vraag is naar PRCY transacties dan het netwerk kan verwerken.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2756,8 +2756,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Voeg &amp;ontvanger toe</translation>
     </message>
     <message>
-        <source>Anonymized DAPS</source>
-        <translation>Geanonimiseerde DAPS</translation>
+        <source>Anonymized PRCY</source>
+        <translation>Geanonimiseerde PRCY</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -2812,8 +2812,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>anonieme financiën</translation>
     </message>
     <message>
-        <source>Warning: Invalid DAPS address</source>
-        <translation>Waarschuwing: Ongeldig DAPS adres</translation>
+        <source>Warning: Invalid PRCY address</source>
+        <translation>Waarschuwing: Ongeldig PRCY adres</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2915,8 +2915,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Betaal &amp;Naar:</translation>
     </message>
     <message>
-        <source>The DAPS address to send the payment to</source>
-        <translation>Het DAPS adres om de betaling naar te verzenden</translation>
+        <source>The PRCY address to send the payment to</source>
+        <translation>Het PRCY adres om de betaling naar te verzenden</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2955,8 +2955,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Bericht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the DAPS: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the DAPS network.</source>
-        <translation>Een bericht dat is gehecht aan de DAPS: URI die bij de transactie wordt opgeslagen voor uw referentie. Opmerking: dit bericht wordt niet verzonden via het DAPS netwerk.</translation>
+        <source>A message that was attached to the PRCY: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PRCY network.</source>
+        <translation>Een bericht dat is gehecht aan de PRCY: URI die bij de transactie wordt opgeslagen voor uw referentie. Opmerking: dit bericht wordt niet verzonden via het PRCY netwerk.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2982,8 +2982,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>DAPS is shutting down...</source>
-        <translation>DAPS is aan het afsluiten...</translation>
+        <source>PRCY is shutting down...</source>
+        <translation>PRCY is aan het afsluiten...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3005,8 +3005,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Je kunt berichten met je adressen ondertekenen om te bewijzen dat je ze bezit. Wees voorzichtig om niets vaags te ondertekenen, omdat phishing aanvallen je misschien kunnen proberen om je identiteit over te geven. Teken alleen volledig gedetailleerde verklaringen aan waar je mee akkoord gaat.</translation>
     </message>
     <message>
-        <source>The DAPS address to sign the message with</source>
-        <translation>Het DAPS adres om het bericht met te ondertekenen</translation>
+        <source>The PRCY address to sign the message with</source>
+        <translation>Het PRCY adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3037,16 +3037,16 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DAPS address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het DAPS adres bezit</translation>
+        <source>Sign the message to prove you own this PRCY address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het PRCY adres bezit</translation>
     </message>
     <message>
-        <source>The DAPS address the message was signed with</source>
-        <translation>Het DAPS adres waarmee het bericht was ondertekend</translation>
+        <source>The PRCY address the message was signed with</source>
+        <translation>Het PRCY adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DAPS address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde DAPS adres</translation>
+        <source>Verify the message to ensure it was signed with the specified PRCY address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde PRCY adres</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3132,8 +3132,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS Kern</translation>
+        <source>PRCY</source>
+        <translation>PRCY Kern</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3148,8 +3148,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>De Dash Kernontwikkelaars</translation>
     </message>
     <message>
-        <source>The DAPS Project developers</source>
-        <translation>De DAPS Kernontwikkelaars</translation>
+        <source>The PRCY Project developers</source>
+        <translation>De PRCY Kernontwikkelaars</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3704,7 +3704,7 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
     </message>
 </context>
 <context>
-    <name>dapscoin-core</name>
+    <name>prcycoin-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = houd tx meta data, bijvoorbeeld account eigenaar en betalingsverzoek informatie, 2 = drop tx meta data)</translation>
@@ -3734,8 +3734,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Het berekende accumulatie controlepunt is niet wat wordt geregistreerd door de blokindex</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. DAPS is probably already running.</source>
-        <translation>Kan geen vergrendeling op data directory %s verkrijgen. DAPS loopt waarschijnlijk al.</translation>
+        <source>Cannot obtain a lock on data directory %s. PRCY is probably already running.</source>
+        <translation>Kan geen vergrendeling op data directory %s verkrijgen. PRCY loopt waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -3782,12 +3782,12 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Uitvoeren commando wanneer het beste blok verandert (%s in cmd is vervangen door block hash)</translation>
     </message>
     <message>
-        <source>Fees (in DAPS/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Kosten (in DAPS/Kb) kleiner dan dit worden beschouwd als zero fee voor heruitzending (standaard: %s)</translation>
+        <source>Fees (in PRCY/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Kosten (in PRCY/Kb) kleiner dan dit worden beschouwd als zero fee voor heruitzending (standaard: %s)</translation>
     </message>
     <message>
-        <source>Fees (in DAPS/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Kosten (in DAPS/Kb) kleiner dan dit worden beschouwd als zero fee voor transactie verrichting (standaard: %s)</translation>
+        <source>Fees (in PRCY/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Kosten (in PRCY/Kb) kleiner dan dit worden beschouwd als zero fee voor transactie verrichting (standaard: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -3882,44 +3882,44 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in de OpenSSL Toolkit &lt;https://www.openssl.org/&gt; en cryptografische software geschreven door Eric Young en UPnP software geschreven door Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use dapscoind, or the -server option to dapscoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use prcycoind, or the -server option to prcycoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dapscoinrpc
+rpcuser=prcycoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "DAPS Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "PRCY Alert" admin@foo.com
 </source>
-        <translation>Om dapscoind of de -server optie om dapscoin-qt te gebruiken, moet je een rpcpassword instellen in het configuratiebestand:
+        <translation>Om prcycoind of de -server optie om prcycoin-qt te gebruiken, moet je een rpcpassword instellen in het configuratiebestand:
 %s
 Het is aan te raden het volgende willekeurige wachtwoord te gebruiken:
-rpcuser=dapscoinrpc
+rpcuser=prcycoinrpc
 rpcpassword=%s
 (je hoeft dit wachtwoord niet te onthouden)
 De gebruikersnaam en het wachtwoord MOETEN NIET hetzelfde zijn.
 Als het bestand niet bestaat, creëer het dan met owner-readable-only bestandsrechten.
 Het is ook aan te raden om alertnotify in te stellen, zodat je van problemen op de hoogte wordt gebracht;
-bijvoorbeeld: alertnotify = echo %%s | mail -s "DAPS Alert" admin@foo.com
+bijvoorbeeld: alertnotify = echo %%s | mail -s "PRCY Alert" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. DAPS is probably already running.</source>
-        <translation>Niet mogelijk te binden aan %s op deze computer. DAPS loopt waarschijnlijk al.</translation>
+        <source>Unable to bind to %s on this computer. PRCY is probably already running.</source>
+        <translation>Niet mogelijk te binden aan %s op deze computer. PRCY loopt waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>Kan niet genoeg verduistering gedenomineerde fondsen voor deze transactie vinden.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 DAPS.</source>
-        <translation>Kan niet genoeg verduistering niet gedenomineerde fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 DAPS.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PRCY.</source>
+        <translation>Kan niet genoeg verduistering niet gedenomineerde fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 PRCY.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 DAPS.</source>
-        <translation>Kan niet genoeg fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 DAPS.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 PRCY.</source>
+        <translation>Kan niet genoeg fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 PRCY.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3934,8 +3934,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "DAPS Alert" admin@foo.com
         <translation>Waarschuwing: -paytxfee is zeer hoog ingesteld! Dit zijn de transactie kosten die je betaalt als je een transactie verstuurt.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong DAPS will not work properly.</source>
-        <translation>Waarschuwing: Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd staat, werkt DAPS niet goed.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong PRCY will not work properly.</source>
+        <translation>Waarschuwing: Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd staat, werkt PRCY niet goed.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4090,8 +4090,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "DAPS Alert" admin@foo.com
         <translation>Copyright (C) 2014-%i The Dash Kernontwikkelaars</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The DAPS Project developers</source>
-        <translation>Copyright (C) 2015-%i The DAPS Kernontwikkelaars</translation>
+        <source>Copyright (C) 2015-%i The PRCY Project developers</source>
+        <translation>Copyright (C) 2015-%i The PRCY Kernontwikkelaars</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4166,8 +4166,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "DAPS Alert" admin@foo.com
         <translation>Error tijdens het laden van wallet.dat: Portemonnee corrupt</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of DAPS</source>
-        <translation>Fout bij het laden van wallet.dat: Portemonnee vereist een nieuwere versie van DAPS</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of PRCY</source>
+        <translation>Fout bij het laden van wallet.dat: Portemonnee vereist een nieuwere versie van PRCY</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4218,8 +4218,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "DAPS Alert" admin@foo.com
         <translation>Mislukt om block te lezen</translation>
     </message>
     <message>
-        <source>Fee (in DAPS/kB) to add to transactions you send (default: %s)</source>
-        <translation>Fee (in DAPS/kB) om toe te voegen aan transacties die je verzendt (standaard: %s)</translation>
+        <source>Fee (in PRCY/kB) to add to transactions you send (default: %s)</source>
+        <translation>Fee (in PRCY/kB) om toe te voegen aan transacties die je verzendt (standaard: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4278,8 +4278,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "DAPS Alert" admin@foo.com
         <translation>Informatie</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. DAPS is shutting down.</source>
-        <translation>Initialisatie saniteitscontrole mislukt. DAPS wordt afgesloten.</translation>
+        <source>Initialization sanity check failed. PRCY is shutting down.</source>
+        <translation>Initialisatie saniteitscontrole mislukt. PRCY wordt afgesloten.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4910,8 +4910,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "DAPS Alert" admin@foo.com
         <translation>Portemonnee is vergrendeld.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart DAPS to complete</source>
-        <translation>Wallet moest worden herschreven: start DAPS opnieuw om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart PRCY to complete</source>
+        <translation>Wallet moest worden herschreven: start PRCY opnieuw om te voltooien</translation>
     </message>
     <message>
         <source>Wallet options:</source>

@@ -38,8 +38,8 @@ struct TestingSetup {
 #ifdef ENABLE_WALLET
         bitdb.MakeMock();
 #endif
-        // pathTemp = GetTempPath() / strprintf("test_dapscoin_%lu_%i", (unsigned long)GetTime(), (int)(GetRand(100000)));
-        pathTemp = GetTempPath() / "test_dapscoin";
+        // pathTemp = GetTempPath() / strprintf("test_prcycoin_%lu_%i", (unsigned long)GetTime(), (int)(GetRand(100000)));
+        pathTemp = GetTempPath() / "test_prcycoin";
         boost::filesystem::create_directories(pathTemp);
         mapArgs["-datadir"] = pathTemp.string();
 
@@ -64,9 +64,9 @@ struct TestingSetup {
                              " or address book entries might be missing or incorrect."));
                 std::cout << msg << "\n";
             } else if (nLoadWalletRet == DB_TOO_NEW)
-                std::cout << _("Error loading wallet.dat: Wallet requires newer version of DAPS") << "\n";
+                std::cout << _("Error loading wallet.dat: Wallet requires newer version of PRCY") << "\n";
             else if (nLoadWalletRet == DB_NEED_REWRITE) {
-                std::cout << _("Wallet needed to be rewritten: restart DAPS to complete") << "\n";
+                std::cout << _("Wallet needed to be rewritten: restart PRCY to complete") << "\n";
             } else
                 std::cout << _("Error loading wallet.dat") << "\n";
         }

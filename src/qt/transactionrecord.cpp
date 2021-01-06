@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018-2019 The DAPS Project developers
+// Copyright (c) 2018-2019 The PRCY Project developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -82,7 +82,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
                 sub.involvesWatchAddress = mine & ISMINE_WATCH_ONLY;
                 sub.address = CBitcoinAddress(address).ToString();
                 if (ExtractDestination(txout.scriptPubKey, address) && IsMine(*wallet, address)) {
-                    // Received by DAPS Address
+                    // Received by PRCY Address
                     sub.credit = IsMine(*wallet, address) ? wallet->getCTxOutValue(wtx, txout) : 0;
                     sub.type = TransactionRecord::RecvWithAddress;
                     sub.address = CBitcoinAddress(address).ToString();
@@ -142,7 +142,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
                 sub.type = TransactionRecord::Obfuscated;
                 CTxDestination address;
                 if (ExtractDestination(wtx.vout[0].scriptPubKey, address)) {
-                    // Sent to DAPS Address
+                    // Sent to PRCY Address
                     sub.address = CBitcoinAddress(address).ToString();
                 } else {
                     // Sent to IP, or other non-address transaction like OP_EVAL
@@ -158,7 +158,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
                 }
                 CTxDestination address;
                 if (ExtractDestination(wtx.vout[0].scriptPubKey, address)) {
-                	// Sent to DAPS Address
+                	// Sent to PRCY Address
                 	sub.address = CBitcoinAddress(address).ToString();
                 }
             }
@@ -191,7 +191,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
 
                 CTxDestination address;
                 if (ExtractDestination(txout.scriptPubKey, address)) {
-                    // Sent to DAPS Address
+                    // Sent to PRCY Address
                     sub.type = TransactionRecord::SendToAddress;
                     sub.address = CBitcoinAddress(address).ToString();
                 } else {

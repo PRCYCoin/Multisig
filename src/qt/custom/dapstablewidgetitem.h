@@ -1,11 +1,11 @@
-#ifndef DAPSTABLEWIDGETITEM_H
-#define DAPSTABLEWIDGETITEM_H
+#ifndef PRCYTABLEWIDGETITEM_H
+#define PRCYTABLEWIDGETITEM_H
 #include <QTableWidget>
 #include <QVariant>
 #include <QString>
 #include <QDateTime>
 
-class DAPSTableWidgetItem : public QTableWidgetItem {
+class PRCYTableWidgetItem : public QTableWidgetItem {
     public:
         bool operator <(const QTableWidgetItem &other) const
         {

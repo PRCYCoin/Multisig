@@ -1,6 +1,6 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018-2019 The DAPS Project developers
+// Copyright (c) 2018-2019 The PRCY Project developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -248,7 +248,7 @@ public:
 class CObfuScationSigner
 {
 public:
-    /// Is the inputs associated with this public key? (and there is 1000000 DAPS - checking if valid masternode)
+    /// Is the inputs associated with this public key? (and there is 1000000 PRCY - checking if valid masternode)
     bool IsVinAssociatedWithPubkey(CTxIn& vin, CPubKey& pubkey);
     /// Set the private/public key values, returns true if successful
     bool GetKeysFromSecret(std::string strSecret, CKey& keyRet, CPubKey& pubkeyRet);
@@ -492,7 +492,7 @@ public:
 
     void GetDenominationsToString(int nDenom, std::string& strDenom);
 
-    /// Get the denominations for a specific amount of dapscoin.
+    /// Get the denominations for a specific amount of prcycoin.
     int GetDenominationsByAmount(CAmount nAmount, int nDenomTarget = 0); // is not used anymore?
     int GetDenominationsByAmounts(std::vector<CAmount>& vecAmount);
 

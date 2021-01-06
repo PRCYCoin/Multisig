@@ -1,5 +1,5 @@
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018-2019 The DAPS Project developers
+// Copyright (c) 2018-2019 The PRCY Project developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -9,7 +9,7 @@
 #include "stakeinput.h"
 #include "wallet.h"
 
-//!DAPS Stake
+//!PRCY Stake
 bool CDapsStake::SetInput(CTransaction txPrev, unsigned int n)
 {
     this->txFrom = txPrev;
@@ -85,7 +85,7 @@ bool CDapsStake::GetModifier(uint64_t& nStakeModifier)
 
 CDataStream CDapsStake::GetUniqueness()
 {
-    //The unique identifier for a DAPS stake is the outpoint
+    //The unique identifier for a PRCY stake is the outpoint
     CDataStream ss(SER_NETWORK, 0);
     ss << nPosition << txFrom.GetHash();
     return ss;

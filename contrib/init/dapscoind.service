@@ -1,19 +1,19 @@
 [Unit]
-Description=DAPScoin's distributed currency daemon
+Description=PRCYcoin's distributed currency daemon
 After=network.target
 
 [Service]
-User=dapscoin
-Group=dapscoin
+User=prcycoin
+Group=prcycoin
 
 Type=forking
-PIDFile=/var/lib/dapscoind/dapscoind.pid
+PIDFile=/var/lib/prcycoind/prcycoind.pid
 
-ExecStart=/usr/bin/dapscoind -daemon -pid=/var/lib/dapscoind/dapscoind.pid \
-          -conf=/etc/dapscoin/dapscoin.conf -datadir=/var/lib/dapscoind
+ExecStart=/usr/bin/prcycoind -daemon -pid=/var/lib/prcycoind/prcycoind.pid \
+          -conf=/etc/prcycoin/prcycoin.conf -datadir=/var/lib/prcycoind
 
-ExecStop=-/usr/bin/dapscoin-cli -conf=/etc/dapscoin/dapscoin.conf \
-         -datadir=/var/lib/dapscoind stop
+ExecStop=-/usr/bin/prcycoin-cli -conf=/etc/prcycoin/prcycoin.conf \
+         -datadir=/var/lib/prcycoind stop
 
 Restart=always
 PrivateTmp=true

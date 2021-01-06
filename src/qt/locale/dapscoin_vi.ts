@@ -58,12 +58,12 @@
         <translation>Địa chỉ gửi </translation>
     </message>
     <message>
-        <source>These are your DAPS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Đây là địa chỉ ví DAPS của bạn để gửi đi. Luôn luôn kiểm tra số lượng và địa chỉ ví nhận trước khi gửi.</translation>
+        <source>These are your PRCY addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Đây là địa chỉ ví PRCY của bạn để gửi đi. Luôn luôn kiểm tra số lượng và địa chỉ ví nhận trước khi gửi.</translation>
     </message>
     <message>
-        <source>These are your DAPS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Đây là địa chỉ ví DAPS của bạn để nhận. Bạn nên sử dụng địa chỉ ví nhận mới cho mỗi giao dịch</translation>
+        <source>These are your PRCY addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Đây là địa chỉ ví PRCY của bạn để nhận. Bạn nên sử dụng địa chỉ ví nhận mới cho mỗi giao dịch</translation>
     </message>
     </context>
 <context>
@@ -206,6 +206,6 @@
     </message>
     </context>
 <context>
-    <name>dapscoin-core</name>
+    <name>prcycoin-core</name>
     </context>
 </TS>

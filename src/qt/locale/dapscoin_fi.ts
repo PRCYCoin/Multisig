@@ -62,12 +62,12 @@
         <translation>Vastaanottavat osoitteet</translation>
     </message>
     <message>
-        <source>These are your DAPS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat sinun DAPS osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
+        <source>These are your PRCY addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat sinun PRCY osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your DAPS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat sinun DAPS osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
+        <source>These are your PRCY addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Nämä ovat sinun PRCY osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>DAPS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DAPSs from being stolen by malware infecting your computer.</source>
-        <translation>DAPS sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella DAPSien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>PRCY will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PRCYs from being stolen by malware infecting your computer.</source>
+        <translation>PRCY sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella PRCYien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Oletko varma että tahdot salata lompakkosi?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DAPS&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki DAPSisi&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PRCY&lt;/b&gt;!</source>
+        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki PRCYisi&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -244,8 +244,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Osoite:</translation>
     </message>
     <message>
-        <source>The DAPS address to sign the message with</source>
-        <translation>DAPS osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The PRCY address to sign the message with</source>
+        <translation>PRCY osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -276,8 +276,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DAPS address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän DAPS osoitteen</translation>
+        <source>Sign the message to prove you own this PRCY address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän PRCY osoitteen</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -300,12 +300,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Syötä BIP 38 salattu yksityisavain. Syötä salausavain laatikkoon. Paina Avaa Salaus tuottaaksesi yksityisavaimen. Kun avain on dekryptattu, painamalla "Import osoite" lisää tämän yksityisavaimen lompakkoon.</translation>
     </message>
     <message>
-        <source>The DAPS address the message was signed with</source>
-        <translation>DAPS osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The PRCY address the message was signed with</source>
+        <translation>PRCY osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DAPS address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla DAPS osoitteella.</translation>
+        <source>Verify the message to ensure it was signed with the specified PRCY address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla PRCY osoitteella.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -591,16 +591,16 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS Ydin</translation>
+        <source>PRCY</source>
+        <translation>PRCY Ydin</translation>
     </message>
     <message>
-        <source>Send coins to a DAPS address</source>
-        <translation>Lähetä kolikkoja DAPS osoitteeseen</translation>
+        <source>Send coins to a PRCY address</source>
+        <translation>Lähetä kolikkoja PRCY osoitteeseen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dapscoin: URIs)</source>
-        <translation>Pyydä maksuja (Generoi QR koodeja ja dapscoin: URIja)</translation>
+        <source>Request payments (generates QR codes and prcycoin: URIs)</source>
+        <translation>Pyydä maksuja (Generoi QR koodeja ja prcycoin: URIja)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -611,24 +611,24 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About DAPS</source>
-        <translation>DAPS &amp;ytimestä</translation>
+        <source>&amp;About PRCY</source>
+        <translation>PRCY &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about DAPS</source>
-        <translation>Näytä tietoja DAPS Ytimestä</translation>
+        <source>Show information about PRCY</source>
+        <translation>Näytä tietoja PRCY Ytimestä</translation>
     </message>
     <message>
-        <source>Modify configuration options for DAPS</source>
-        <translation>Muokkaa konfiguraatio vaihtoehtoja DAPS:lle</translation>
+        <source>Modify configuration options for PRCY</source>
+        <translation>Muokkaa konfiguraatio vaihtoehtoja PRCY:lle</translation>
     </message>
     <message>
-        <source>Sign messages with your DAPS addresses to prove you own them</source>
+        <source>Sign messages with your PRCY addresses to prove you own them</source>
         <translation>Allekirjoita viestejä todistaaksesi, että omistat ne.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DAPS addresses</source>
-        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä DAPS osoiteella.</translation>
+        <source>Verify messages to ensure they were signed with specified PRCY addresses</source>
+        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä PRCY osoiteella.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -659,8 +659,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a DAPS: URI or payment request</source>
-        <translation>Avaa DAPS: URI tai pyydä maksua</translation>
+        <source>Open a PRCY: URI or payment request</source>
+        <translation>Avaa PRCY: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -671,12 +671,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the DAPS help message to get a list with possible DAPS command-line options</source>
-        <translation>Näytä DAPS Ydin apuviesti saadaksesi lista mahdollisista DAPS komentolinja komennoista.</translation>
+        <source>Show the PRCY help message to get a list with possible PRCY command-line options</source>
+        <translation>Näytä PRCY Ydin apuviesti saadaksesi lista mahdollisista PRCY komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>DAPS client</source>
-        <translation>DAPS Ydin asiakasohjelma</translation>
+        <source>PRCY client</source>
+        <translation>PRCY Ydin asiakasohjelma</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -934,8 +934,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS Ydin</translation>
+        <source>PRCY</source>
+        <translation>PRCY Ydin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -953,12 +953,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to DAPS.</source>
-        <translation>Tervetuloa DAPS Ytimeen.</translation>
+        <source>Welcome to PRCY.</source>
+        <translation>Tervetuloa PRCY Ytimeen.</translation>
     </message>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS Ydin</translation>
+        <source>PRCY</source>
+        <translation>PRCY Ydin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1150,32 +1150,32 @@ Please check the address and try again.</source>
         <translation>Valitse yksityisyyden taso.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000000 DAPS</source>
-        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 1000000 DAPS</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000000 PRCY</source>
+        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 1000000 PRCY</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000000 DAPS</source>
-        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 1000000 DAPS</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000000 PRCY</source>
+        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 1000000 PRCY</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Käytä 16 erillistä masternodea</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DAPS to anonymize 10000 DAPS</source>
-        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 DAPS anonymoidaksesi 10000 DAPS</translation>
+        <source>This option is the quickest and will cost about ~0.025 PRCY to anonymize 10000 PRCY</source>
+        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 PRCY anonymoidaksesi 10000 PRCY</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DAPS to anonymize 10000 DAPS</source>
-        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 DAPS anonymoidaksesi 10000 DAPS</translation>
+        <source>This option is moderately fast and will cost about 0.05 PRCY to anonymize 10000 PRCY</source>
+        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 PRCY anonymoidaksesi 10000 PRCY</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Tämä on hitain ja turvallisin vaihtoehto. Täydesti anonymisoiminen ei maksa mitään.</translation>
     </message>
     <message>
-        <source>0.1 DAPS per 10000 DAPS you anonymize.</source>
-        <translation>0.1 per 10000 DAPS, jotka anonymisoit.</translation>
+        <source>0.1 PRCY per 10000 PRCY you anonymize.</source>
+        <translation>0.1 per 10000 PRCY, jotka anonymisoit.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1224,12 +1224,12 @@ Please check the address and try again.</source>
         <translation>Ekspertti</translation>
     </message>
     <message>
-        <source>Automatically start DAPS after logging in to the system.</source>
-        <translation>Automaattisesti käynnistä DAPS kun kirjaudut sisään.</translation>
+        <source>Automatically start PRCY after logging in to the system.</source>
+        <translation>Automaattisesti käynnistä PRCY kun kirjaudut sisään.</translation>
     </message>
     <message>
-        <source>&amp;Start DAPS on system login</source>
-        <translation>&amp;Aloita DAPS järjestelmän kirjautumisessa</translation>
+        <source>&amp;Start PRCY on system login</source>
+        <translation>&amp;Aloita PRCY järjestelmän kirjautumisessa</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1248,12 +1248,12 @@ Please check the address and try again.</source>
         <translation>&amp;Verkko</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting DAPS.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting PRCY.</source>
         <translation>Käyttöliittymän kielen voi säätää täällä. Tämä asetus tulee voimaan uudelleenkäynnistettyäsi lompakon.</translation>
     </message>
     <message>
-        <source>Connect to the DAPS network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä DAPS verkkoon SOCKS5 proxyn kautta</translation>
+        <source>Connect to the PRCY network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä PRCY verkkoon SOCKS5 proxyn kautta</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1474,8 +1474,8 @@ Please check the address and try again.</source>
         <translation>Lohko ketju</translation>
     </message>
     <message>
-        <source>Open the DAPS debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa DAPS debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
+        <source>Open the PRCY debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa PRCY debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -1586,8 +1586,8 @@ Please check the address and try again.</source>
         <translation>Ulos:</translation>
     </message>
     <message>
-        <source>Welcome to the DAPS RPC console.</source>
-        <translation>Tervetuloa DAPS RPC konsoliin.</translation>
+        <source>Welcome to the PRCY RPC console.</source>
+        <translation>Tervetuloa PRCY RPC konsoliin.</translation>
     </message>
     <message>
         <source>never</source>
@@ -1629,12 +1629,12 @@ Please check the address and try again.</source>
         <translation>Vaihtoehtoinen nimike uudelle vastaanottavalle osoitteelle</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DAPS network.</source>
-        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana DAPS verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the PRCY network.</source>
+        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana PRCY verkolle.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DAPS network.</source>
-        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana DAPS  verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the PRCY network.</source>
+        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana PRCY  verkolle.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -1830,8 +1830,8 @@ Please check the address and try again.</source>
         <translation>Muutos:</translation>
     </message>
     <message>
-        <source>0 DAPS</source>
-        <translation>0 DAPS</translation>
+        <source>0 PRCY</source>
+        <translation>0 PRCY</translation>
     </message>
     <message>
         <source>Choose...</source>
@@ -1910,8 +1910,8 @@ Please check the address and try again.</source>
         <translation>käyttää</translation>
     </message>
     <message>
-        <source>Warning: Invalid DAPS address</source>
-        <translation>Varoitus: Virheellinen DAPS osoite</translation>
+        <source>Warning: Invalid PRCY address</source>
+        <translation>Varoitus: Virheellinen PRCY osoite</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
@@ -1957,8 +1957,8 @@ Please check the address and try again.</source>
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
-        <source>The DAPS address to send the payment to</source>
-        <translation>DAPS osoite johon maksu lähetetään</translation>
+        <source>The PRCY address to send the payment to</source>
+        <translation>PRCY osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2000,8 +2000,8 @@ Please check the address and try again.</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>DAPS is shutting down...</source>
-        <translation>DAPS core sammuu...</translation>
+        <source>PRCY is shutting down...</source>
+        <translation>PRCY core sammuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2019,8 +2019,8 @@ Please check the address and try again.</source>
         <translation>Voit allekirjoittaa viestejä osoitteillasi todistaaksesi, että omistat ne. Ole varovainen ettet allekirjoita mitään kummallista, sillä kalasteluyritykset saattavat yrittää huijata sinut luovuttamaan tietoja. Allekirjoita vain täysin yksityiskohtaisia sanomia, jotka hyväksyt.</translation>
     </message>
     <message>
-        <source>The DAPS address to sign the message with</source>
-        <translation>DAPS osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The PRCY address to sign the message with</source>
+        <translation>PRCY osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2051,16 +2051,16 @@ Please check the address and try again.</source>
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DAPS address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän DAPS osoitteen</translation>
+        <source>Sign the message to prove you own this PRCY address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän PRCY osoitteen</translation>
     </message>
     <message>
-        <source>The DAPS address the message was signed with</source>
-        <translation>DAPS osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The PRCY address the message was signed with</source>
+        <translation>PRCY osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DAPS address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla DAPS osoitteella.</translation>
+        <source>Verify the message to ensure it was signed with the specified PRCY address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla PRCY osoitteella.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2142,8 +2142,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS Ydin</translation>
+        <source>PRCY</source>
+        <translation>PRCY Ydin</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2158,8 +2158,8 @@ Please check the address and try again.</source>
         <translation>Dash Core kehittäjät</translation>
     </message>
     <message>
-        <source>The DAPS Project developers</source>
-        <translation>DAPS core kehittäjät</translation>
+        <source>The PRCY Project developers</source>
+        <translation>PRCY core kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2462,7 +2462,7 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>dapscoin-core</name>
+    <name>prcycoin-core</name>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Varoitus: Verkko ei näytä olevan samaa mieltä! Jotkin mainaajat saattavat kokea ongelmia.</translation>
@@ -2512,8 +2512,8 @@ Please check the address and try again.</source>
         <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko korruptoitunut</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of DAPS</source>
-        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version DAPSsta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of PRCY</source>
+        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version PRCYsta</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>

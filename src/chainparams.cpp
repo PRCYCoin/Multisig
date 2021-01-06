@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018-2020 The DAPS Project developers
+// Copyright (c) 2018-2020 The PRCY Project developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -197,15 +197,15 @@ public:
         pchMessageStart[3] = 0x84;
         vAlertPubKey = ParseHex("049def8e22e7f78b624dc62007c66c06066d032310b3507642306b143326a8295e03576ffab7469c552e1a68655598d78d501eb10cc27408bfd7876dbadb08b0ee");
         nDefaultPort = 53572; //default port for multisig
-        bnProofOfWorkLimit = ~uint256(0) >> 1; // DAPScoin starting difficulty is 1 / 2^12
+        bnProofOfWorkLimit = ~uint256(0) >> 1; // PRCYcoin starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // DAPScoin: 1 day
-        nTargetSpacing = 1 * 60;  // DAPScoin: 1 minute
+        nTargetTimespan = 1 * 60; // PRCYcoin: 1 day
+        nTargetSpacing = 1 * 60;  // PRCYcoin: 1 minute
         nMaturity = 100;
         nMasternodeCountDrift = 20;
         MAX_MONEY = 2000000000.0;
@@ -232,7 +232,7 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "30 September 2019 DAPS Coin Development Team - Privacy Is A Right, Not A Privilege";
+        const char* pszTimestamp = "30 September 2019 PRCY Coin Development Team - Privacy Is A Right, Not A Privilege";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -284,22 +284,22 @@ public:
         assert(genesis.hashMerkleRoot == uint256("4dc798fa29a037570075a87a39c9a54c210f005c4c59c72f32036a87273f4cf8"));
 
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.push_back(CDNSSeedData("seed.dapscoin.com", "seed.dapscoin.com"));        // Single node address
-        vSeeds.push_back(CDNSSeedData("seed1.dapscoin.com", "seed1.dapscoin.com"));        // Single node address
-        vSeeds.push_back(CDNSSeedData("seed2.dapscoin.com", "seed2.dapscoin.com"));        // Single node address
-        vSeeds.push_back(CDNSSeedData("seed3.dapscoin.com", "seed3.dapscoin.com"));        // Single node address
-        vSeeds.push_back(CDNSSeedData("seed4.dapscoin.com", "seed4.dapscoin.com"));        // Single node address
-        vSeeds.push_back(CDNSSeedData("seed5.dapscoin.com", "seed5.dapscoin.com"));        // Single node address
-        vSeeds.push_back(CDNSSeedData("seed6.dapscoin.com", "seed6.dapscoin.com"));        // Single node address
-        vSeeds.push_back(CDNSSeedData("seed7.dapscoin.com", "seed7.dapscoin.com"));        // Single node address
-        vSeeds.push_back(CDNSSeedData("seed8.dapscoin.com", "seed8.dapscoin.com"));        // Single node address
-        vSeeds.push_back(CDNSSeedData("seed9.dapscoin.com", "seed9.dapscoin.com"));        // Single node address
-        vSeeds.push_back(CDNSSeedData("seed.dapscoin-seeds.com", "seed.dapscoin-seeds.com"));        // Single node address
-        vSeeds.push_back(CDNSSeedData("seed1.dapscoin-seeds.com", "seed1.dapscoin-seeds.com"));        // Single node address
-        vSeeds.push_back(CDNSSeedData("seed2.dapscoin-seeds.com", "seed2.dapscoin-seeds.com"));        // Single node address
-        vSeeds.push_back(CDNSSeedData("seed3.dapscoin-seeds.com", "seed3.dapscoin-seeds.com"));        // Single node address
-        vSeeds.push_back(CDNSSeedData("seed4.dapscoin-seeds.com", "seed4.dapscoin-seeds.com"));        // Single node address
-        vSeeds.push_back(CDNSSeedData("seed5.dapscoin-seeds.com", "seed5.dapscoin-seeds.com"));        // Single node address
+        vSeeds.push_back(CDNSSeedData("seed.prcycoin.com", "seed.prcycoin.com"));        // Single node address
+        vSeeds.push_back(CDNSSeedData("seed1.prcycoin.com", "seed1.prcycoin.com"));        // Single node address
+        vSeeds.push_back(CDNSSeedData("seed2.prcycoin.com", "seed2.prcycoin.com"));        // Single node address
+        vSeeds.push_back(CDNSSeedData("seed3.prcycoin.com", "seed3.prcycoin.com"));        // Single node address
+        vSeeds.push_back(CDNSSeedData("seed4.prcycoin.com", "seed4.prcycoin.com"));        // Single node address
+        vSeeds.push_back(CDNSSeedData("seed5.prcycoin.com", "seed5.prcycoin.com"));        // Single node address
+        vSeeds.push_back(CDNSSeedData("seed6.prcycoin.com", "seed6.prcycoin.com"));        // Single node address
+        vSeeds.push_back(CDNSSeedData("seed7.prcycoin.com", "seed7.prcycoin.com"));        // Single node address
+        vSeeds.push_back(CDNSSeedData("seed8.prcycoin.com", "seed8.prcycoin.com"));        // Single node address
+        vSeeds.push_back(CDNSSeedData("seed9.prcycoin.com", "seed9.prcycoin.com"));        // Single node address
+        vSeeds.push_back(CDNSSeedData("seed.prcycoin-seeds.com", "seed.prcycoin-seeds.com"));        // Single node address
+        vSeeds.push_back(CDNSSeedData("seed1.prcycoin-seeds.com", "seed1.prcycoin-seeds.com"));        // Single node address
+        vSeeds.push_back(CDNSSeedData("seed2.prcycoin-seeds.com", "seed2.prcycoin-seeds.com"));        // Single node address
+        vSeeds.push_back(CDNSSeedData("seed3.prcycoin-seeds.com", "seed3.prcycoin-seeds.com"));        // Single node address
+        vSeeds.push_back(CDNSSeedData("seed4.prcycoin-seeds.com", "seed4.prcycoin-seeds.com"));        // Single node address
+        vSeeds.push_back(CDNSSeedData("seed5.prcycoin-seeds.com", "seed5.prcycoin-seeds.com"));        // Single node address
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
@@ -353,8 +353,8 @@ public:
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // DAPScoin: 1 day
-        nTargetSpacing = 1 * 60;  // DAPScoin: 1 minute
+        nTargetTimespan = 1 * 60; // PRCYcoin: 1 day
+        nTargetSpacing = 1 * 60;  // PRCYcoin: 1 minute
         nLastPOWBlock = 500;
         nStartPOABlock = 560;
         nPoABlockTime = 30 * 60;  //1 PoA block every 30 minutes
@@ -413,14 +413,14 @@ public:
         // nodes with support for servicebits filtering should be at the top
         vSeeds.push_back(CDNSSeedData("192.168.2.202", "192.168.2.202"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet dapscoin addresses start with 'x' or 'y'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet dapscoin script addresses start with '8' or '9'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet prcycoin addresses start with 'x' or 'y'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet prcycoin script addresses start with '8' or '9'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
-        // Testnet dapscoin BIP32 pubkeys start with 'DRKV'
+        // Testnet prcycoin BIP32 pubkeys start with 'DRKV'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char> >();
-        // Testnet dapscoin BIP32 prvkeys start with 'DRKP'
+        // Testnet prcycoin BIP32 prvkeys start with 'DRKP'
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x3a)(0x80)(0x58)(0x37).convert_to_container<std::vector<unsigned char> >();
-        // Testnet dapscoin BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet prcycoin BIP44 coin type is '1' (All coin's testnet default)
         nExtCoinType = 0x80000001;
 
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));

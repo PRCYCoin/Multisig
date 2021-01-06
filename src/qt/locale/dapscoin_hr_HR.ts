@@ -62,12 +62,12 @@
         <translation>Adresa primatelja</translation>
     </message>
     <message>
-        <source>These are your DAPS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To su vaše DAPS adrese za slanje plaćanja. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+        <source>These are your PRCY addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To su vaše PRCY adrese za slanje plaćanja. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
     </message>
     <message>
-        <source>These are your DAPS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To su vaše DAPS adrese za primanje uplata. Preporuča se upotreba nove adrese primatelja za svaku transakciju.</translation>
+        <source>These are your PRCY addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To su vaše PRCY adrese za primanje uplata. Preporuča se upotreba nove adrese primatelja za svaku transakciju.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Potvrdi šifriranje novčanika</translation>
     </message>
     <message>
-        <source>DAPS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DAPSs from being stolen by malware infecting your computer.</source>
-        <translation>DAPS se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše DAPS od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
+        <source>PRCY will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PRCYs from being stolen by malware infecting your computer.</source>
+        <translation>PRCY se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše PRCY od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DAPS&lt;/b&gt;!</source>
-        <translation>Upozorenje: Ako šifrirate svoj novčanik i izgubite zaporku, 1 izgubit ćete sve Vaše DAPSove 1 !</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PRCY&lt;/b&gt;!</source>
+        <translation>Upozorenje: Ako šifrirate svoj novčanik i izgubite zaporku, 1 izgubit ćete sve Vaše PRCYove 1 !</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -254,12 +254,12 @@
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>Enter a DAPS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Unesite DAPS adresu koju želite šifrirati pomoću BIP 38. Unesite zaporku u srednjem okviru. Pritisnite šifriranje za izračunavanje šifriranog privatnog ključa.</translation>
+        <source>Enter a PRCY Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Unesite PRCY adresu koju želite šifrirati pomoću BIP 38. Unesite zaporku u srednjem okviru. Pritisnite šifriranje za izračunavanje šifriranog privatnog ključa.</translation>
     </message>
     <message>
-        <source>The DAPS address to encrypt</source>
-        <translation>DAPS adresa za šifriranje</translation>
+        <source>The PRCY address to encrypt</source>
+        <translation>PRCY adresa za šifriranje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Kopirajte trenutačni potpis u međuspremnik sustava</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this DAPS address</source>
-        <translation>Šifriranje privatnog ključa za ovu DAPS adresu</translation>
+        <source>Encrypt the private key for this PRCY address</source>
+        <translation>Šifriranje privatnog ključa za ovu PRCY adresu</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -641,16 +641,16 @@
         <translation>Alatna traka kartica</translation>
     </message>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS</translation>
+        <source>PRCY</source>
+        <translation>PRCY</translation>
     </message>
     <message>
-        <source>Send coins to a DAPS address</source>
-        <translation>Pošaljite kovanice na DAPS adresu</translation>
+        <source>Send coins to a PRCY address</source>
+        <translation>Pošaljite kovanice na PRCY adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dapscoin: URIs)</source>
-        <translation>Zahtjev za plaćanje (generira QR kodove i dapscoin: URI)</translation>
+        <source>Request payments (generates QR codes and prcycoin: URIs)</source>
+        <translation>Zahtjev za plaćanje (generira QR kodove i prcycoin: URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -665,24 +665,24 @@
         <translation>Pretraži masternodes</translation>
     </message>
     <message>
-        <source>&amp;About DAPS</source>
-        <translation>O DAPS</translation>
+        <source>&amp;About PRCY</source>
+        <translation>O PRCY</translation>
     </message>
     <message>
-        <source>Show information about DAPS</source>
-        <translation>Prikaz informacija o DAPS-u</translation>
+        <source>Show information about PRCY</source>
+        <translation>Prikaz informacija o PRCY-u</translation>
     </message>
     <message>
-        <source>Modify configuration options for DAPS</source>
-        <translation>Izmijenite konfiguracijske opcije za DAPS</translation>
+        <source>Modify configuration options for PRCY</source>
+        <translation>Izmijenite konfiguracijske opcije za PRCY</translation>
     </message>
     <message>
-        <source>Sign messages with your DAPS addresses to prove you own them</source>
-        <translation>Potpišite poruke s vašim DAPS adresama kako biste dokazali da ih posjedujete</translation>
+        <source>Sign messages with your PRCY addresses to prove you own them</source>
+        <translation>Potpišite poruke s vašim PRCY adresama kako biste dokazali da ih posjedujete</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DAPS addresses</source>
-        <translation>Potvrdite poruke kako biste bili sigurni da su potpisani s određenim DAPS adresama</translation>
+        <source>Verify messages to ensure they were signed with specified PRCY addresses</source>
+        <translation>Potvrdite poruke kako biste bili sigurni da su potpisani s određenim PRCY adresama</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -713,8 +713,8 @@
         <translation>Otvori Masternode konfiguracijsku datoteku</translation>
     </message>
     <message>
-        <source>Open a DAPS: URI or payment request</source>
-        <translation>Otvori DAPS: URI zahtjev za plačanje</translation>
+        <source>Open a PRCY: URI or payment request</source>
+        <translation>Otvori PRCY: URI zahtjev za plačanje</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -725,16 +725,16 @@
         <translation>Prozor Block preglednika</translation>
     </message>
     <message>
-        <source>Show the DAPS help message to get a list with possible DAPS command-line options</source>
-        <translation>Pokažite poruku DAPS pomoći da biste dobili popis s mogućim DAPS opcijama naredbenog retka</translation>
+        <source>Show the PRCY help message to get a list with possible PRCY command-line options</source>
+        <translation>Pokažite poruku PRCY pomoći da biste dobili popis s mogućim PRCY opcijama naredbenog retka</translation>
     </message>
     <message>
-        <source>DAPS client</source>
-        <translation>DAPSIX Core Klijent</translation>
+        <source>PRCY client</source>
+        <translation>PRCYIX Core Klijent</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to DAPS network</source>
-        <translation><numerusform>%n aktivne veze na DAPS mrežu</numerusform><numerusform>%n aktivne veze na DAPS mrežu</numerusform><numerusform>%n aktivne veze na DAPS mrežu</numerusform></translation>
+        <source>%n active connection(s) to PRCY network</source>
+        <translation><numerusform>%n aktivne veze na PRCY mrežu</numerusform><numerusform>%n aktivne veze na PRCY mrežu</numerusform><numerusform>%n aktivne veze na PRCY mrežu</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -880,8 +880,8 @@ Višestruko slanje: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (dapscoin.conf).</source>
-        <translation>Nisu prikazane sve transakcije. Za pregled svih transakcija morate postaviti txindex = 1 u konfiguracijskoj datoteci (dapscoin.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (prcycoin.conf).</source>
+        <translation>Nisu prikazane sve transakcije. Za pregled svih transakcija morate postaviti txindex = 1 u konfiguracijskoj datoteci (prcycoin.conf).</translation>
     </message>
 </context>
 <context>
@@ -1118,8 +1118,8 @@ Višestruko slanje: %1</translation>
         <translation>Ova oznaka postaje crvena ako neki primatelj prima iznos manji od %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 udaps per input.</source>
-        <translation>Može varirati +/- %1 udaps po unosu.</translation>
+        <source>Can vary +/- %1 uprcy per input.</source>
+        <translation>Može varirati +/- %1 uprcy po unosu.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1173,8 +1173,8 @@ Višestruko slanje: %1</translation>
         <translation>Uređivanje adrese slanja</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid DAPS address.</source>
-        <translation>Unesena adresa "%1" nije važeća DAPS adresa.</translation>
+        <source>The entered address "%1" is not a valid PRCY address.</source>
+        <translation>Unesena adresa "%1" nije važeća PRCY adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1219,16 +1219,16 @@ Višestruko slanje: %1</translation>
         <translation>verzija</translation>
     </message>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS</translation>
+        <source>PRCY</source>
+        <translation>PRCY</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About DAPS</source>
-        <translation>O DAPS</translation>
+        <source>About PRCY</source>
+        <translation>O PRCY</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1274,16 +1274,16 @@ Višestruko slanje: %1</translation>
         <translation>Dobrodošli</translation>
     </message>
     <message>
-        <source>Welcome to DAPS.</source>
-        <translation>Dobrodošli u DAPS.</translation>
+        <source>Welcome to PRCY.</source>
+        <translation>Dobrodošli u PRCY.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where DAPS will store its data.</source>
-        <translation>Budući da je prvi put pokrenut program, možete odabrati gdje će DAPS pohraniti svoje podatke.</translation>
+        <source>As this is the first time the program is launched, you can choose where PRCY will store its data.</source>
+        <translation>Budući da je prvi put pokrenut program, možete odabrati gdje će PRCY pohraniti svoje podatke.</translation>
     </message>
     <message>
-        <source>DAPS will download and store a copy of the DAPS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>DAPS preuzima i pohranjuje kopiju DAPS blok-lanca. Barem će %1GB podataka biti pohranjeno u ovom direktoriju i to će s vremenom rasti. Novčanik će također biti pohranjena u ovom direktoriju.</translation>
+        <source>PRCY will download and store a copy of the PRCY block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>PRCY preuzima i pohranjuje kopiju PRCY blok-lanca. Barem će %1GB podataka biti pohranjeno u ovom direktoriju i to će s vremenom rasti. Novčanik će također biti pohranjena u ovom direktoriju.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1294,8 +1294,8 @@ Višestruko slanje: %1</translation>
         <translation>Koristite prilagođeni direktorij podataka:</translation>
     </message>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS</translation>
+        <source>PRCY</source>
+        <translation>PRCY</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1436,12 +1436,12 @@ Višestruko slanje: %1</translation>
         <translation>Unesite adresu za slanje</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other DAPS addresses after it matures.
-To Add: enter percentage to give and DAPS address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PRCY addresses after it matures.
+To Add: enter percentage to give and PRCY address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend vam omogućuje da automatski pošaljete do 100% svoje nagrade za ulog ili masternode  nagrade na popis drugih DAPS adresa nakon što sazrijete.
-Za Dodaj: unesite postotak za davanje i DAPS adresu za dodavanje MultiSend vektoru.
+        <translation>MultiSend vam omogućuje da automatski pošaljete do 100% svoje nagrade za ulog ili masternode  nagrade na popis drugih PRCY adresa nakon što sazrijete.
+Za Dodaj: unesite postotak za davanje i PRCY adresu za dodavanje MultiSend vektoru.
 Za brisanje: Unesite adresu za brisanje i pritisnite Delete.
 MultiSend neće biti aktiviran dok ne kliknete Aktiviraj</translation>
     </message>
@@ -1667,8 +1667,8 @@ Budite strpljivi nakon što kliknete uvoz.</translation>
         <translation>Adresa / iznos:</translation>
     </message>
     <message>
-        <source>Add destinations to send DAPS to</source>
-        <translation>Dodajte odredišta za slanje DAPS
+        <source>Add destinations to send PRCY to</source>
+        <translation>Dodajte odredišta za slanje PRCY
 </translation>
     </message>
     <message>
@@ -1767,48 +1767,48 @@ Budite strpljivi nakon što kliknete uvoz.</translation>
         <translation>Odaberi razinu privatnosti.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000000 DAPS</source>
-        <translation>Koristite 2 odvojene masternode za miješanje sredstava do 1000000 DAPS</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000000 PRCY</source>
+        <translation>Koristite 2 odvojene masternode za miješanje sredstava do 1000000 PRCY</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000000 DAPS</source>
-        <translation>Koristite 8 zasebnih masternoda za miješanje sredstava do 1000000 DAPS</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000000 PRCY</source>
+        <translation>Koristite 8 zasebnih masternoda za miješanje sredstava do 1000000 PRCY</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Koristite 16 zasebnih masternodova</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DAPS to anonymize 10000 DAPS</source>
-        <translation>Ova je opcija najbrža i košta oko 0,025 DAPS da anonimizira 10000 DAPS</translation>
+        <source>This option is the quickest and will cost about ~0.025 PRCY to anonymize 10000 PRCY</source>
+        <translation>Ova je opcija najbrža i košta oko 0,025 PRCY da anonimizira 10000 PRCY</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DAPS to anonymize 10000 DAPS</source>
-        <translation>Ova je opcija umjereno brza i košta oko 0,05 DAPS da anonimizira 10000 DAPS</translation>
+        <source>This option is moderately fast and will cost about 0.05 PRCY to anonymize 10000 PRCY</source>
+        <translation>Ova je opcija umjereno brza i košta oko 0,05 PRCY da anonimizira 10000 PRCY</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Ovo je najsporiji i najsigurniji izbor. Korištenje maksimalne anonimnosti košta</translation>
     </message>
     <message>
-        <source>0.1 DAPS per 10000 DAPS you anonymize.</source>
-        <translation>0,1 DAPS po 10000 DAPS za anonimizaciju.</translation>
+        <source>0.1 PRCY per 10000 PRCY you anonymize.</source>
+        <translation>0,1 PRCY po 10000 PRCY za anonimizaciju.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Obfuscation Konfiguracija</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening DAPS's configuration screen.</source>
-        <translation>Obfuscation je uspješno postavljen na osnovne (%1 i 2 runde). To možete promijeniti u bilo kojem trenutku otvaranjem zaslona za konfiguraciju DAPS-a.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening PRCY's configuration screen.</source>
+        <translation>Obfuscation je uspješno postavljen na osnovne (%1 i 2 runde). To možete promijeniti u bilo kojem trenutku otvaranjem zaslona za konfiguraciju PRCY-a.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening DAPS's configuration screen.</source>
-        <translation>Obfuscation je uspješno postavljen na visoku razinu (%1 i 8 krugova). To možete promijeniti u bilo kojem trenutku otvaranjem zaslona za konfiguraciju DAPS-a</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening PRCY's configuration screen.</source>
+        <translation>Obfuscation je uspješno postavljen na visoku razinu (%1 i 8 krugova). To možete promijeniti u bilo kojem trenutku otvaranjem zaslona za konfiguraciju PRCY-a</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening DAPS's configuration screen.</source>
-        <translation>Obfuscation je uspješno postavljen na maksimalnu razinu (%1 i 16 krugova). To možete promijeniti u bilo kojem trenutku otvaranjem zaslona za konfiguraciju DAPS-a.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening PRCY's configuration screen.</source>
+        <translation>Obfuscation je uspješno postavljen na maksimalnu razinu (%1 i 16 krugova). To možete promijeniti u bilo kojem trenutku otvaranjem zaslona za konfiguraciju PRCY-a.</translation>
     </message>
 </context>
 <context>
@@ -1869,8 +1869,8 @@ Budite strpljivi nakon što kliknete uvoz.</translation>
         <translation>Ako onemogućite potrošnju nepotvrđenih promjena, promjena s transakcijskog kanala bit će upotrijebljena sve dok ta transakcija nema barem jednu potvrdu. To također utječe na izračun salda.</translation>
     </message>
     <message>
-        <source>Automatically open the DAPS client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatski otvorite DAPS klijentski priključak na rooteru. To funkcionira samo kada vaš rooter podržava UPnP i omogućen je.</translation>
+        <source>Automatically open the PRCY client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatski otvorite PRCY klijentski priključak na rooteru. To funkcionira samo kada vaš rooter podržava UPnP i omogućen je.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1889,12 +1889,12 @@ Budite strpljivi nakon što kliknete uvoz.</translation>
         <translation>Stručnjak</translation>
     </message>
     <message>
-        <source>Automatically start DAPS after logging in to the system.</source>
-        <translation>Automatski pokrenite DAPS nakon prijave u sustav.</translation>
+        <source>Automatically start PRCY after logging in to the system.</source>
+        <translation>Automatski pokrenite PRCY nakon prijave u sustav.</translation>
     </message>
     <message>
-        <source>&amp;Start DAPS on system login</source>
-        <translation>Pokrenite DAPS na prijavi u sustav</translation>
+        <source>&amp;Start PRCY on system login</source>
+        <translation>Pokrenite PRCY na prijavi u sustav</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1921,14 +1921,14 @@ Budite strpljivi nakon što kliknete uvoz.</translation>
         <translation>Mreža</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting DAPS.</source>
-        <translation>Ovdje se može postaviti jezik korisničkog sučelja. Ova postavka će stupiti na snagu nakon ponovnog pokretanja DAPS-a.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting PRCY.</source>
+        <translation>Ovdje se može postaviti jezik korisničkog sučelja. Ova postavka će stupiti na snagu nakon ponovnog pokretanja PRCY-a.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/dapscoin-project/dapscoin-project-translations</source>
+https://www.transifex.com/prcycoin-project/prcycoin-project-translations</source>
         <translation>Jezik nedostaje ili prijevod nije potpun? Pomozite s prijevodima ovdje:
-https://www.transifex.com/dapscoin-project/dapscoin-project-translations</translation>
+https://www.transifex.com/prcycoin-project/prcycoin-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1940,8 +1940,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Prag razdvajanja Stake-a:</translation>
     </message>
     <message>
-        <source>Connect to the DAPS network through a SOCKS5 proxy.</source>
-        <translation>Povežite se s DAPS mrežom putem SOCKS5 proxy poslužitelja.</translation>
+        <source>Connect to the PRCY network through a SOCKS5 proxy.</source>
+        <translation>Povežite se s PRCY mrežom putem SOCKS5 proxy poslužitelja.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2095,8 +2095,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Ukupni saldo, uključujući sve nedostupne kovanice.</translation>
     </message>
     <message>
-        <source>DAPS Balance</source>
-        <translation>DAPS Saldo</translation>
+        <source>PRCY Balance</source>
+        <translation>PRCY Saldo</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2119,8 +2119,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Trenutačno zaključana ravnoteža u adresama samo za gledanje</translation>
     </message>
     <message>
-        <source>Your current DAPS balance, unconfirmed and immature transactions included</source>
-        <translation>Uključena je vaša trenutna bilanca DAPS, nepotvrđene i nezrele transakcije</translation>
+        <source>Your current PRCY balance, unconfirmed and immature transactions included</source>
+        <translation>Uključena je vaša trenutna bilanca PRCY, nepotvrđene i nezrele transakcije</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2129,8 +2129,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DAPS network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazane informacije mogu biti zastarjele. Vaš se novčanik automatski sinkronizira s DAPS mrežom nakon uspostavljanja veze, ali taj postupak još nije dovršen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PRCY network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazane informacije mogu biti zastarjele. Vaš se novčanik automatski sinkronizira s PRCY mrežom nakon uspostavljanja veze, ali taj postupak još nije dovršen.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2173,8 +2173,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Po potrošiti:</translation>
     </message>
     <message>
-        <source>Locked DAPS or Masternode collaterals.</source>
-        <translation>Zaključani DAPS ili Masternode kolateral. Oni su isključeni kovanja.</translation>
+        <source>Locked PRCY or Masternode collaterals.</source>
+        <translation>Zaključani PRCY ili Masternode kolateral. Oni su isključeni kovanja.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2216,12 +2216,12 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Nevažeća adresa za plaćanje %1</translation>
     </message>
     <message>
-        <source>Cannot start dapscoin: click-to-pay handler</source>
-        <translation>Ne može se pokrenuti dapscoin: clik-to-pay handler</translation>
+        <source>Cannot start prcycoin: click-to-pay handler</source>
+        <translation>Ne može se pokrenuti prcycoin: clik-to-pay handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid DAPS address or malformed URI parameters.</source>
-        <translation>URI se ne može analizirati! To može biti uzrokovana nevažećom DAPS adresom ili nepravilnim URI parametrima.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid PRCY address or malformed URI parameters.</source>
+        <translation>URI se ne može analizirati! To može biti uzrokovana nevažećom PRCY adresom ili nepravilnim URI parametrima.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2306,8 +2306,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Iznos</translation>
     </message>
     <message>
-        <source>Enter a DAPS address (e.g. %1)</source>
-        <translation>Unesite DAPS adresu (npr., %1)</translation>
+        <source>Enter a PRCY address (e.g. %1)</source>
+        <translation>Unesite PRCY adresu (npr., %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2445,8 +2445,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the DAPS debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvorite DAPS debug log datoteku iz aktualnog direktorija podataka. To može potrajati nekoliko sekundi za velike datoteke zapisnika.</translation>
+        <source>Open the PRCY debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvorite PRCY debug log datoteku iz aktualnog direktorija podataka. To može potrajati nekoliko sekundi za velike datoteke zapisnika.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2657,8 +2657,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Iz:</translation>
     </message>
     <message>
-        <source>Welcome to the DAPS RPC console.</source>
-        <translation>Dobrodošli na DAPS RPC konzolu.</translation>
+        <source>Welcome to the PRCY RPC console.</source>
+        <translation>Dobrodošli na PRCY RPC konzolu.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -2784,16 +2784,16 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Dodatna oznaka za povezivanje s novom adresom primatelja.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DAPS network.</source>
-        <translation>Dodatna poruka priložena zahtjevu za plaćanje, koji će se prikazati kada se zahtjev otvori. Napomena: poruka neće biti poslana s plaćanjem putem DAPS mreže.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the PRCY network.</source>
+        <translation>Dodatna poruka priložena zahtjevu za plaćanje, koji će se prikazati kada se zahtjev otvori. Napomena: poruka neće biti poslana s plaćanjem putem PRCY mreže.</translation>
     </message>
     <message>
         <source>RECEIVE</source>
         <translation>PRIMI</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DAPS network.</source>
-        <translation>Dodatna poruka za pridruživanje zahtjevu za plaćanje koja će se prikazati kada se zahtjev otvori.Napomena: poruka neće biti poslana s plaćanjem putem DAPS mreže.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the PRCY network.</source>
+        <translation>Dodatna poruka za pridruživanje zahtjevu za plaćanje koja će se prikazati kada se zahtjev otvori.Napomena: poruka neće biti poslana s plaćanjem putem PRCY mreže.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3022,8 +3022,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Veličina UTXO:</translation>
     </message>
     <message>
-        <source>0 DAPS</source>
-        <translation>0 DAPS</translation>
+        <source>0 PRCY</source>
+        <translation>0 PRCY</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3080,16 +3080,16 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Kovanice se automatski odabiru</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uDAPSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDAPSs in fee,&lt;br /&gt;while "at least" pays 1000 uDAPSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ako je prilagođena naknada postavljena na 1000 uDAPS-ova, a transakcija je samo 250 bajta, tada "po kilobajtu" se plaća samo 250 uDAPS-a, dok se "barem" plaća 1000 uDAPS-ova. Za transakcije veće od kilobajta, oboje plaćaju po kilobajtu.</translation>
+        <source>If the custom fee is set to 1000 uPRCYs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPRCYs in fee,&lt;br /&gt;while "at least" pays 1000 uPRCYs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ako je prilagođena naknada postavljena na 1000 uPRCY-ova, a transakcija je samo 250 bajta, tada "po kilobajtu" se plaća samo 250 uPRCY-a, dok se "barem" plaća 1000 uPRCY-ova. Za transakcije veće od kilobajta, oboje plaćaju po kilobajtu.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uDAPSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uDAPSs in fee,&lt;br /&gt;while "total at least" pays 1000 uDAPSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ako je prilagođena naknada postavljena na 1000 uDAPS, a transakcija je samo 250 bajta, tada "po kilobajtu" plaća se samo 250 uDAPS-ova, a "ukupno barem" plaća 1000 uDAPS-ova. Za transakcije veće od kilobajta, oboje plaćaju po kilobajtu.</translation>
+        <source>If the custom fee is set to 1000 uPRCYs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPRCYs in fee,&lt;br /&gt;while "total at least" pays 1000 uPRCYs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ako je prilagođena naknada postavljena na 1000 uPRCY, a transakcija je samo 250 bajta, tada "po kilobajtu" plaća se samo 250 uPRCY-ova, a "ukupno barem" plaća 1000 uPRCY-ova. Za transakcije veće od kilobajta, oboje plaćaju po kilobajtu.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for DAPS transactions than the network can process.</source>
-        <translation>Plaćanje samo minimalne naknade je sasvim u redu sve dok j obujma transakcija manji od prostora u blokovima. No, budite svjesni da to može dovesti do transakcije koja nikada se ne potvrđuje kada se pojavi više zahtjeva za DAPS transakcijama nego što mreža može obraditi.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for PRCY transactions than the network can process.</source>
+        <translation>Plaćanje samo minimalne naknade je sasvim u redu sve dok j obujma transakcija manji od prostora u blokovima. No, budite svjesni da to može dovesti do transakcije koja nikada se ne potvrđuje kada se pojavi više zahtjeva za PRCY transakcijama nego što mreža može obraditi.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3136,8 +3136,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Dodaj primatelja</translation>
     </message>
     <message>
-        <source>Anonymized DAPS</source>
-        <translation>Anonimiziran DAPS</translation>
+        <source>Anonymized PRCY</source>
+        <translation>Anonimiziran PRCY</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3184,8 +3184,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Alat za podjelu blocka ne funkcionira s više adresa. Pokušajte ponovo.</translation>
     </message>
     <message>
-        <source>Warning: Invalid DAPS address</source>
-        <translation>Upozorenje: Nevažeća DAPS adresa</translation>
+        <source>Warning: Invalid PRCY address</source>
+        <translation>Upozorenje: Nevažeća PRCY adresa</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -3287,8 +3287,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Platiti:</translation>
     </message>
     <message>
-        <source>The DAPS address to send the payment to</source>
-        <translation>DAPS adresa za slanje uplate</translation>
+        <source>The PRCY address to send the payment to</source>
+        <translation>PRCY adresa za slanje uplate</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3327,8 +3327,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Poruka:</translation>
     </message>
     <message>
-        <source>A message that was attached to the DAPS: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the DAPS network.</source>
-        <translation>Poruka koja je bila povezana s DAPS: URI koji će biti pohranjen s transakcijom za vašu referencu. Napomena: ova poruka neće biti poslana preko DAPS mreže.</translation>
+        <source>A message that was attached to the PRCY: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PRCY network.</source>
+        <translation>Poruka koja je bila povezana s PRCY: URI koji će biti pohranjen s transakcijom za vašu referencu. Napomena: ova poruka neće biti poslana preko PRCY mreže.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3354,8 +3354,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>DAPS is shutting down...</source>
-        <translation>DAPS se zatvara ...</translation>
+        <source>PRCY is shutting down...</source>
+        <translation>PRCY se zatvara ...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3377,8 +3377,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Možete potpisati poruke s vašim adresama kako biste dokazali da ih posjedujete. Pazite da ne potpišete ništa nejasno, jer napadi za krađu identiteta mogu Vas pokušati uvjeriti da vam potpišu identitet. Potpišite samo detalje oko kojih se slažete.</translation>
     </message>
     <message>
-        <source>The DAPS address to sign the message with</source>
-        <translation>DAPS adresa za potpisivanje poruke</translation>
+        <source>The PRCY address to sign the message with</source>
+        <translation>PRCY adresa za potpisivanje poruke</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3409,16 +3409,16 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Kopirajte trenutačni potpis u međuspremnik sustava</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DAPS address</source>
-        <translation>Potpišite poruku da biste dokazali da ste vlasnik ove DAPS adrese</translation>
+        <source>Sign the message to prove you own this PRCY address</source>
+        <translation>Potpišite poruku da biste dokazali da ste vlasnik ove PRCY adrese</translation>
     </message>
     <message>
-        <source>The DAPS address the message was signed with</source>
-        <translation>DAPS adresa s kojom je potpisana poruka</translation>
+        <source>The PRCY address the message was signed with</source>
+        <translation>PRCY adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DAPS address</source>
-        <translation>Potvrdite poruku kako biste bili sigurni da je potpisana s navedenom DAPS adresom</translation>
+        <source>Verify the message to ensure it was signed with the specified PRCY address</source>
+        <translation>Potvrdite poruku kako biste bili sigurni da je potpisana s navedenom PRCY adresom</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3504,8 +3504,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS</translation>
+        <source>PRCY</source>
+        <translation>PRCY</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3520,8 +3520,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Dash Core programeri</translation>
     </message>
     <message>
-        <source>The DAPS Project developers</source>
-        <translation>DAPS programeri</translation>
+        <source>The PRCY Project developers</source>
+        <translation>PRCY programeri</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3801,8 +3801,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Zaprimljeno preko Zametanja</translation>
     </message>
     <message>
-        <source>DAPS Stake</source>
-        <translation>DAPS Stake</translation>
+        <source>PRCY Stake</source>
+        <translation>PRCY Stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4049,8 +4049,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Salji novac</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 DAPS.</source>
-        <translation>SwiftX ne podržava slanje visokih vrijednosti. Transakcije su trenutačno ograničene na %1 DAPS.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 PRCY.</source>
+        <translation>SwiftX ne podržava slanje visokih vrijednosti. Transakcije su trenutačno ograničene na %1 PRCY.</translation>
     </message>
 </context>
 <context>
@@ -4081,7 +4081,7 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
     </message>
 </context>
 <context>
-    <name>dapscoin-core</name>
+    <name>prcycoin-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = zadržite metapodatke tx, npr. Vlasnika računa i podatke o zahtjevu za plaćanje, 2 = odbaci meta podataka tx)</translation>
@@ -4107,8 +4107,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Izračunata kontrolna točka akumulatora nije ono što se bilježi indeksom blokova</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. DAPS is probably already running.</source>
-        <translation>Nije moguće dobiti zaključavanje na direktoriju podataka %s. DAPS vjerojatno već radi.</translation>
+        <source>Cannot obtain a lock on data directory %s. PRCY is probably already running.</source>
+        <translation>Nije moguće dobiti zaključavanje na direktoriju podataka %s. PRCY vjerojatno već radi.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4131,8 +4131,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Distribuirano pod MIT softverskom licencom, pogledajte priloženu datoteku COPYING ili &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for DAPS inputs (0-1, default: %u)</source>
-        <translation>Omogući ili onemogući staking funkcionalnosti za DAPS unose (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for PRCY inputs (0-1, default: %u)</source>
+        <translation>Omogući ili onemogući staking funkcionalnosti za PRCY unose (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
@@ -4163,12 +4163,12 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Izvrši naredbu kada se promijeni najbolji blok (%s u cmd zamjenjuje se blokovskim raspršivanjem)</translation>
     </message>
     <message>
-        <source>Fees (in DAPS/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Naknade (u DAPS / Kb) manje od toga smatraju se nulom naknadom za prosljeđivanje (zadano: %s)</translation>
+        <source>Fees (in PRCY/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Naknade (u PRCY / Kb) manje od toga smatraju se nulom naknadom za prosljeđivanje (zadano: %s)</translation>
     </message>
     <message>
-        <source>Fees (in DAPS/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Naknade (u DAPS / Kb) manje od toga smatraju se nulom naknadom za izradu transakcija (zadano: %s)</translation>
+        <source>Fees (in PRCY/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Naknade (u PRCY / Kb) manje od toga smatraju se nulom naknadom za izradu transakcija (zadano: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4267,20 +4267,20 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Ovaj proizvod uključuje softver razvijen od strane OpenSSL projekta za uporabu u OpenSSL Toolkitu i kriptografskom softveru kojeg je napisao Eric Young i UPnP softver koji je napisao Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. DAPS is probably already running.</source>
-        <translation>Nije moguće vezati se na %s na ovom računalu. DAPS vjerojatno već radi.</translation>
+        <source>Unable to bind to %s on this computer. PRCY is probably already running.</source>
+        <translation>Nije moguće vezati se na %s na ovom računalu. PRCY vjerojatno već radi.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>Nije moguće locirati dovoljno sredstava s domenom Prikrivanja za tu transakciju.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 DAPS.</source>
-        <translation>Nije moguće pronaći dovoljno prikrivenih sredstava koja nisu denominirana za ovu transakciju koja nisu jednaka 10000 DAPS.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PRCY.</source>
+        <translation>Nije moguće pronaći dovoljno prikrivenih sredstava koja nisu denominirana za ovu transakciju koja nisu jednaka 10000 PRCY.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 DAPS.</source>
-        <translation>Nije moguće pronaći dovoljno sredstava za ovu transakciju koja nije jednaka 10000 DAPS.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 PRCY.</source>
+        <translation>Nije moguće pronaći dovoljno sredstava za ovu transakciju koja nije jednaka 10000 PRCY.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4295,8 +4295,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Upozorenje: -paytxfee je vrlo visoka! To je transakcijska naknada koju ćete platiti ako šaljete transakciju.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong DAPS will not work properly.</source>
-        <translation>Upozorenje: Provjerite jesu li datum i vrijeme vašeg računala točni! Ako je vaš sat pogrešan, DAPS neće raditi ispravno.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong PRCY will not work properly.</source>
+        <translation>Upozorenje: Provjerite jesu li datum i vrijeme vašeg računala točni! Ako je vaš sat pogrešan, PRCY neće raditi ispravno.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4447,8 +4447,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Autorska prava (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The DAPS Project developers</source>
-        <translation>Autorska prava (C) 2015-%i The DAPS Project developers</translation>
+        <source>Copyright (C) 2015-%i The PRCY Project developers</source>
+        <translation>Autorska prava (C) 2015-%i The PRCY Project developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4532,8 +4532,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Pogreška pri učitavanju wallet.dat: novčanik oštećen</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of DAPS</source>
-        <translation>Pogreška prilikom učitavanja wallet.dat: Novčanik zahtijeva noviju verziju DAPS jezgre</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of PRCY</source>
+        <translation>Pogreška prilikom učitavanja wallet.dat: Novčanik zahtijeva noviju verziju PRCY jezgre</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4588,8 +4588,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Greška čitanja bloka</translation>
     </message>
     <message>
-        <source>Fee (in DAPS/kB) to add to transactions you send (default: %s)</source>
-        <translation>Naknada (u DAPS / kB) za dodavanje transakcija koje šaljete (zadano: %s)</translation>
+        <source>Fee (in PRCY/kB) to add to transactions you send (default: %s)</source>
+        <translation>Naknada (u PRCY / kB) za dodavanje transakcija koje šaljete (zadano: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4648,8 +4648,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Informacije</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. DAPS is shutting down.</source>
-        <translation>Provjera ispravnosti inicijalizacije nije uspjela. DAPS se zatvara.</translation>
+        <source>Initialization sanity check failed. PRCY is shutting down.</source>
+        <translation>Provjera ispravnosti inicijalizacije nije uspjela. PRCY se zatvara.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4716,8 +4716,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Otkriven nevažeća skripta.</translation>
     </message>
     <message>
-        <source>Reindex the DAPS money supply statistics</source>
-        <translation>Ponovno indeksirati statistiku DAPS ponude novca</translation>
+        <source>Reindex the PRCY money supply statistics</source>
+        <translation>Ponovno indeksirati statistiku PRCY ponude novca</translation>
     </message>
     <message>
         <source>Selected coins value is less than payment target</source>
@@ -4747,8 +4747,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>uklonjene nepotvrđene transakcije</translation>
     </message>
     <message>
-        <source>Disable all DAPS specific functionality (Masternodes, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Onemogući sve specifične funkcije DAPS (Masternodes, SwiftX, Budgeting) (0-1, zadano: %u)</translation>
+        <source>Disable all PRCY specific functionality (Masternodes, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>Onemogući sve specifične funkcije PRCY (Masternodes, SwiftX, Budgeting) (0-1, zadano: %u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
@@ -5407,8 +5407,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Novčanik zaključan.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart DAPS to complete</source>
-        <translation>Potrebno je prepisati novčanik: ponovo pokrenite DAPS</translation>
+        <source>Wallet needed to be rewritten: restart PRCY to complete</source>
+        <translation>Potrebno je prepisati novčanik: ponovo pokrenite PRCY</translation>
     </message>
     <message>
         <source>Wallet options:</source>

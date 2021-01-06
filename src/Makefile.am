@@ -82,15 +82,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += dapscoind-multisig
+  bin_PROGRAMS += prcycoind-multisig
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += dapscoin-cli-multisig dapscoin-tx-multisig
+  bin_PROGRAMS += prcycoin-cli-multisig prcycoin-tx-multisig
 endif
 
 .PHONY: FORCE
-# dapscoin core #
+# prcycoin core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addrman.h \
@@ -196,7 +196,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between dapscoind and dapscoin-qt
+# server: shared between prcycoind and prcycoin-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -258,7 +258,7 @@ libbitcoin_zxcvbn_a_SOURCES = \
   zxcvbn/zxcvbn.cpp
 
 
-# wallet: shared between dapscoind and dapscoin-qt, but only linked
+# wallet: shared between prcycoind and prcycoin-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -321,7 +321,7 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/sph_skein.h \
   crypto/sph_types.h
 
-# common: shared between dapscoind, and dapscoin-qt and non-server tools
+# common: shared between prcycoind, and prcycoin-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   allocators.cpp \
@@ -380,7 +380,7 @@ libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 AM_LDFLAGS += $(COMPAT_LDFLAGS)
 endif
 
-# cli: shared between dapscoin-cli and dapscoin-qt
+# cli: shared between prcycoin-cli and prcycoin-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -390,7 +390,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-dapscoind_multisig_LDADD = \
+prcycoind_multisig_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -402,26 +402,26 @@ dapscoind_multisig_LDADD = \
   $(LIBSECP256K1_2) 
 
 if ENABLE_ZMQ
-dapscoind_multisig_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+prcycoind_multisig_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-dapscoind_multisig_LDADD += libbitcoin_wallet.a $(LIBBITCOIN_ZXCVBN)
+prcycoind_multisig_LDADD += libbitcoin_wallet.a $(LIBBITCOIN_ZXCVBN)
 endif
-dapscoind_multisig_SOURCES = dapscoind.cpp
+prcycoind_multisig_SOURCES = prcycoind.cpp
 #
 
 if TARGET_WINDOWS
-dapscoind_multisig_SOURCES += dapscoind-res.rc
+prcycoind_multisig_SOURCES += prcycoind-res.rc
 endif
 
-dapscoind_multisig_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-dapscoind_multisig_CPPFLAGS = $(BITCOIN_INCLUDES)
-dapscoind_multisig_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+prcycoind_multisig_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+prcycoind_multisig_CPPFLAGS = $(BITCOIN_INCLUDES)
+prcycoind_multisig_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# dapscoin-cli binary #
-dapscoin_cli_multisig_LDADD = \
+# prcycoin-cli binary #
+prcycoin_cli_multisig_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
@@ -433,14 +433,14 @@ dapscoin_cli_multisig_LDADD = \
   $(LIBSECP256K1) \
   $(LIBSECP256K1_2) 
 
-dapscoin_cli_multisig_SOURCES = \
-  dapscoin-cli.cpp
+prcycoin_cli_multisig_SOURCES = \
+  prcycoin-cli.cpp
 
-dapscoin_cli_multisig_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+prcycoin_cli_multisig_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
 #
 
-# dapscoin-tx binary #
-dapscoin_tx_multisig_LDADD = \
+# prcycoin-tx binary #
+prcycoin_tx_multisig_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -450,15 +450,15 @@ dapscoin_tx_multisig_LDADD = \
   $(CRYPTO_LIBS) \
   $(LIBSECP256K1_2)
 
-dapscoin_tx_multisig_SOURCES = dapscoin-tx.cpp
-dapscoin_tx_multisig_CPPFLAGS = $(BITCOIN_INCLUDES)
+prcycoin_tx_multisig_SOURCES = prcycoin-tx.cpp
+prcycoin_tx_multisig_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-dapscoin_tx_multisig_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+prcycoin_tx_multisig_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-dapscoin_cli_multisig_SOURCES += dapscoin-cli-res.rc
+prcycoin_cli_multisig_SOURCES += prcycoin-cli-res.rc
 endif
-dapscoin_cli_multisig_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+prcycoin_cli_multisig_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

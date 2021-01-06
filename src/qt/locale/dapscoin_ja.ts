@@ -263,6 +263,6 @@
     </message>
     </context>
 <context>
-    <name>dapscoin-core</name>
+    <name>prcycoin-core</name>
     </context>
 </TS>

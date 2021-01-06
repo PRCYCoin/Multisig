@@ -1,6 +1,6 @@
 [Protocol]
-exec=dapscoin-qt '%u'
-protocol=dapscoin
+exec=prcycoin-qt '%u'
+protocol=prcycoin
 input=none
 output=none
 helper=true

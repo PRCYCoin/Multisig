@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018-2019 The DAPS Project developers
+// Copyright (c) 2018-2019 The PRCY Project developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -154,11 +154,11 @@ bool CWalletDB::WriteMultiSig(const CScript& dest)
 
 bool CWalletDB::WriteComboKeys(const ComboKeyList& combo)
 {
-	return Write(std::string("dapsmultisig"), combo);
+	return Write(std::string("prcymultisig"), combo);
 }
 bool CWalletDB::ReadAllComboKeys(ComboKeyList& comboData)
 {
-	return Read(std::string("dapsmultisig"), comboData);
+	return Read(std::string("prcymultisig"), comboData);
 }
 
 bool CWalletDB::EraseMultiSig(const CScript& dest)
@@ -1033,7 +1033,7 @@ DBErrors CWalletDB::ZapWalletTx(CWallet* pwallet, vector<CWalletTx>& vWtx)
 void ThreadFlushWalletDB(const string& strFile)
 {
     // Make this thread recognisable as the wallet flushing thread
-    RenameThread("dapscoin-wallet");
+    RenameThread("prcycoin-wallet");
 
     static bool fOneThread;
     if (fOneThread)

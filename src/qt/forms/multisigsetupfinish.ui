@@ -45,7 +45,7 @@
       </font>
      </property>
      <property name="text">
-      <string>This is your new DAPS address, and all Co-signers should be seeing this exact same address.</string>
+      <string>This is your new PRCY address, and all Co-signers should be seeing this exact same address.</string>
      </property>
     </widget>
    </item>

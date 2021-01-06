@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018-2019 The DAPS Project developers
+// Copyright (c) 2018-2019 The PRCY Project developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -31,7 +31,7 @@ SendCoinsEntry::SendCoinsEntry(QWidget* parent) : QStackedWidget(parent),
     ui->payToLayout_s->setSpacing(4);
 #endif
 
-    // normal dapscoin address field
+    // normal prcycoin address field
     GUIUtil::setupAddressWidget(ui->payTo, this);
 
     // Connect signals
@@ -133,7 +133,7 @@ CAmount SendCoinsEntry::getValidatedAmount() {
     if (dAmount < 0.0 || dAmount > Params().MAX_MONEY) {
         QMessageBox msgBox;
         msgBox.setWindowTitle("Invalid Amount");
-        msgBox.setText("Invalid amount entered. Please enter an amount less than 2.1B DAPS.");
+        msgBox.setText("Invalid amount entered. Please enter an amount less than 2.1B PRCY.");
         msgBox.setStyleSheet(GUIUtil::loadStyleSheet());
         msgBox.setIcon(QMessageBox::Warning);
         msgBox.exec();

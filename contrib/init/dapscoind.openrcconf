@@ -1,25 +1,25 @@
-# /etc/conf.d/dapscoind: config file for /etc/init.d/dapscoind
+# /etc/conf.d/prcycoind: config file for /etc/init.d/prcycoind
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/dapscoin/dapscoin.conf"
+#BITCOIND_CONFIGFILE="/etc/prcycoin/prcycoin.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/dapscoind"
+#BITCOIND_PIDDIR="/var/run/prcycoind"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/dapscoind.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/prcycoind.pid"
 
-# Where to write dapscoind data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/dapscoind"
+# Where to write prcycoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/prcycoind"
 
-# User and group to own dapscoind process
-#BITCOIND_USER="dapscoin"
-#BITCOIND_GROUP="dapscoin"
+# User and group to own prcycoind process
+#BITCOIND_USER="prcycoin"
+#BITCOIND_GROUP="prcycoin"
 
-# Path to dapscoind executable
-#BITCOIND_BIN="/usr/bin/dapscoind"
+# Path to prcycoind executable
+#BITCOIND_BIN="/usr/bin/prcycoind"
 
-# Nice value to run dapscoind under
+# Nice value to run prcycoind under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

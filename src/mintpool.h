@@ -1,10 +1,10 @@
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018-2019 The DAPS Project developers
+// Copyright (c) 2018-2019 The PRCY Project developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DAPScoin_MINTPOOL_H
-#define DAPScoin_MINTPOOL_H
+#ifndef PRCYcoin_MINTPOOL_H
+#define PRCYcoin_MINTPOOL_H
 
 #include <map>
 #include <list>
@@ -50,4 +50,4 @@ public:
 };
 
 
-#endif //DAPScoin_MINTPOOL_H
+#endif //PRCYcoin_MINTPOOL_H

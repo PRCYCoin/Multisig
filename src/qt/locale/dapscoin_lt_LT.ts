@@ -62,12 +62,12 @@
         <translation>Gavimo adresai</translation>
     </message>
     <message>
-        <source>These are your DAPS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Tai jūsų DAPS adresai mokėjimų išsiuntimams. Visada patikrinkite sumą ir gavėjo adresą prieš siųsdami monetas.</translation>
+        <source>These are your PRCY addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Tai jūsų PRCY adresai mokėjimų išsiuntimams. Visada patikrinkite sumą ir gavėjo adresą prieš siųsdami monetas.</translation>
     </message>
     <message>
-        <source>These are your DAPS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Tai jūsų DAPS adresai mokėjimų gavimams. Rekomenduojama naudoti naują adresą kiekvienam pavedimui.</translation>
+        <source>These are your PRCY addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Tai jūsų PRCY adresai mokėjimų gavimams. Rekomenduojama naudoti naują adresą kiekvienam pavedimui.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Patvirtinkite piniginės užšifravimą.</translation>
     </message>
     <message>
-        <source>DAPS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DAPSs from being stolen by malware infecting your computer.</source>
-        <translation>Dabar DAPS išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų DAPS nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
+        <source>PRCY will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PRCYs from being stolen by malware infecting your computer.</source>
+        <translation>Dabar PRCY išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų PRCY nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Ar tikrai norite užšifruoti savo piniginę?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DAPS&lt;/b&gt;!</source>
-        <translation>Įspėjimas: jei užšifruosite savo piniginę ir prarasite slaptafrazę, jūs &lt;b&gt;PRARASITE VISUS SAVO DAPS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PRCY&lt;/b&gt;!</source>
+        <translation>Įspėjimas: jei užšifruosite savo piniginę ir prarasite slaptafrazę, jūs &lt;b&gt;PRARASITE VISUS SAVO PRCY&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -254,12 +254,12 @@
         <translation>Adresas:</translation>
     </message>
     <message>
-        <source>Enter a DAPS Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a PRCY Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Įveskite Dapscoin adresą, kurį norėtumėte užšifruoti naudojant BIP 38. Vidiniame laukelyje įrašykite slaptą frazę. Paspauskite užšifruoti, jei norite gauti užšifruotą privatųjį raktą.</translation>
     </message>
     <message>
-        <source>The DAPS address to encrypt</source>
-        <translation>DAPS adresas, kurį norite užšifruoti</translation>
+        <source>The PRCY address to encrypt</source>
+        <translation>PRCY adresas, kurį norite užšifruoti</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Kopijuoti dabartinį parašą</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this DAPS address</source>
-        <translation>Užšifruoti šio DAPS adreso privatų raktą</translation>
+        <source>Encrypt the private key for this PRCY address</source>
+        <translation>Užšifruoti šio PRCY adreso privatų raktą</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -641,16 +641,16 @@
         <translation>Skirtukų įrankių juosta</translation>
     </message>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS</translation>
+        <source>PRCY</source>
+        <translation>PRCY</translation>
     </message>
     <message>
-        <source>Send coins to a DAPS address</source>
-        <translation>Siųsti monetas į DAPS adresą</translation>
+        <source>Send coins to a PRCY address</source>
+        <translation>Siųsti monetas į PRCY adresą</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dapscoin: URIs)</source>
-        <translation>Prašyti mokėjimų (sugeneruoja QR kodus ir dapscoin URI)</translation>
+        <source>Request payments (generates QR codes and prcycoin: URIs)</source>
+        <translation>Prašyti mokėjimų (sugeneruoja QR kodus ir prcycoin URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -665,24 +665,24 @@
         <translation>Naršyti masternod'us</translation>
     </message>
     <message>
-        <source>&amp;About DAPS</source>
-        <translation>&amp;Apie DAPS</translation>
+        <source>&amp;About PRCY</source>
+        <translation>&amp;Apie PRCY</translation>
     </message>
     <message>
-        <source>Show information about DAPS</source>
-        <translation>Rodyti informaciją apie DAPS</translation>
+        <source>Show information about PRCY</source>
+        <translation>Rodyti informaciją apie PRCY</translation>
     </message>
     <message>
-        <source>Modify configuration options for DAPS</source>
-        <translation>Keisti DAPS konfigūravimo parinktis</translation>
+        <source>Modify configuration options for PRCY</source>
+        <translation>Keisti PRCY konfigūravimo parinktis</translation>
     </message>
     <message>
-        <source>Sign messages with your DAPS addresses to prove you own them</source>
-        <translation>Pasirašykite pranešimus naudodami savo DAPS adresus, kad įrodytumėte, kad juos turite</translation>
+        <source>Sign messages with your PRCY addresses to prove you own them</source>
+        <translation>Pasirašykite pranešimus naudodami savo PRCY adresus, kad įrodytumėte, kad juos turite</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DAPS addresses</source>
-        <translation>Patvirtinkite pranešimus, kad jie būtų pasirašyti su nurodytais DAPS adresais</translation>
+        <source>Verify messages to ensure they were signed with specified PRCY addresses</source>
+        <translation>Patvirtinkite pranešimus, kad jie būtų pasirašyti su nurodytais PRCY adresais</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -713,8 +713,8 @@
         <translation>Atidaryti Masternod'o konfigūracijos failą</translation>
     </message>
     <message>
-        <source>Open a DAPS: URI or payment request</source>
-        <translation>Atidaryti DAPS: URI arba mokėjimo prašymą</translation>
+        <source>Open a PRCY: URI or payment request</source>
+        <translation>Atidaryti PRCY: URI arba mokėjimo prašymą</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -725,16 +725,16 @@
         <translation>Blokų naršyklės langas</translation>
     </message>
     <message>
-        <source>Show the DAPS help message to get a list with possible DAPS command-line options</source>
-        <translation>Rodyti DAPS žinyną, kad gautumėte sąrašą su galimomis DAPS komandinės eilutės parinktimis</translation>
+        <source>Show the PRCY help message to get a list with possible PRCY command-line options</source>
+        <translation>Rodyti PRCY žinyną, kad gautumėte sąrašą su galimomis PRCY komandinės eilutės parinktimis</translation>
     </message>
     <message>
-        <source>DAPS client</source>
-        <translation>DAPS piniginė</translation>
+        <source>PRCY client</source>
+        <translation>PRCY piniginė</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to DAPS network</source>
-        <translation><numerusform>%n aktyvių prisijungimų DAPS tinkle ()</numerusform><numerusform>%n aktyvių prisijungimų DAPS tinkle ()</numerusform><numerusform>%n aktyvių prisijungimų DAPS tinkle ()</numerusform><numerusform>%n aktyvių prisijungimų DAPS tinkle ()</numerusform></translation>
+        <source>%n active connection(s) to PRCY network</source>
+        <translation><numerusform>%n aktyvių prisijungimų PRCY tinkle ()</numerusform><numerusform>%n aktyvių prisijungimų PRCY tinkle ()</numerusform><numerusform>%n aktyvių prisijungimų PRCY tinkle ()</numerusform><numerusform>%n aktyvių prisijungimų PRCY tinkle ()</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -880,8 +880,8 @@ MultiSend: %1</translation>
         <translation>Teksto etiketė</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (dapscoin.conf).</source>
-        <translation>Ne visi pavedimai bus rodomi. Norėdami peržiūrėti visus pavedimus, reikia nustatyti txindex = 1 konfigūracijos faile (dapscoin.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (prcycoin.conf).</source>
+        <translation>Ne visi pavedimai bus rodomi. Norėdami peržiūrėti visus pavedimus, reikia nustatyti txindex = 1 konfigūracijos faile (prcycoin.conf).</translation>
     </message>
 </context>
 <context>
@@ -1110,8 +1110,8 @@ MultiSend: %1</translation>
         <translation>Ši etiketė taps raudona, jei gavėjas gaus sumą mažesnę už %1</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 udaps per input.</source>
-        <translation>Gali skirtis +/- %1 udaps kiekvienoje įvestyje.</translation>
+        <source>Can vary +/- %1 uprcy per input.</source>
+        <translation>Gali skirtis +/- %1 uprcy kiekvienoje įvestyje.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1165,8 +1165,8 @@ MultiSend: %1</translation>
         <translation>Keisti siuntimo adresą</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid DAPS address.</source>
-        <translation>Įvestas adresas "%1" nėra galiojantis DAPS adresas.</translation>
+        <source>The entered address "%1" is not a valid PRCY address.</source>
+        <translation>Įvestas adresas "%1" nėra galiojantis PRCY adresas.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1211,16 +1211,16 @@ MultiSend: %1</translation>
         <translation>versija</translation>
     </message>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS</translation>
+        <source>PRCY</source>
+        <translation>PRCY</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bitai)</translation>
     </message>
     <message>
-        <source>About DAPS</source>
-        <translation>Apie DAPS</translation>
+        <source>About PRCY</source>
+        <translation>Apie PRCY</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1266,16 +1266,16 @@ MultiSend: %1</translation>
         <translation>Sveiki</translation>
     </message>
     <message>
-        <source>Welcome to DAPS.</source>
-        <translation>Sveiki atvykę į DAPS</translation>
+        <source>Welcome to PRCY.</source>
+        <translation>Sveiki atvykę į PRCY</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where DAPS will store its data.</source>
-        <translation>Kadangi programa paleista pirmą kartą, galite pasirinkti kur DAPS saugos savo duomenis.</translation>
+        <source>As this is the first time the program is launched, you can choose where PRCY will store its data.</source>
+        <translation>Kadangi programa paleista pirmą kartą, galite pasirinkti kur PRCY saugos savo duomenis.</translation>
     </message>
     <message>
-        <source>DAPS will download and store a copy of the DAPS block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>DAPS atsisiųs ir saugos DAPS blockchain'o kopiją. Šiame kataloge bus saugomas ne mažesnis kaip %1GB duomenų kiekis, kuris laikui bėgant augs. Piniginė taip pat bus saugoma šiame kataloge.</translation>
+        <source>PRCY will download and store a copy of the PRCY block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>PRCY atsisiųs ir saugos PRCY blockchain'o kopiją. Šiame kataloge bus saugomas ne mažesnis kaip %1GB duomenų kiekis, kuris laikui bėgant augs. Piniginė taip pat bus saugoma šiame kataloge.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1286,8 +1286,8 @@ MultiSend: %1</translation>
         <translation>Naudoti pasirinktą duomenų katalogą:</translation>
     </message>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS</translation>
+        <source>PRCY</source>
+        <translation>PRCY</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1428,12 +1428,12 @@ MultiSend: %1</translation>
         <translation>Įveskite adresą kuriam norite siųsti</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other DAPS addresses after it matures.
-To Add: enter percentage to give and DAPS address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PRCY addresses after it matures.
+To Add: enter percentage to give and PRCY address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend leidžia automatiškai išsiųsti iki 100% jūsų stake'inimo ar masternod'ų atlygio į kitus DAPS adresus.
-Norėdami pridėti: įveskite pateiktą procentą ir DAPS adresą, kurį norite pridėti prie MultiSend sąrašo.
+        <translation>MultiSend leidžia automatiškai išsiųsti iki 100% jūsų stake'inimo ar masternod'ų atlygio į kitus PRCY adresus.
+Norėdami pridėti: įveskite pateiktą procentą ir PRCY adresą, kurį norite pridėti prie MultiSend sąrašo.
 Norėdami ištrinti: įveskite adresą, kurį norite ištrinti, ir paspauskite ištrinti
 MultiSend nebus aktyvuotas, nebent paspausite "Įjungti"</translation>
     </message>
@@ -1639,8 +1639,8 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>Adresas / Suma:</translation>
     </message>
     <message>
-        <source>Add destinations to send DAPS to</source>
-        <translation>Pridėkite vietas, kurioms norite siųsti DAPS</translation>
+        <source>Add destinations to send PRCY to</source>
+        <translation>Pridėkite vietas, kurioms norite siųsti PRCY</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1738,48 +1738,48 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>Pasirinkite privatumo lygmenį.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000000 DAPS</source>
-        <translation>Naudokite 2 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 00000 DAPS</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000000 PRCY</source>
+        <translation>Naudokite 2 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 00000 PRCY</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000000 DAPS</source>
-        <translation>Naudokite 8 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 00000 DAPS</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000000 PRCY</source>
+        <translation>Naudokite 8 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 00000 PRCY</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Naudokite 16 atskirų masternod'ų</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 DAPS to anonymize 10000 DAPS</source>
-        <translation>Ši parinktis yra greičiausia ir kainuos apie ~0.025 DAPS, kad anonimizuotų 10000 DAPS</translation>
+        <source>This option is the quickest and will cost about ~0.025 PRCY to anonymize 10000 PRCY</source>
+        <translation>Ši parinktis yra greičiausia ir kainuos apie ~0.025 PRCY, kad anonimizuotų 10000 PRCY</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 DAPS to anonymize 10000 DAPS</source>
-        <translation>Ši parinktis yra vidutiniškai greita ir kainuoja apie 0,05 DAPS, kad anonimizuotų 10000 DAPS</translation>
+        <source>This option is moderately fast and will cost about 0.05 PRCY to anonymize 10000 PRCY</source>
+        <translation>Ši parinktis yra vidutiniškai greita ir kainuoja apie 0,05 PRCY, kad anonimizuotų 10000 PRCY</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Tai yra lėčiausias ir saugiausias variantas. Maksimalus anonimiškumas kainuos.</translation>
     </message>
     <message>
-        <source>0.1 DAPS per 10000 DAPS you anonymize.</source>
-        <translation>0.1 DAPS kas 1000 DAPS kuriuos anonimizuosite.</translation>
+        <source>0.1 PRCY per 10000 PRCY you anonymize.</source>
+        <translation>0.1 PRCY kas 1000 PRCY kuriuos anonimizuosite.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Obfuscation Konfigūracija</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening DAPS's configuration screen.</source>
-        <translation>Obfuscation buvo sėkmingai nustatytas į paprastą (%1 ir 2 raundai). Bet kada galite tai pakeisti, atidarę DAPS konfigūracijos ekraną.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening PRCY's configuration screen.</source>
+        <translation>Obfuscation buvo sėkmingai nustatytas į paprastą (%1 ir 2 raundai). Bet kada galite tai pakeisti, atidarę PRCY konfigūracijos ekraną.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening DAPS's configuration screen.</source>
-        <translation>Obfuscation buvo sėkmingai nustatytas į aukštą (%1 ir 8 raundai). Bet kada galite tai pakeisti, atidarę DAPS konfigūracijos ekraną.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening PRCY's configuration screen.</source>
+        <translation>Obfuscation buvo sėkmingai nustatytas į aukštą (%1 ir 8 raundai). Bet kada galite tai pakeisti, atidarę PRCY konfigūracijos ekraną.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening DAPS's configuration screen.</source>
-        <translation>Obfuscation buvo sėkmingai nustatytas į maksimumą (%1 ir 16 raundai). Bet kada galite tai pakeisti, atidarę DAPS konfigūracijos ekraną.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening PRCY's configuration screen.</source>
+        <translation>Obfuscation buvo sėkmingai nustatytas į maksimumą (%1 ir 16 raundai). Bet kada galite tai pakeisti, atidarę PRCY konfigūracijos ekraną.</translation>
     </message>
 </context>
 <context>
@@ -1832,12 +1832,12 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>Ekspertas</translation>
     </message>
     <message>
-        <source>Automatically start DAPS after logging in to the system.</source>
-        <translation>Automatiškai paleisti DAPS prisijungus prie sistemos.</translation>
+        <source>Automatically start PRCY after logging in to the system.</source>
+        <translation>Automatiškai paleisti PRCY prisijungus prie sistemos.</translation>
     </message>
     <message>
-        <source>&amp;Start DAPS on system login</source>
-        <translation>&amp;Paleisti DAPS sistemai įsijungiant</translation>
+        <source>&amp;Start PRCY on system login</source>
+        <translation>&amp;Paleisti PRCY sistemai įsijungiant</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1864,22 +1864,22 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>&amp;Tinklas</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting DAPS.</source>
-        <translation>Čia galite nustatyti vartotojo sąsajos kalbą. Šis nustatymas įsigalios iš naujo paleidus "DAPS".</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting PRCY.</source>
+        <translation>Čia galite nustatyti vartotojo sąsajos kalbą. Šis nustatymas įsigalios iš naujo paleidus "PRCY".</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/dapscoin-project/dapscoin-project-translations</source>
+https://www.transifex.com/prcycoin-project/prcycoin-project-translations</source>
         <translation>Trūksta kalbos arba vertimas nebaigtas? Padėkite prisidėdami prie vertimų čia:
-https://www.transifex.com/dapscoin-project/dapscoin-project-translations</translation>
+https://www.transifex.com/prcycoin-project/prcycoin-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Įrašyti prievadą naudojant &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the DAPS network through a SOCKS5 proxy.</source>
-        <translation>Jungtis prie DAPS tinklo naudojant SOCKS5 tarpinį serverį.</translation>
+        <source>Connect to the PRCY network through a SOCKS5 proxy.</source>
+        <translation>Jungtis prie PRCY tinklo naudojant SOCKS5 tarpinį serverį.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1997,8 +1997,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Bendras balansas, įskaitant visas nepasiekiamas monetas.</translation>
     </message>
     <message>
-        <source>DAPS Balance</source>
-        <translation>DAPS Balansas</translation>
+        <source>PRCY Balance</source>
+        <translation>PRCY Balansas</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2021,8 +2021,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations</transl
         <translation>Dabartinis bendras užrakintas balansas tik žiūrėjimo adresuose</translation>
     </message>
     <message>
-        <source>Your current DAPS balance, unconfirmed and immature transactions included</source>
-        <translation>Jūsų dabartinis DAPS balansas, įskaitant nepatvirtintus ir nesubrendusius sandorius</translation>
+        <source>Your current PRCY balance, unconfirmed and immature transactions included</source>
+        <translation>Jūsų dabartinis PRCY balansas, įskaitant nepatvirtintus ir nesubrendusius sandorius</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2031,8 +2031,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo po to, kai buvo konvertuotas.</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DAPS network after a connection is established, but this process has not completed yet.</source>
-        <translation>Rodoma informacija gali būti pasenusi. Jūsų piniginė automatiškai sinchronizuojasi su DAPS tinklu po ryšio aktyvavimo, tačiau šis procesas dar nebaigtas.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PRCY network after a connection is established, but this process has not completed yet.</source>
+        <translation>Rodoma informacija gali būti pasenusi. Jūsų piniginė automatiškai sinchronizuojasi su PRCY tinklu po ryšio aktyvavimo, tačiau šis procesas dar nebaigtas.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2075,8 +2075,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Prienamas išleidimui:</translation>
     </message>
     <message>
-        <source>Locked DAPS or Masternode collaterals.</source>
-        <translation>Užrakinti DAPS arba Masternode užstatai.</translation>
+        <source>Locked PRCY or Masternode collaterals.</source>
+        <translation>Užrakinti PRCY arba Masternode užstatai.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2106,8 +2106,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Netinkamas mokėjimo adresas %1</translation>
     </message>
     <message>
-        <source>Cannot start dapscoin: click-to-pay handler</source>
-        <translation>Nepavyksta paleisti dapscoin: apdorojimo "spustelėjimo ir apmokėjimo" funkcijos klaida</translation>
+        <source>Cannot start prcycoin: click-to-pay handler</source>
+        <translation>Nepavyksta paleisti prcycoin: apdorojimo "spustelėjimo ir apmokėjimo" funkcijos klaida</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2160,8 +2160,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Suma</translation>
     </message>
     <message>
-        <source>Enter a DAPS address (e.g. %1)</source>
-        <translation>Įveskite DAPS adresą (pvz. %1)</translation>
+        <source>Enter a PRCY address (e.g. %1)</source>
+        <translation>Įveskite PRCY adresą (pvz. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2338,8 +2338,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Iš:</translation>
     </message>
     <message>
-        <source>Welcome to the DAPS RPC console.</source>
-        <translation>Sveiki atvykę į DAPS RPC konsolę.</translation>
+        <source>Welcome to the PRCY RPC console.</source>
+        <translation>Sveiki atvykę į PRCY RPC konsolę.</translation>
     </message>
     <message>
         <source>never</source>
@@ -2510,8 +2510,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Pasirinktinio pakeitimo adresas</translation>
     </message>
     <message>
-        <source>0 DAPS</source>
-        <translation>0 DAPS</translation>
+        <source>0 PRCY</source>
+        <translation>0 PRCY</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2667,8 +2667,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The DAPS address to sign the message with</source>
-        <translation>DAPS adresas, kuriuo pasirašyti žinute</translation>
+        <source>The PRCY address to sign the message with</source>
+        <translation>PRCY adresas, kuriuo pasirašyti žinute</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2691,16 +2691,16 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Kopijuoti dabartinį parašą</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DAPS address</source>
-        <translation>Pažymėkite žinutę, kad įrodytumėte, jog jūs šio DAPS adreso savininkas</translation>
+        <source>Sign the message to prove you own this PRCY address</source>
+        <translation>Pažymėkite žinutę, kad įrodytumėte, jog jūs šio PRCY adreso savininkas</translation>
     </message>
     <message>
-        <source>The DAPS address the message was signed with</source>
-        <translation>DAPS adresas, kurio buvo pasirašyta žinutė</translation>
+        <source>The PRCY address the message was signed with</source>
+        <translation>PRCY adresas, kurio buvo pasirašyta žinutė</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DAPS address</source>
-        <translation>Patikrinkite pranešimą, kad jis būtų pasirašytas su nurodytu DAPS adresu</translation>
+        <source>Verify the message to ensure it was signed with the specified PRCY address</source>
+        <translation>Patikrinkite pranešimą, kad jis būtų pasirašytas su nurodytu PRCY adresu</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2738,8 +2738,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS</translation>
+        <source>PRCY</source>
+        <translation>PRCY</translation>
     </message>
     </context>
 <context>
@@ -2958,7 +2958,7 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
     </message>
     </context>
 <context>
-    <name>dapscoin-core</name>
+    <name>prcycoin-core</name>
     <message>
         <source>(default: %s)</source>
         <translation>(numatytas: %s)</translation>
@@ -2992,8 +2992,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Klaida kraunant wallet.dat: Piniginė yra sugadinta</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of DAPS</source>
-        <translation>Klaida kraunant wallet.dat: Piniginė reikalauja naujesnės DAPS versijos</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of PRCY</source>
+        <translation>Klaida kraunant wallet.dat: Piniginė reikalauja naujesnės PRCY versijos</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -3216,8 +3216,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Piniginė užrakinta.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart DAPS to complete</source>
-        <translation>Piniginę reikia perrašyti: paleiskite DAPS iš naujo</translation>
+        <source>Wallet needed to be rewritten: restart PRCY to complete</source>
+        <translation>Piniginę reikia perrašyti: paleiskite PRCY iš naujo</translation>
     </message>
     <message>
         <source>Wallet options:</source>

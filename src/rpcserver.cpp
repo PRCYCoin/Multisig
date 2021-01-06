@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018-2019 The DAPS Project developers
+// Copyright (c) 2018-2019 The PRCY Project developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -251,11 +251,11 @@ UniValue stop(const UniValue& params, bool fHelp) {
     if (fHelp || params.size() > 1)
         throw runtime_error(
                 "stop\n"
-                "\nStop DAPS server.");
+                "\nStop PRCY server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "DAPS server stopping";
+    return "PRCY server stopping";
 }
 
 
@@ -344,24 +344,24 @@ static const CRPCCommand vRPCCommands[] =
         // {"hidden", "setmocktime", &setmocktime, true, false, false},
 
         /* Dapscoin features */
-        {"dapscoin", "masternode", &masternode, true, true, false},
-        {"dapscoin", "listmasternodes", &listmasternodes, true, true, false},
-        {"dapscoin", "getmasternodecount", &getmasternodecount, true, true, false},
-         {"dapscoin", "getcurrentseesawreward", &getcurrentseesawreward, true, true, false},
-         {"dapscoin", "getseesawrewardratio", &getseesawrewardratio, true, true, false},
-         {"dapscoin", "getseesawrewardwithheight", &getseesawrewardwithheight, true, true, false},
-         {"dapscoin", "masternodeconnect", &masternodeconnect, true, true, false},
-         {"dapscoin", "masternodecurrent", &masternodecurrent, true, true, false},
-         {"dapscoin", "masternodedebug", &masternodedebug, true, true, false},
-         {"dapscoin", "startmasternode", &startmasternode, true, true, false},
-         {"dapscoin", "listmasternodeconf", &listmasternodeconf, true, true, false},
-         {"dapscoin", "getmasternodewinners", &getmasternodewinners, true, true, false},
-         {"dapscoin", "getmasternodescores", &getmasternodescores, true, true, false},
-         {"dapscoin", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
-         {"dapscoin", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
-         {"dapscoin", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
-         {"dapscoin", "mnsync", &mnsync, true, true, false},
-         {"dapscoin", "getpoolinfo", &getpoolinfo, true, true, false},
+        {"prcycoin", "masternode", &masternode, true, true, false},
+        {"prcycoin", "listmasternodes", &listmasternodes, true, true, false},
+        {"prcycoin", "getmasternodecount", &getmasternodecount, true, true, false},
+         {"prcycoin", "getcurrentseesawreward", &getcurrentseesawreward, true, true, false},
+         {"prcycoin", "getseesawrewardratio", &getseesawrewardratio, true, true, false},
+         {"prcycoin", "getseesawrewardwithheight", &getseesawrewardwithheight, true, true, false},
+         {"prcycoin", "masternodeconnect", &masternodeconnect, true, true, false},
+         {"prcycoin", "masternodecurrent", &masternodecurrent, true, true, false},
+         {"prcycoin", "masternodedebug", &masternodedebug, true, true, false},
+         {"prcycoin", "startmasternode", &startmasternode, true, true, false},
+         {"prcycoin", "listmasternodeconf", &listmasternodeconf, true, true, false},
+         {"prcycoin", "getmasternodewinners", &getmasternodewinners, true, true, false},
+         {"prcycoin", "getmasternodescores", &getmasternodescores, true, true, false},
+         {"prcycoin", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
+         {"prcycoin", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
+         {"prcycoin", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
+         {"prcycoin", "mnsync", &mnsync, true, true, false},
+         {"prcycoin", "getpoolinfo", &getpoolinfo, true, true, false},
 
 #ifdef ENABLE_WALLET
         /* Wallet */
@@ -590,7 +590,7 @@ std::vector <std::string> CRPCTable::listCommands() const {
 }
 
 std::string HelpExampleCli(string methodname, string args) {
-    return "> dapscoin-cli " + methodname + " " + args + "\n";
+    return "> prcycoin-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args) {

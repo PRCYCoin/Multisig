@@ -26,7 +26,7 @@ void Shutdown();
 void PrepareShutdown();
 bool AppInit2(bool isDaemon);
 
-/** Initialize DAPS: Basic context setup.
+/** Initialize PRCY: Basic context setup.
  *  @note This can be done before daemonization. Do not call Shutdown() if this function fails.
  *  @pre Parameters should be parsed and config file should be read.
  */

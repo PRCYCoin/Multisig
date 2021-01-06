@@ -319,7 +319,7 @@
             </sizepolicy>
            </property>
            <property name="text">
-            <string>Quantity of DAPS to keep as spendable (not staking)</string>
+            <string>Quantity of PRCY to keep as spendable (not staking)</string>
            </property>
           </widget>
          </item>
@@ -331,7 +331,7 @@
            <item>
             <widget class="QCheckBox" name="addNewFunds">
              <property name="toolTip">
-              <string>Enabling this will incur a minimum 1 DAPS fee each time you receive a new deposit that needs to be consolidated for staking.</string>
+              <string>Enabling this will incur a minimum 1 PRCY fee each time you receive a new deposit that needs to be consolidated for staking.</string>
              </property>
              <property name="text">
               <string>Automatically add any new deposits received to your staked balance</string>

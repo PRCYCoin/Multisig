@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your DAPS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços DAPS para enviar pagamentos. Sempre confira a quantidade e os endereços de destino antes de enviar moedas.</translation>
+        <source>These are your PRCY addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços PRCY para enviar pagamentos. Sempre confira a quantidade e os endereços de destino antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your DAPS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços DAPS para receber pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your PRCY addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços PRCY para receber pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Confirmar encriptação da carteira</translation>
     </message>
     <message>
-        <source>DAPS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DAPSs from being stolen by malware infecting your computer.</source>
-        <translation>DAPS encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas DAPSs contra roubo por malware infectando seu computador.</translation>
+        <source>PRCY will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PRCYs from being stolen by malware infecting your computer.</source>
+        <translation>PRCY encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas PRCYs contra roubo por malware infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Tem certeza que deseja encriptar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DAPS&lt;/b&gt;!</source>
-        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA DAPS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PRCY&lt;/b&gt;!</source>
+        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA PRCY&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -247,8 +247,8 @@
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>The DAPS address to sign the message with</source>
-        <translation>Um endereço DAPS para assinar a mensagem</translation>
+        <source>The PRCY address to sign the message with</source>
+        <translation>Um endereço PRCY para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiar a assinatura para a area de trabalho</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DAPS address</source>
-        <translation>Assinar a Mensagem para provar que você e dono desse endereço DAPS.</translation>
+        <source>Sign the message to prove you own this PRCY address</source>
+        <translation>Assinar a Mensagem para provar que você e dono desse endereço PRCY.</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,8 +299,8 @@
         <translation>Criptografia BIP 38</translation>
     </message>
     <message>
-        <source>The DAPS address the message was signed with</source>
-        <translation>O endereço DAPS que foi assinado com</translation>
+        <source>The PRCY address the message was signed with</source>
+        <translation>O endereço PRCY que foi assinado com</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
@@ -640,8 +640,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The DAPS address to sign the message with</source>
-        <translation>Um endereço DAPS para assinar a mensagem</translation>
+        <source>The PRCY address to sign the message with</source>
+        <translation>Um endereço PRCY para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -672,12 +672,12 @@
         <translation>Copiar a assinatura para a area de trabalho</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DAPS address</source>
-        <translation>Assinar a Mensagem para provar que você e dono desse endereço DAPS.</translation>
+        <source>Sign the message to prove you own this PRCY address</source>
+        <translation>Assinar a Mensagem para provar que você e dono desse endereço PRCY.</translation>
     </message>
     <message>
-        <source>The DAPS address the message was signed with</source>
-        <translation>O endereço DAPS que foi assinado com</translation>
+        <source>The PRCY address the message was signed with</source>
+        <translation>O endereço PRCY que foi assinado com</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -875,7 +875,7 @@
     </message>
     </context>
 <context>
-    <name>dapscoin-core</name>
+    <name>prcycoin-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes do blockchain através de -rescan na inicialização</translation>
@@ -1225,8 +1225,8 @@
         <translation>Carteira esta bloqueada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart DAPS to complete</source>
-        <translation>Carteira precisa ser reescrita: reinicie o DAPS para completar.</translation>
+        <source>Wallet needed to be rewritten: restart PRCY to complete</source>
+        <translation>Carteira precisa ser reescrita: reinicie o PRCY para completar.</translation>
     </message>
     <message>
         <source>Wallet options:</source>

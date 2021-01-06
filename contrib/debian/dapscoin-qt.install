@@ -1,6 +1,6 @@
-usr/local/bin/dapscoin-qt usr/bin
+usr/local/bin/prcycoin-qt usr/bin
 share/pixmaps/bitcoin32.xpm usr/share/pixmaps
 share/pixmaps/bitcoin16.xpm usr/share/pixmaps
 share/pixmaps/bitcoin128.png usr/share/pixmaps
-debian/dapscoin-qt.desktop usr/share/applications
-debian/dapscoin-qt.protocol usr/share/kde4/services/
+debian/prcycoin-qt.desktop usr/share/applications
+debian/prcycoin-qt.protocol usr/share/kde4/services/

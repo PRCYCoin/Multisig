@@ -148,8 +148,8 @@
         <translation>Czy na pewno chcesz zakodować portfel?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DAPS&lt;/b&gt;!</source>
-        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE DAPS!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PRCY&lt;/b&gt;!</source>
+        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE PRCY!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -227,8 +227,8 @@
         <translation>Zakodowany klucz:</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DAPS address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres DAPS jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this PRCY address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres PRCY jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -518,16 +518,16 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>DAPS</source>
-        <translation>&amp;Rdzeń DAPS</translation>
+        <source>PRCY</source>
+        <translation>&amp;Rdzeń PRCY</translation>
     </message>
     <message>
-        <source>Send coins to a DAPS address</source>
-        <translation>Wyślij monety do adresu DAPS</translation>
+        <source>Send coins to a PRCY address</source>
+        <translation>Wyślij monety do adresu PRCY</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dapscoin: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i dapscoin:URI)</translation>
+        <source>Request payments (generates QR codes and prcycoin: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i prcycoin:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -538,24 +538,24 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About DAPS</source>
+        <source>&amp;About PRCY</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about DAPS</source>
+        <source>Show information about PRCY</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for DAPS</source>
-        <translation>Modyfikuj opcje konfiguracji DAPS</translation>
+        <source>Modify configuration options for PRCY</source>
+        <translation>Modyfikuj opcje konfiguracji PRCY</translation>
     </message>
     <message>
-        <source>Sign messages with your DAPS addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami DAPS, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your PRCY addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami PRCY, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DAPS addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu DAPS</translation>
+        <source>Verify messages to ensure they were signed with specified PRCY addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu PRCY</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -582,8 +582,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a DAPS: URI or payment request</source>
-        <translation>Otwórz DAPS: URI i żądanie zapłaty</translation>
+        <source>Open a PRCY: URI or payment request</source>
+        <translation>Otwórz PRCY: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -594,12 +594,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the DAPS help message to get a list with possible DAPS command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia DAPS, aby dostać listę możliwych opcji DAPS command-line</translation>
+        <source>Show the PRCY help message to get a list with possible PRCY command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia PRCY, aby dostać listę możliwych opcji PRCY command-line</translation>
     </message>
     <message>
-        <source>DAPS client</source>
-        <translation>Rdzeń DAPS klient</translation>
+        <source>PRCY client</source>
+        <translation>Rdzeń PRCY klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -912,8 +912,8 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>DAPS</source>
-        <translation>&amp;Rdzeń DAPS</translation>
+        <source>PRCY</source>
+        <translation>&amp;Rdzeń PRCY</translation>
     </message>
     </context>
 <context>
@@ -927,8 +927,8 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>DAPS</source>
-        <translation>&amp;Rdzeń DAPS</translation>
+        <source>PRCY</source>
+        <translation>&amp;Rdzeń PRCY</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1203,12 +1203,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start DAPS after logging in to the system.</source>
-        <translation>Automatycznie uruchom DAPS po zalogowaniu do systemu</translation>
+        <source>Automatically start PRCY after logging in to the system.</source>
+        <translation>Automatycznie uruchom PRCY po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start DAPS on system login</source>
-        <translation>&amp;Uruchom DAPS podczas logowania do systemu</translation>
+        <source>&amp;Start PRCY on system login</source>
+        <translation>&amp;Uruchom PRCY podczas logowania do systemu</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1227,18 +1227,18 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting DAPS.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie DAPS</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting PRCY.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie PRCY</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/dapscoin-project/dapscoin-project-translations</source>
+https://www.transifex.com/prcycoin-project/prcycoin-project-translations</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/dapscoin-project/dapscoin-project-translations </translation>
+https://www.transifex.com/prcycoin-project/prcycoin-project-translations </translation>
     </message>
     <message>
-        <source>Connect to the DAPS network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią DAPS poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the PRCY network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią PRCY poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1413,8 +1413,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations </trans
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a DAPS address (e.g. %1)</source>
-        <translation>Wprowadź adres DAPS (np. %1)</translation>
+        <source>Enter a PRCY address (e.g. %1)</source>
+        <translation>Wprowadź adres PRCY (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1852,8 +1852,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations </trans
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DAPS address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres DAPS jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this PRCY address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres PRCY jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1887,8 +1887,8 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations </trans
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DAPS</source>
-        <translation>&amp;Rdzeń DAPS</translation>
+        <source>PRCY</source>
+        <translation>&amp;Rdzeń PRCY</translation>
     </message>
     </context>
 <context>
@@ -1979,7 +1979,7 @@ https://www.transifex.com/dapscoin-project/dapscoin-project-translations </trans
     </message>
     </context>
 <context>
-    <name>dapscoin-core</name>
+    <name>prcycoin-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

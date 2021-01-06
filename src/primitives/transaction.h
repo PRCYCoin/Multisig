@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018-2019 The DAPS Project developers
+// Copyright (c) 2018-2019 The PRCY Project developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -173,7 +173,7 @@ public:
     //ECDH encoded value for the amount: the idea is the use the shared secret and a key derivation function to
     //encode the value and the mask so that only the sender and the receiver of the tx output can decode the encoded amount
     MaskValue maskValue;
-    std::vector<unsigned char> masternodeStealthAddress;  //will be clone from the tx having 1000000 daps output
+    std::vector<unsigned char> masternodeStealthAddress;  //will be clone from the tx having 1000000 prcy output
     std::vector<unsigned char> commitment;  //Commitment C = mask * G + amount * H, H = Hp(G), Hp = toHashPoint
 
     CTxOut()

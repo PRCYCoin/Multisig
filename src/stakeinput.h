@@ -1,10 +1,10 @@
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018-2019 The DAPS Project developers
+// Copyright (c) 2018-2019 The PRCY Project developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DAPScoin_STAKEINPUT_H
-#define DAPScoin_STAKEINPUT_H
+#ifndef PRCYcoin_STAKEINPUT_H
+#define PRCYcoin_STAKEINPUT_H
 
 class CKeyStore;
 class CWallet;
@@ -50,4 +50,4 @@ public:
 };
 
 
-#endif //DAPScoin_STAKEINPUT_H
+#endif //PRCYcoin_STAKEINPUT_H

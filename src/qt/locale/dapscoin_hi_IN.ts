@@ -298,7 +298,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>dapscoin-core</name>
+    <name>prcycoin-core</name>
     <message>
         <source>Information</source>
         <translation>जानकारी</translation>

@@ -1,6 +1,6 @@
 // Copyright (c) 2012-2013 The Bitcoin Core developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018-2019 The DAPS Project developers
+// Copyright (c) 2018-2019 The PRCY Project developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -8,7 +8,7 @@
 #include "scheduler.h"
 
 #if defined(HAVE_CONFIG_H)
-#include "config/dapscoin-config.h"
+#include "config/prcycoin-config.h"
 #else
 #define HAVE_WORKING_BOOST_SLEEP_FOR
 #endif

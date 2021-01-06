@@ -1,7 +1,7 @@
 <RCC>
     <qresource prefix="/icons">
         <file alias="bitcoin">res/icons/bitcoin.png</file>
-        <file alias="dapsico">res/icons/dapsico.png</file>
+        <file alias="prcyico">res/icons/prcyico.png</file>
         <file alias="address-book">res/icons/address-book.png</file>
         <file alias="quit">res/icons/quit.png</file>
         <file alias="send">res/icons/send.png</file>
@@ -48,12 +48,12 @@
         <file alias="tx_input">res/icons/tx_input.png</file>
         <file alias="tx_output">res/icons/tx_output.png</file>
         <file alias="tx_inout">res/icons/tx_inout.png</file>
-        <file alias="unit_dapscoin">res/icons/unit_dapscoin.png</file>
-        <file alias="unit_mdapscoin">res/icons/unit_mdapscoin.png</file>
-        <file alias="unit_udapscoin">res/icons/unit_udapscoin.png</file>
-        <file alias="unit_tdapscoin">res/icons/unit_tdapscoin.png</file>
-        <file alias="unit_tmdapscoin">res/icons/unit_tmdapscoin.png</file>
-        <file alias="unit_tudapscoin">res/icons/unit_tudapscoin.png</file>
+        <file alias="unit_prcycoin">res/icons/unit_prcycoin.png</file>
+        <file alias="unit_mprcycoin">res/icons/unit_mprcycoin.png</file>
+        <file alias="unit_uprcycoin">res/icons/unit_uprcycoin.png</file>
+        <file alias="unit_tprcycoin">res/icons/unit_tprcycoin.png</file>
+        <file alias="unit_tmprcycoin">res/icons/unit_tmprcycoin.png</file>
+        <file alias="unit_tuprcycoin">res/icons/unit_tuprcycoin.png</file>
         <file alias="lock_closed">res/icons/lock_closed.png</file>
         <file alias="lock_open">res/icons/lock_open.png</file>
         <file alias="key">res/icons/key.png</file>

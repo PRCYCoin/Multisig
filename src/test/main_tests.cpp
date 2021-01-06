@@ -1,7 +1,7 @@
 // Copyright (c) 2014 The Bitcoin Core developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018-2019 The DAPS Project developers
+// Copyright (c) 2018-2019 The PRCY Project developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -19,7 +19,7 @@ BOOST_AUTO_TEST_CASE(subsidy_limit_test)
 {
     CAmount nSum = 0;
     for (int nHeight = 0; nHeight < 1; nHeight += 1) {
-        /* premine in block 1 (60,001 DAPS) */
+        /* premine in block 1 (60,001 PRCY) */
         CAmount nSubsidy = GetBlockValue(nHeight);
         BOOST_CHECK(nSubsidy <= 60001 * COIN);
         nSum += nSubsidy;

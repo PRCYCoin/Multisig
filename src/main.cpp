@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018-2020 The DAPS Project developers
+// Copyright (c) 2018-2020 The PRCY Project developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -42,7 +42,7 @@ using namespace boost;
 using namespace std;
 
 #if defined(NDEBUG)
-#error "DAPS cannot be compiled without assertions."
+#error "PRCY cannot be compiled without assertions."
 #endif
 
 // 6 comes from OPCODE (1) + vch.size() (1) + BIGNUM size (4)
@@ -1523,7 +1523,7 @@ bool VerifyShnorrKeyImageTxIn(const CTxIn& txin, uint256 ctsHash)
 bool VerifyShnorrKeyImageTx(const CTransaction& tx)
 {
     //check if a transaction is staking or spending collateral
-    //this assumes that the transaction is already checked for either a staking transaction or transactions spending only UTXOs of 1M DAPS
+    //this assumes that the transaction is already checked for either a staking transaction or transactions spending only UTXOs of 1M PRCY
     if (!tx.IsCoinStake()) return true;
     uint256 cts = GetTxInSignatureHash(tx.vin[0]);
     return VerifyShnorrKeyImageTxIn(tx.vin[0], cts);
@@ -1771,7 +1771,7 @@ bool AcceptToMemoryPool(CTxMemPool& pool, CValidationState& state, const CTransa
 {
     AssertLockHeld(cs_main);
     if (tx.nTxFee <= BASE_FEE)
-        return state.DoS(100, error("AcceptToMemoryPool: Fee less than base fee 1 DAPS"), REJECT_INVALID, "fee-too-low");
+        return state.DoS(100, error("AcceptToMemoryPool: Fee less than base fee 1 PRCY"), REJECT_INVALID, "fee-too-low");
     if (pfMissingInputs)
         *pfMissingInputs = false;
     if (!CheckTransaction(tx, false, true, state))
@@ -2301,11 +2301,11 @@ CAmount TeamRewards(const CBlockIndex* ptip)
     if (!pForkTip->IsProofOfAudit()) return 0;
     const CBlockIndex* lastPoABlock = pForkTip;
     if (lastPoABlock->hashPrevPoABlock.IsNull()) {
-        //pay daps team after the first PoA block
+        //pay prcy team after the first PoA block
         return (pForkTip->nHeight - Params().LAST_POW_BLOCK() - 1 + 1 /*+1 for the being created PoS block*/) * 50 * COIN;
     }
 
-    //loop back to find the PoA block right after which the daps team is paid
+    //loop back to find the PoA block right after which the prcy team is paid
     uint256 lastPoAHash = lastPoABlock->hashPrevPoABlock;
     CAmount ret = 0;
     int numPoABlocks = 1;
@@ -2332,7 +2332,7 @@ int64_t GetBlockValue(const CBlockIndex* ptip)
     }
 
     if (pForkTip->nMoneySupply >= Params().TOTAL_SUPPLY) {
-        //zero rewards when total supply reach 70B DAPS
+        //zero rewards when total supply reach 70B PRCY
         return 0;
     }
 	if (pForkTip->nHeight < Params().LAST_POW_BLOCK()) {
@@ -2912,11 +2912,11 @@ static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck()
 {
-    RenameThread("dapscoin-scriptch");
+    RenameThread("prcycoin-scriptch");
     scriptcheckqueue.Thread();
 }
 
-bool RecalculateDAPSSupply(int nHeightStart)
+bool RecalculatePRCYSupply(int nHeightStart)
 {
     if (nHeightStart > chainActive.Height())
         return false;
@@ -4232,7 +4232,7 @@ bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bo
             if (block.vtx[i].IsCoinStake())
                 return state.DoS(100, error("CheckBlock() : more than one coinstake"));
 
-        //check foundation wallet address is receiving 50 DAPS
+        //check foundation wallet address is receiving 50 PRCY
         const CTransaction& coinstake = block.vtx[1];
         int numUTXO = coinstake.vout.size();
 
@@ -4275,7 +4275,7 @@ bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bo
                 nHeight = (*mi).second->nHeight + 1;
         }
 
-        // DAPScoin
+        // PRCYcoin
         // It is entierly possible that we don't have enough data and this could fail
         // (i.e. the block could indeed be valid). Store the block for later consideration
         // but issue an initial reject message.

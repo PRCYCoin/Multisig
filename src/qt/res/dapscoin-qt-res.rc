@@ -19,14 +19,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "DAPS"
-            VALUE "FileDescription",    "DAPS (OSS GUI client for DAPS)"
+            VALUE "CompanyName",        "PRCY"
+            VALUE "FileDescription",    "PRCY (OSS GUI client for PRCY)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "dapscoin-qt"
+            VALUE "InternalName",       "prcycoin-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "dapscoin-qt.exe"
-            VALUE "ProductName",        "DAPS"
+            VALUE "OriginalFilename",   "prcycoin-qt.exe"
+            VALUE "ProductName",        "PRCY"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

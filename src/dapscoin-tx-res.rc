@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "DAPS"
-            VALUE "FileDescription",    "dapscoin-tx (CLI DAPS transaction editor utility)"
+            VALUE "CompanyName",        "PRCY"
+            VALUE "FileDescription",    "prcycoin-tx (CLI PRCY transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "dapscoin-tx"
+            VALUE "InternalName",       "prcycoin-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "dapscoin-tx.exe"
-            VALUE "ProductName",        "dapscoin-tx"
+            VALUE "OriginalFilename",   "prcycoin-tx.exe"
+            VALUE "ProductName",        "prcycoin-tx"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your DAPS addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono gli indirizzi DAPS per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
+        <source>These are your PRCY addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono gli indirizzi PRCY per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
     </message>
     <message>
-        <source>These are your DAPS addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono gli indirizzi DAPS per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
+        <source>These are your PRCY addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono gli indirizzi PRCY per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>DAPS will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DAPSs from being stolen by malware infecting your computer.</source>
-        <translation>DAPS verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi DAPS dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>PRCY will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PRCYs from being stolen by malware infecting your computer.</source>
+        <translation>PRCY verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi PRCY dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Confermi di voler crittografare il portafoglio?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DAPS&lt;/b&gt;!</source>
-        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI DAPS&lt;7b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PRCY&lt;/b&gt;!</source>
+        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI PRCY&lt;7b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -247,8 +247,8 @@
         <translation>Indirizzo:</translation>
     </message>
     <message>
-        <source>The DAPS address to sign the message with</source>
-        <translation>L'indirizzo DAPS per firmare il messaggio con</translation>
+        <source>The PRCY address to sign the message with</source>
+        <translation>L'indirizzo PRCY per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DAPS address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo DAPS</translation>
+        <source>Sign the message to prove you own this PRCY address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo PRCY</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Immettere la chiave privata codificata BIP 38. Inserire la passphrase nella casella centrale. Fare clic su Decripta Chiave per calcolare la chiave privata. Dopo che la chiave viene decrittata, cliccando su "Importa indirizzo" verrà aggiunta questa chiave privata al portafoglio.</translation>
     </message>
     <message>
-        <source>The DAPS address the message was signed with</source>
-        <translation>L'indirizzo DAPS con cui è stato firmato il messaggio</translation>
+        <source>The PRCY address the message was signed with</source>
+        <translation>L'indirizzo PRCY con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DAPS address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo DAPS specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified PRCY address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo PRCY specificato </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -590,16 +590,16 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS</translation>
+        <source>PRCY</source>
+        <translation>PRCY</translation>
     </message>
     <message>
-        <source>Send coins to a DAPS address</source>
-        <translation>Invia monete all' indirizzo DAPS</translation>
+        <source>Send coins to a PRCY address</source>
+        <translation>Invia monete all' indirizzo PRCY</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dapscoin: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e dapscoin: URIs)</translation>
+        <source>Request payments (generates QR codes and prcycoin: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e prcycoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -610,24 +610,24 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About DAPS</source>
-        <translation>&amp;Informazioni DAPS</translation>
+        <source>&amp;About PRCY</source>
+        <translation>&amp;Informazioni PRCY</translation>
     </message>
     <message>
-        <source>Show information about DAPS</source>
-        <translation>Visualizza informazioni su DAPS</translation>
+        <source>Show information about PRCY</source>
+        <translation>Visualizza informazioni su PRCY</translation>
     </message>
     <message>
-        <source>Modify configuration options for DAPS</source>
-        <translation>Modifica le opzioni di configurazione per DAPS</translation>
+        <source>Modify configuration options for PRCY</source>
+        <translation>Modifica le opzioni di configurazione per PRCY</translation>
     </message>
     <message>
-        <source>Sign messages with your DAPS addresses to prove you own them</source>
-        <translation>Firma i messaggi con i tuoi indirizzi DAPS per dimostrare di essere il proprietario </translation>
+        <source>Sign messages with your PRCY addresses to prove you own them</source>
+        <translation>Firma i messaggi con i tuoi indirizzi PRCY per dimostrare di essere il proprietario </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DAPS addresses</source>
-        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi DAPS specifici</translation>
+        <source>Verify messages to ensure they were signed with specified PRCY addresses</source>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi PRCY specifici</translation>
     </message>
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
@@ -638,16 +638,16 @@
         <translation>Impostazioni MultiSend</translation>
     </message>
     <message>
-        <source>Open a DAPS: URI or payment request</source>
-        <translation>Apri un DAPS: URI o richiesta di pagamento</translation>
+        <source>Open a PRCY: URI or payment request</source>
+        <translation>Apri un PRCY: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>Block explorer window</source>
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the DAPS help message to get a list with possible DAPS command-line options</source>
-        <translation>Mostra il messaggio di aiuto DAPS per ottenere un elenco con le possibili opzioni di riga di comando DAPS</translation>
+        <source>Show the PRCY help message to get a list with possible PRCY command-line options</source>
+        <translation>Mostra il messaggio di aiuto PRCY per ottenere un elenco con le possibili opzioni di riga di comando PRCY</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -753,8 +753,8 @@ MultiSend: %1</translation>
         <translation>Cerca</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (dapscoin.conf).</source>
-        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (dapscoin.conf)</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (prcycoin.conf).</source>
+        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (prcycoin.conf)</translation>
     </message>
 </context>
 <context>
@@ -888,8 +888,8 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS</translation>
+        <source>PRCY</source>
+        <translation>PRCY</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -915,8 +915,8 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS</translation>
+        <source>PRCY</source>
+        <translation>PRCY</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1104,8 +1104,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The DAPS address to sign the message with</source>
-        <translation>L'indirizzo DAPS per firmare il messaggio con</translation>
+        <source>The PRCY address to sign the message with</source>
+        <translation>L'indirizzo PRCY per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1128,16 +1128,16 @@ MultiSend: %1</translation>
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DAPS address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo DAPS</translation>
+        <source>Sign the message to prove you own this PRCY address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo PRCY</translation>
     </message>
     <message>
-        <source>The DAPS address the message was signed with</source>
-        <translation>L'indirizzo DAPS con cui è stato firmato il messaggio</translation>
+        <source>The PRCY address the message was signed with</source>
+        <translation>L'indirizzo PRCY con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DAPS address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo DAPS specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified PRCY address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo PRCY specificato </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1175,8 +1175,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DAPS</source>
-        <translation>DAPS</translation>
+        <source>PRCY</source>
+        <translation>PRCY</translation>
     </message>
     </context>
 <context>
@@ -1271,7 +1271,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>dapscoin-core</name>
+    <name>prcycoin-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>

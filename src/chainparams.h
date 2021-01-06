@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018-2020 The DAPS Project developers
+// Copyright (c) 2018-2020 The PRCY Project developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -29,7 +29,7 @@ public:
 
 /**
  * CChainParams defines various tweakable parameters of a given instance of the
- * DAPS system. There are three: the main network on which people trade goods
+ * PRCY system. There are three: the main network on which people trade goods
  * and services, the public test network which gets reset from time to time and
  * a regression test mode which is intended for private networks only. It has
  * minimal difficulty to ensure that blocks can be found instantly.
@@ -113,9 +113,9 @@ public:
     int MIN_NUM_POS_BLOCKS_AUDITED() const {return nMinNumPoSBlocks;}
 	int MAX_NUM_POS_BLOCKS_AUDITED() const {return nMaxNumPoSBlocks;}
     int nLastPOWBlock;
-    int TEAM_REWARD_FREQUENCY = 3; //every  TEAM_REWARD_FREQUENCY PoA blocks, reward the daps team
+    int TEAM_REWARD_FREQUENCY = 3; //every  TEAM_REWARD_FREQUENCY PoA blocks, reward the prcy team
     double MAX_MONEY;
-    CAmount TOTAL_SUPPLY = 70000000000*COIN; //70B DAPS
+    CAmount TOTAL_SUPPLY = 70000000000*COIN; //70B PRCY
 
 protected:
     CChainParams() {}
