@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018-2020 The PRCY Project developers
+// Copyright (c) 2018-2020 The DAPS Project developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -49,7 +49,6 @@ public:
 
     const uint256& HashGenesisBlock() const { return hashGenesisBlock; }
     const MessageStartChars& MessageStart() const { return pchMessageStart; }
-    const std::vector<unsigned char>& AlertKey() const { return vAlertPubKey; }
     int GetDefaultPort() const { return nDefaultPort; }
     const uint256& ProofOfWorkLimit() const { return bnProofOfWorkLimit; }
     int SubsidyHalvingInterval() const { return nSubsidyHalvingInterval; }
@@ -104,9 +103,6 @@ public:
     int LAST_POW_BLOCK() const { return nLastPOWBlock; }
     int START_POA_BLOCK() const { return nStartPOABlock; }
     int Block_Enforce_Invalid() const { return nBlockEnforceInvalidUTXO; }
-    int SoftFork() const { return nSoftForkBlock;}
-    int HardFork() const { return nHardForkBlock;}
-    int PoAFixTime() const { return nPoAFixTime;}
 	
     //For PoA block time
     int POA_BLOCK_TIME() const { return nPoABlockTime; }
@@ -115,7 +111,7 @@ public:
     int nLastPOWBlock;
     int TEAM_REWARD_FREQUENCY = 3; //every  TEAM_REWARD_FREQUENCY PoA blocks, reward the prcy team
     double MAX_MONEY;
-    CAmount TOTAL_SUPPLY = 70000000000*COIN; //70B PRCY
+    CAmount TOTAL_SUPPLY = 70000000*COIN; //70B PRCY
 
 protected:
     CChainParams() {}
@@ -123,7 +119,6 @@ protected:
     uint256 hashGenesisBlock;
     MessageStartChars pchMessageStart;
     //! Raw pub key bytes for the broadcast alert signing key.
-    std::vector<unsigned char> vAlertPubKey;
     int nDefaultPort;
     int nExtCoinType;
     uint256 bnProofOfWorkLimit;
