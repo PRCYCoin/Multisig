@@ -2310,7 +2310,6 @@ static CAmount ApproximateBestSubset(int numOut, int ringSize, vector<pair<CAmou
                     numSelected++;
                     estimateTxSize = CWallet::ComputeTxSize(numSelected, numOut, ringSize);
                     nFeeNeeded = CWallet::GetMinimumFee(estimateTxSize, nTxConfirmTarget, mempool);
-                    nFeeNeeded += BASE_FEE;
                     if (nTotal >= nTargetValue + nFeeNeeded) {
                         fReachedTarget = true;
                         if (nTotal < nBest) {
@@ -3038,7 +3037,7 @@ int CWallet::ComputeFee(size_t numIn, size_t numOut, size_t ringSize)
 {
     int txSize = ComputeTxSize(numIn, numOut, ringSize);
     CAmount nFeeNeeded = GetMinimumFee(txSize, nTxConfirmTarget, mempool);
-    nFeeNeeded += BASE_FEE;
+	if (nFeeNeeded > MAX_FEE) nFeeNeeded = MAX_FEE;
     return nFeeNeeded;
 }
 
@@ -3159,9 +3158,8 @@ bool CWallet::CreateTransactionBulletProof(CPartialTransaction& ptx, const CKey&
                     int rsSize = ComputeTxSize(setCoins.size(), 2, ringSize);
                     nBytes = rsSize;
                     CAmount nFeeNeeded = max(nFeePay, GetMinimumFee(nBytes, nTxConfirmTarget, mempool));
-                    nFeeNeeded += BASE_FEE;
                     LogPrintf("%s: nFeeNeeded=%d, rsSize=%d\n", __func__, nFeeNeeded, rsSize);
-                    if (nFeeNeeded < COIN) nFeeNeeded = COIN;
+					if (nFeeNeeded >= MAX_FEE) nFeeNeeded = MAX_FEE;
                     newTxOut.nValue -= nFeeNeeded;
                     txNew.nTxFee = nFeeNeeded;
                     if (newTxOut.nValue < 0) {
@@ -5050,6 +5048,7 @@ bool CWallet::AddAccountingEntry(const CAccountingEntry& acentry, CWalletDB & pw
 CAmount CWallet::GetMinimumFee(unsigned int nTxBytes, unsigned int nConfirmTarget, const CTxMemPool& pool)
 {
     CAmount nFeeNeeded = payTxFee.GetFee(nTxBytes);
+	if (nFeeNeeded >= MAX_FEE) nFeeNeeded = MAX_FEE;
     return nFeeNeeded;
 }
 
