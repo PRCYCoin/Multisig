@@ -2214,13 +2214,13 @@ bool CWallet::AvailableCoins(const uint256 wtxid, const CWalletTx* pcoin, vector
             if (nCoinType == ONLY_DENOMINATED) {
                 found = IsDenominatedAmount(value);
             } else if (nCoinType == ONLY_NOT5000IFMN) {
-                found = !(fMasterNode && value == 1000000 * COIN);
+                found = !(fMasterNode && value == 5000 * COIN);
             } else if (nCoinType == ONLY_NONDENOMINATED_NOT5000IFMN) {
                 if (IsCollateralAmount(value)) return false; // do not use collateral amounts
                 found = !IsDenominatedAmount(value);
-                if (found && fMasterNode) found = value != 1000000 * COIN; // do not use Hot MN funds
+                if (found && fMasterNode) found = value != 5000 * COIN; // do not use Hot MN funds
             } else if (nCoinType == ONLY_5000) {
-                found = value == 1000000 * COIN;
+                found = value == 5000 * COIN;
             } else {
                 COutPoint outpoint(pcoin->GetHash(), i);
                 if (IsCollateralized(outpoint)) {
@@ -2609,7 +2609,7 @@ bool CWallet::SelectCoins(bool needFee, CAmount& estimatedFee, int ringSize, int
                 CAmount decodedAmount;
                 CKey decodedBlind;
                 RevealTxOutAmount(*pcoin, pcoin->vout[i], decodedAmount, decodedBlind);
-                if (decodedAmount == 1000000 * COIN) {
+                if (decodedAmount == 5000 * COIN) {
                     COutPoint outpoint(wtxid, i);
                     if (IsCollateralized(outpoint)) {
                         continue;
@@ -2812,7 +2812,7 @@ bool CWallet::SelectCoinsDark(CAmount nValueMin, CAmount nValueMax, std::vector<
         //do not allow collaterals to be selected
 
         if (IsCollateralAmount(getCTxOutValue(*out.tx, out.tx->vout[out.i]))) continue;
-        if (fMasterNode && getCTxOutValue(*out.tx, out.tx->vout[out.i]) == 1000000 * COIN) continue; //masternode input
+        if (fMasterNode && getCTxOutValue(*out.tx, out.tx->vout[out.i]) == 5000 * COIN) continue; //masternode input
 
         if (nValueRet + outValue <= nValueMax) {
             CTxIn vin = CTxIn(out.tx->GetHash(), out.i);

@@ -1384,7 +1384,7 @@ public:
             const CTxIn vin = CTxIn(hashTx, i);
 
             if (pwallet->IsSpent(hashTx, i) || pwallet->IsLockedCoin(hashTx, i)) continue;
-            if (fMasterNode && pwallet->getCTxOutValue(*this, vout[i]) == 1000000 * COIN) continue; // do not count MN-like outputs
+            if (fMasterNode && pwallet->getCTxOutValue(*this, vout[i]) == 5000 * COIN) continue; // do not count MN-like outputs
         }
 
         nAnonymizableCreditCached = nCredit;
@@ -1432,7 +1432,7 @@ public:
             const CTxOut& txout = vout[i];
 
             if (pwallet->IsSpent(hashTx, i) || pwallet->IsLockedCoin(hashTx, i)) continue;
-            if (fMasterNode && pwallet->getCTxOutValue(*this, vout[i]) == 1000000 * COIN) continue; // do not count MN-like outputs
+            if (fMasterNode && pwallet->getCTxOutValue(*this, vout[i]) == 5000 * COIN) continue; // do not count MN-like outputs
 
             nCredit += pwallet->GetCredit(*this, txout, ISMINE_SPENDABLE);
         }
@@ -1464,7 +1464,7 @@ public:
             }
 
             // Add masternode collaterals which are handled likc locked coins
-             else if (fMasterNode && pwallet->getCTxOutValue(*this, vout[i]) == 1000000 * COIN) {
+             else if (fMasterNode && pwallet->getCTxOutValue(*this, vout[i]) == 5000 * COIN) {
                 nCredit += pwallet->GetCredit(*this, txout, ISMINE_SPENDABLE);
             }
 
