@@ -298,7 +298,7 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, const CPubKey& txP
             if (isDuplicate) continue;
             vecPriority.push_back(TxPriority(dPriority, feeRate, &mi->second.GetTx()));
         }
-        LogPrintf("Selecting %d transactions from mempool\n", vecPriority.size());
+        LogPrint("staking", "Selecting %d transactions from mempool\n", vecPriority.size());
         // Collect transactions into block
         uint64_t nBlockSize = 1000;
         uint64_t nBlockTx = 0;
@@ -507,7 +507,7 @@ CBlockTemplate* CreateNewPoABlock(const CScript& scriptPubKeyIn, const CPubKey& 
 	pblock->nTime = GetAdjustedTime();
 
 	//compute PoA block reward
-	CAmount nReward = pblock->posBlocksAudited.size() * 100 * COIN;
+	CAmount nReward = pblock->posBlocksAudited.size() * 0.5 * COIN;
 	pblock->vtx[0].vout[0].nValue = nReward;
 
     pblock->vtx[0].txType = TX_TYPE_REVEAL_AMOUNT;
