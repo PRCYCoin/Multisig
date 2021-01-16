@@ -2464,7 +2464,7 @@ bool VerifyZeroBlindCommitment(const CTxOut& out)
 
 bool VerifyDerivedAddress(const CTxOut& out, std::string stealth)
 {
-    CPubKey foundationalGenPub, pubView, pubSpend;
+    CPubKey addressGenPub, pubView, pubSpend;
     bool hasPaymentID;
     uint64_t paymentID;
     if (!CWallet::DecodeStealthAddress(stealth, pubView, pubSpend, hasPaymentID, paymentID)) {
@@ -2473,13 +2473,13 @@ bool VerifyDerivedAddress(const CTxOut& out, std::string stealth)
     }
 
     //reconstruct destination address from masternode address and tx private key
-    CKey foundationTxPriv;
-    foundationTxPriv.Set(&(out.txPriv[0]), &(out.txPriv[0]) + 32, true);
-    CPubKey foundationTxPub = foundationTxPriv.GetPubKey();
+    CKey addressTxPriv;
+    addressTxPriv.Set(&(out.txPriv[0]), &(out.txPriv[0]) + 32, true);
+    CPubKey foundationTxPub = addressTxPriv.GetPubKey();
     CPubKey origin(out.txPub.begin(), out.txPub.end());
     if (foundationTxPub != origin) return false;
-    CWallet::ComputeStealthDestination(foundationTxPriv, pubView, pubSpend, foundationalGenPub);
-    CScript foundationalScript = GetScriptForDestination(foundationalGenPub);
+    CWallet::ComputeStealthDestination(addressTxPriv, pubView, pubSpend, addressGenPub);
+    CScript foundationalScript = GetScriptForDestination(addressGenPub);
     return foundationalScript == out.scriptPubKey;
 }
 
