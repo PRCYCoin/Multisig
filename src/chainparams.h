@@ -130,9 +130,6 @@ protected:
     int64_t nTargetTimespan;
     int64_t nTargetSpacing;
     int nStartPOABlock;
-    int nSoftForkBlock;
-    int nHardForkBlock;
-    int nPoAFixTime;
     int nMasternodeCountDrift;
     int nMaturity;
     int nModifierUpdateBlock;
