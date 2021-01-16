@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018-2020 The PRCY Project developers
+// Copyright (c) 2018-2020 The DAPS Project developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -635,7 +635,7 @@ bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     return true;
 }
 
-bool fGenerateDapscoins = false;
+bool fGeneratePrcycoins = false;
 
 // ***TODO*** that part changed in bitcoin, we are using a mix with old one here for now
 
@@ -664,7 +664,7 @@ void static ThreadBitcoinMiner(void* parg)
     LogPrintf("ThreadBitcoinMiner exiting\n");
 }
 
-void static ThreadDapscoinMiner(void* parg)
+void static ThreadPrcycoinMiner(void* parg)
 {
     boost::this_thread::interruption_point();
     try {
@@ -683,7 +683,7 @@ void static ThreadDapscoinMiner(void* parg)
     LogPrintf("ThreadBitcoinMiner exiting\n");
 }
 
-void GeneratePoADapscoin(CWallet* pwallet, int period)
+void GeneratePoAPrcycoin(CWallet* pwallet, int period)
 {
     static boost::thread_group* minerThreads = NULL;
 
@@ -694,13 +694,13 @@ void GeneratePoADapscoin(CWallet* pwallet, int period)
     }
 
     minerThreads = new boost::thread_group();
-    minerThreads->create_thread(boost::bind(&ThreadDapscoinMiner, pwallet));
+    minerThreads->create_thread(boost::bind(&ThreadPrcycoinMiner, pwallet));
 }
 
-void GenerateDapscoins(bool fGenerate, CWallet* pwallet, int nThreads)
+void GeneratePrcycoins(bool fGenerate, CWallet* pwallet, int nThreads)
 {
     static boost::thread_group* minerThreads = NULL;
-    fGenerateDapscoins = fGenerate;
+    fGeneratePrcycoins = fGenerate;
 
     if (nThreads < 0) {
         // In regtest threads defaults to 1

@@ -343,7 +343,7 @@ static const CRPCCommand vRPCCommands[] =
         // {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         // {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* Dapscoin features */
+        /* Prcycoin features */
         {"prcycoin", "masternode", &masternode, true, true, false},
         {"prcycoin", "listmasternodes", &listmasternodes, true, true, false},
         {"prcycoin", "getmasternodecount", &getmasternodecount, true, true, false},

@@ -41,7 +41,7 @@ The following are developer notes on how to build PRCY on your native platform. 
 
 Development
 ---------------------
-The Dapscoin repo's [root README](https://github.com/PRCYcoin-Project/PRCYcoin/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Prcycoin repo's [root README](https://github.com/PRCYcoin/PRCYcoin/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)

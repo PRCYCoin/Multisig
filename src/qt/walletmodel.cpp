@@ -707,11 +707,11 @@ StakingStatusError WalletModel::getStakingStatusError(QString& error)
 
 void WalletModel::generateCoins(bool fGenerate, int nGenProcLimit)
 {
-    GenerateDapscoins(fGenerate, pwalletMain, nGenProcLimit);
+    GeneratePrcycoins(fGenerate, pwalletMain, nGenProcLimit);
     if (false /*if regtest*/ && fGenerate) {
         //regtest generate
     } else {
-        GenerateDapscoins(fGenerate, pwalletMain, nGenProcLimit);
+        GeneratePrcycoins(fGenerate, pwalletMain, nGenProcLimit);
     }
 }
 

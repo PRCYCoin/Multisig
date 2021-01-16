@@ -10,7 +10,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between prcycoin-cli and prcycoind)
- * of a given instance of the Dapscoin system.
+ * of a given instance of the Prcycoin system.
  */
 class CBaseChainParams
 {

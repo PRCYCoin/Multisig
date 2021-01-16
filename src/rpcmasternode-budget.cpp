@@ -68,9 +68,9 @@ UniValue mnbudget(const UniValue& params, bool fHelp)
             "\nAvailable commands:\n"
             "  prepare            - Prepare proposal for network by signing and creating tx\n"
             "  submit             - Submit proposal for network\n"
-            "  vote-many          - Vote on a Dapscoin initiative\n"
-            "  vote-alias         - Vote on a Dapscoin initiative\n"
-            "  vote               - Vote on a Dapscoin initiative/budget\n"
+            "  vote-many          - Vote on a Prcycoin initiative\n"
+            "  vote-alias         - Vote on a Prcycoin initiative\n"
+            "  vote               - Vote on a Prcycoin initiative/budget\n"
             "  getvotes           - Show current masternode budgets\n"
             "  getinfo            - Show current masternode budgets\n"
             "  show               - Show all budgets\n"
@@ -212,9 +212,9 @@ UniValue preparebudget(const UniValue& params, bool fHelp)
 
     CBitcoinAddress address(params[4].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Dapscoin address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Prcycoin address");
 
-    // Parse Dapscoin address
+    // Parse Prcycoin address
     CScript scriptPubKey = GetScriptForDestination(address.Get());
     CAmount nAmount = AmountFromValue(params[5]);
 
@@ -301,9 +301,9 @@ UniValue submitbudget(const UniValue& params, bool fHelp)
 
     CBitcoinAddress address(params[4].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Dapscoin address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Prcycoin address");
 
-    // Parse Dapscoin address
+    // Parse Prcycoin address
     CScript scriptPubKey = GetScriptForDestination(address.Get());
     CAmount nAmount = AmountFromValue(params[5]);
     uint256 hash = ParseHashV(params[6], "parameter 1");

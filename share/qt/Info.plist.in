@@ -32,7 +32,7 @@
   <string>PRCYcoin-Qt-Multisig</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.prcycoin.Dapscoin-Qt</string>
+  <string>io.prcycoin.Prcycoin-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,7 +40,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.prcycoin.DapscoinPayment</string>
+      <string>io.prcycoin.PrcycoinPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>prcycoin</string>
@@ -54,7 +54,7 @@
       <key>UTTypeIdentifier</key>
       <string>io.prcycoin.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Dapscoin payment request</string>
+      <string>Prcycoin payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>

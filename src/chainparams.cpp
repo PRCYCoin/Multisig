@@ -376,8 +376,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // Dapscoin: 1 day
-        nTargetSpacing = 1 * 60;        // Dapscoin: 1 minutes
+        nTargetTimespan = 24 * 60 * 60; // Prcycoin: 1 day
+        nTargetSpacing = 1 * 60;        // Prcycoin: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1608422399;
         genesis.nBits = 0x207fffff;
