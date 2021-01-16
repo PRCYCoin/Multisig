@@ -2158,7 +2158,7 @@ UniValue autocombinedust(const UniValue& params, bool fHelp)
             "1. true|false      (boolean, required) Enable auto combine (true) or disable (false)\n"
             "2. threshold       (numeric, optional) Threshold amount (default: 0)\n"
             "\nExamples:\n" +
-            HelpExampleCli("autocombinedust", "true 540") + HelpExampleRpc("autocombinedust", "true 540"));
+            HelpExampleCli("autocombinedust", "true 10") + HelpExampleRpc("autocombinedust", "true 150"));
 
     CWalletDB walletdb(pwalletMain->strWalletFile);
     CAmount nThreshold = 0;
