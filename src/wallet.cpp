@@ -6578,7 +6578,7 @@ bool CWallet::GenerateAddress(CPubKey& pub, CPubKey& txPub, CKey& txPriv) const
 
 bool CWallet::SendToStealthAddress(CPartialTransaction& ptx, const std::string& stealthAddr, const CAmount nValue, CWalletTx& wtxNew, bool fUseIX, int ringSize) {
     // Check amount
-    if (nValue <= 0)
+    if (nValue < 5 * COIN)
         throw runtime_error("Invalid amount");
 
     string strError;
