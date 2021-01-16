@@ -1523,7 +1523,7 @@ bool VerifyShnorrKeyImageTxIn(const CTxIn& txin, uint256 ctsHash)
 bool VerifyShnorrKeyImageTx(const CTransaction& tx)
 {
     //check if a transaction is staking or spending collateral
-    //this assumes that the transaction is already checked for either a staking transaction or transactions spending only UTXOs of 1M PRCY
+    //this assumes that the transaction is already checked for either a staking transaction or transactions spending only UTXOs of 2.5K PRCY
     if (!tx.IsCoinStake()) return true;
     uint256 cts = GetTxInSignatureHash(tx.vin[0]);
     return VerifyShnorrKeyImageTxIn(tx.vin[0], cts);
@@ -1735,15 +1735,6 @@ bool CheckHaveInputs(const CCoinsViewCache& view, const CTransaction& tx)
                     if (ancestor != atTheblock) {
                         LogPrintf("Decoy for transactions %s not in the same chain with block %s\n", alldecoys[j].hash.GetHex(), tip->GetBlockHash().GetHex());
                         return false;
-                    }
-
-                    if (atTheblock->IsProofOfAudit() && chainActive.Height() >= Params().HardFork()) {
-                        CBlock b;
-                        ReadBlockFromDisk(b, atTheblock);
-                        if (!CheckPoABlockRewardAmount(b, atTheblock)) {
-                            LogPrintf("Reject poa transaction %s\n");
-                            return false;
-                        }
                     }
                 }
             }
@@ -2288,7 +2279,7 @@ double ConvertBitsToDouble(unsigned int nBits)
 
 CAmount PoSBlockReward()
 {
-    return 900 * COIN;
+    return 1 * COIN;
 }
 
 CAmount TeamRewards(const CBlockIndex* ptip)
@@ -4552,42 +4543,6 @@ bool AcceptBlock(CBlock& block, CValidationState& state, CBlockIndex** ppindex, 
 
     int nHeight = pindex->nHeight;
 	
-	    if (pindex->nHeight >= Params().HardFork()) {
-            for(size_t i = 0; i < block.vtx.size(); i++) {
-                const CTransaction& tx = block.vtx[i];
-                for (unsigned int i = 0; i < tx.vin.size(); i++) {
-                    if (tx.IsCoinBase()) continue;
-                    //check output and decoys
-                    std::vector<COutPoint> alldecoys = tx.vin[i].decoys;
-
-                    alldecoys.push_back(tx.vin[i].prevout);
-                    for (size_t j = 0; j < alldecoys.size(); j++) {
-                        CTransaction prev;
-                        uint256 bh;
-                        if (!GetTransaction(alldecoys[j].hash, prev, bh, true)) {
-                            return false;
-                        }
-
-                        if (mapBlockIndex.count(bh) < 1) return false;
-                        CBlockIndex* atTheblock = mapBlockIndex[bh];
-                        if (!atTheblock) {
-                            //LogPrintf("Decoy for transactions %s not in the same chain with block %s\n", alldecoys[j].hash.GetHex(), tip->GetBlockHash().GetHex());
-                            return false;
-                        } else {
-                            CBlock bhBlock;
-                            ReadBlockFromDisk(bhBlock, atTheblock);
-                            if (atTheblock->IsProofOfAudit()) {
-                                if (prev.vout[alldecoys[j].n].nValue > 50000 * COIN || prev.vout[alldecoys[j].n].nValue != bhBlock.posBlocksAudited.size() * 100 * COIN) {
-                                    return false;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-
     // Write block to history file
     try {
         unsigned int nBlockSize = ::GetSerializeSize(block, SER_DISK, CLIENT_VERSION);
