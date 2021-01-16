@@ -2287,7 +2287,7 @@ CAmount PoSBlockReward()
 //        pForkTip = chainActive.Tip();
 //    }
 
-//    if (!pForkTip->IsProofOfAudit() || pForkTip->nHeight >= Params().REMOVE_REWARD_BLOCK()) return 0;
+//    if (!pForkTip->IsProofOfAudit()) return 0;
 //    const CBlockIndex* lastPoABlock = pForkTip;
 //    if (lastPoABlock->hashPrevPoABlock.IsNull()) {
 //        //pay prcy team after the first PoA block
