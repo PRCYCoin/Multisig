@@ -109,7 +109,7 @@ public:
     int MIN_NUM_POS_BLOCKS_AUDITED() const {return nMinNumPoSBlocks;}
 	int MAX_NUM_POS_BLOCKS_AUDITED() const {return nMaxNumPoSBlocks;}
     int nLastPOWBlock;
-    int TEAM_REWARD_FREQUENCY = 3; //every  TEAM_REWARD_FREQUENCY PoA blocks, reward the prcy team
+ //   int TEAM_REWARD_FREQUENCY = 3; //every  TEAM_REWARD_FREQUENCY PoA blocks, reward the prcy team
     double MAX_MONEY;
     CAmount TOTAL_SUPPLY = 70000000*COIN; //70B PRCY
 

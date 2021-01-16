@@ -704,7 +704,7 @@ bool ReVerifyPoSBlock(CBlockIndex* pindex)
         }
         int thisBlockHeight = mapBlockIndex[block.hashPrevBlock]->nHeight + 1; //avoid potential block disorder during download
         CAmount blockValue = GetBlockValue(mapBlockIndex[block.hashPrevBlock]);
-        if (blockValue > posBlockReward) {
+       /* if (blockValue > posBlockReward) {
             //numUTXO - 1 is team rewards, numUTXO - 2 is masternode reward
             const CTxOut& mnOut = coinstake.vout[numUTXO - 2];
             std::string mnsa(mnOut.masternodeStealthAddress.begin(), mnOut.masternodeStealthAddress.end());
@@ -724,7 +724,7 @@ bool ReVerifyPoSBlock(CBlockIndex* pindex)
                 LogPrintf("ReVerifyPoSBlock() : Incorrect derived address PoS rewards for foundation");
                 return false;
             }
-        } else {
+        } else {*/
             //there is no team rewards in this block
             const CTxOut& mnOut = coinstake.vout[numUTXO - 1];
             std::string mnsa(mnOut.masternodeStealthAddress.begin(), mnOut.masternodeStealthAddress.end());
@@ -732,7 +732,7 @@ bool ReVerifyPoSBlock(CBlockIndex* pindex)
                 LogPrintf("ReVerifyPoSBlock() : Incorrect derived address for masternode rewards");
                 return false;
             }
-        }
+        //}
 
         // track money supply and mint amount info
         CAmount nMoneySupplyPrev = pindex->pprev ? pindex->pprev->nMoneySupply : 0;
@@ -3157,7 +3157,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
         }
         int thisBlockHeight = mapBlockIndex[block.hashPrevBlock]->nHeight + 1; //avoid potential block disorder during download
         CAmount blockValue = GetBlockValue(mapBlockIndex[block.hashPrevBlock]);
-        if (blockValue > posBlockReward) {
+        /*if (blockValue > posBlockReward) {
             //numUTXO - 1 is team rewards, numUTXO - 2 is masternode reward
             const CTxOut& mnOut = coinstake.vout[numUTXO - 2];
             std::string mnsa(mnOut.masternodeStealthAddress.begin(), mnOut.masternodeStealthAddress.end());
@@ -3171,14 +3171,14 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
 
             if (!VerifyDerivedAddress(foundationOut, FOUNDATION_WALLET))
                 return state.DoS(100, error("ConnectBlock() : Incorrect derived address PoS rewards for foundation"));
-        } else {
+        } else {*/
             //there is no team rewards in this block
             const CTxOut& mnOut = coinstake.vout[numUTXO - 1];
             std::string mnsa(mnOut.masternodeStealthAddress.begin(), mnOut.masternodeStealthAddress.end());
             if (!VerifyDerivedAddress(mnOut, mnsa))
                 return state.DoS(100, error("ConnectBlock() : Incorrect derived address for masternode rewards"));
         }
-    }
+    //}
 
     // track money supply and mint amount info
     CAmount nMoneySupplyPrev = pindex->pprev ? pindex->pprev->nMoneySupply : 0;
