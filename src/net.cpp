@@ -126,11 +126,9 @@ unsigned short GetListenPort() {
 
 bool IsUnsupportedVersion(std::string strSubVer) {
     std::time_t banningTime = std::time(0);  // t is an integer type
-    if (banningTime >= Params().PoAFixTime()) {
-        return (strSubVer == "/PRCYcoin:0.27.5.1/" || strSubVer == "/PRCYcoin:1.0.0/" || strSubVer == "/PRCYcoin:1.0.1/" || strSubVer == "/PRCY:1.0.1.3/" || strSubVer == "/PRCY:1.0.2/" || strSubVer == "/PRCY:1.0.3.4/" || strSubVer == "/PRCY:1.0.4.6/" || strSubVer == "/PRCY:1.0.5.7/" || strSubVer == "/PRCY:1.0.5.8/" || strSubVer == "/PRCY:1.0.6.5/" || strSubVer == "/PRCY:1.0.6.6/" || strSubVer == "/PRCY:1.0.7.1/" || strSubVer == "/PRCY:1.0.8/" || strSubVer == "/PRCY:1.0.8.1/" || strSubVer == "/PRCY:1.0.8.2/");
+        return false;
     }
-    return (strSubVer == "/PRCYcoin:0.27.5.1/" || strSubVer == "/PRCYcoin:1.0.0/" || strSubVer == "/PRCYcoin:1.0.1/" || strSubVer == "/PRCY:1.0.1.3/" || strSubVer == "/PRCY:1.0.2/" || strSubVer == "/PRCY:1.0.3.4/" || strSubVer == "/PRCY:1.0.4.6/" || strSubVer == "/PRCY:1.0.5.7/" || strSubVer == "/PRCY:1.0.5.8/" || strSubVer == "/PRCY:1.0.6.5/" || strSubVer == "/PRCY:1.0.6.6/" || strSubVer == "/PRCY:1.0.7.1/");
-}
+
 
 // find 'best' local address for a particular peer
 bool GetLocal(CService &addr, const CNetAddr *paddrPeer) {
