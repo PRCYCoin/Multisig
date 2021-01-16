@@ -2293,7 +2293,7 @@ CAmount TeamRewards(const CBlockIndex* ptip)
     const CBlockIndex* lastPoABlock = pForkTip;
     if (lastPoABlock->hashPrevPoABlock.IsNull()) {
         //pay prcy team after the first PoA block
-        return (pForkTip->nHeight - Params().LAST_POW_BLOCK() - 1 + 1 /*+1 for the being created PoS block*/) * 50 * COIN;
+        return (pForkTip->nHeight - Params().LAST_POW_BLOCK() - 1 + 1 /*+1 for the being created PoS block*/) * 0.5 * COIN;
     }
 
     //loop back to find the PoA block right after which the prcy team is paid
@@ -2308,7 +2308,7 @@ CAmount TeamRewards(const CBlockIndex* ptip)
     }
 
     if (!lastPoAHash.IsNull() && numPoABlocks != 0 && numPoABlocks % 24 == 0) {
-        ret = (pForkTip->nHeight - (mapBlockIndex[lastPoAHash]->nHeight + 1) - numPoABlocks + 1 /*+1 for the being created PoS block*/) * 50 * COIN;
+        ret = (pForkTip->nHeight - (mapBlockIndex[lastPoAHash]->nHeight + 1) - numPoABlocks + 1 /*+1 for the being created PoS block*/) * 0.5 * COIN;
     }
     return ret;
 }
