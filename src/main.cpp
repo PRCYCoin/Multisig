@@ -2323,11 +2323,11 @@ int64_t GetBlockValue(const CBlockIndex* ptip)
     }
 
     if (pForkTip->nMoneySupply >= Params().TOTAL_SUPPLY) {
-        //zero rewards when total supply reach 70B PRCY
+        //zero rewards when total supply reach 70M PRCY
         return 0;
     }
 	if (pForkTip->nHeight < Params().LAST_POW_BLOCK()) {
-		nSubsidy = 120000000 * COIN;
+		nSubsidy = 120000 * COIN;
 	} else {
         nSubsidy = PoSBlockReward();
         nSubsidy += TeamRewards(pForkTip);
