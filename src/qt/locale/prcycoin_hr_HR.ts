@@ -1767,12 +1767,12 @@ Budite strpljivi nakon što kliknete uvoz.</translation>
         <translation>Odaberi razinu privatnosti.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000000 PRCY</source>
-        <translation>Koristite 2 odvojene masternode za miješanje sredstava do 1000000 PRCY</translation>
+        <source>Use 2 separate masternodes to mix funds up to 5000 PRCY</source>
+        <translation>Koristite 2 odvojene masternode za miješanje sredstava do 5000 PRCY</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000000 PRCY</source>
-        <translation>Koristite 8 zasebnih masternoda za miješanje sredstava do 1000000 PRCY</translation>
+        <source>Use 8 separate masternodes to mix funds up to 5000 PRCY</source>
+        <translation>Koristite 8 zasebnih masternoda za miješanje sredstava do 5000 PRCY</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>

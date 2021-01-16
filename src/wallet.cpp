@@ -910,7 +910,7 @@ bool CWallet::GetMasternodeVinAndKeys(CTxIn& txinRet, CPubKey& pubKeyRet, CKey& 
 
     // Find possible candidates
     std::vector<COutput> vPossibleCoins;
-    AvailableCoins(vPossibleCoins, true, NULL, false, ONLY_1000000);
+    AvailableCoins(vPossibleCoins, true, NULL, false, ONLY_5000);
     if (vPossibleCoins.empty()) {
         LogPrintf("CWallet::GetMasternodeVinAndKeys -- Could not locate any valid masternode vin\n");
         return false;
@@ -2213,13 +2213,13 @@ bool CWallet::AvailableCoins(const uint256 wtxid, const CWalletTx* pcoin, vector
             CAmount value = getCTxOutValue(*pcoin, pcoin->vout[i]);
             if (nCoinType == ONLY_DENOMINATED) {
                 found = IsDenominatedAmount(value);
-            } else if (nCoinType == ONLY_NOT1000000IFMN) {
+            } else if (nCoinType == ONLY_NOT5000IFMN) {
                 found = !(fMasterNode && value == 1000000 * COIN);
-            } else if (nCoinType == ONLY_NONDENOMINATED_NOT1000000IFMN) {
+            } else if (nCoinType == ONLY_NONDENOMINATED_NOT5000IFMN) {
                 if (IsCollateralAmount(value)) return false; // do not use collateral amounts
                 found = !IsDenominatedAmount(value);
                 if (found && fMasterNode) found = value != 1000000 * COIN; // do not use Hot MN funds
-            } else if (nCoinType == ONLY_1000000) {
+            } else if (nCoinType == ONLY_5000) {
                 found = value == 1000000 * COIN;
             } else {
                 COutPoint outpoint(pcoin->GetHash(), i);
@@ -2235,7 +2235,7 @@ bool CWallet::AvailableCoins(const uint256 wtxid, const CWalletTx* pcoin, vector
             isminetype mine = IsMine(pcoin->vout[i]);
             if (mine == ISMINE_NO)
                 continue;
-            if (IsLockedCoin(wtxid, i) && nCoinType != ONLY_1000000)
+            if (IsLockedCoin(wtxid, i) && nCoinType != ONLY_5000)
                 continue;
             if (value <= 0 && !fIncludeZeroValue)
                 continue;
@@ -2798,7 +2798,7 @@ bool CWallet::SelectCoinsDark(CAmount nValueMin, CAmount nValueMax, std::vector<
     nValueRet = 0;
 
     vector<COutput> vCoins;
-    AvailableCoins(vCoins, true, coinControl, false, nObfuscationRoundsMin < 0 ? ONLY_NONDENOMINATED_NOT1000000IFMN : ONLY_DENOMINATED);
+    AvailableCoins(vCoins, true, coinControl, false, nObfuscationRoundsMin < 0 ? ONLY_NONDENOMINATED_NOT5000IFMN : ONLY_DENOMINATED);
 
     set<pair<const CWalletTx*, unsigned int> > setCoinsRet2;
 
@@ -3303,9 +3303,9 @@ bool CWallet::CreateTransaction(const vector<pair<CScript, CAmount> >& vecSend,
                 if (!SelectCoins(true, estimatedFee, 10, 2, nTotalValue, setCoins, nValueIn, coinControl, coin_type, useIX)) {
                     if (coin_type == ALL_COINS) {
                         strFailReason = _("Insufficient funds.");
-                    } else if (coin_type == ONLY_NOT1000000IFMN) {
+                    } else if (coin_type == ONLY_NOT5000IFMN) {
                         strFailReason = _("Unable to locate enough funds for this transaction that are not equal 10000 PRCY.");
-                    } else if (coin_type == ONLY_NONDENOMINATED_NOT1000000IFMN) {
+                    } else if (coin_type == ONLY_NONDENOMINATED_NOT5000IFMN) {
                         strFailReason = _("Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PRCY.");
                     } else {
                         strFailReason = _("Unable to locate enough Obfuscation denominated funds for this transaction.");

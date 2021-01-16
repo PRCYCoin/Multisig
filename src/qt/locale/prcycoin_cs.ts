@@ -1521,7 +1521,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Vyberte úrpvěň ochrany soukromí</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000000 PRCY</source>
+        <source>Use 2 separate masternodes to mix funds up to 5000 PRCY</source>
         <translation>Použí 2 oddělené masternody k promíchání prostředků až do 10000 PRCY</translation>
     </message>
     <message>

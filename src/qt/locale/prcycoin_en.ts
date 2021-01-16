@@ -5296,7 +5296,7 @@ Please try again.</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 1000000 PRCY.</source>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 5000 PRCY.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -1559,11 +1559,11 @@ Please check the address and try again.</source>
         <translation>Изберете ниво на поверителност.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000000 PRCY</source>
+        <source>Use 2 separate masternodes to mix funds up to 5000 PRCY</source>
         <translation>Използвай 2 различни мастърноуда за смесване на средства над 10000 PRCY</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000000 PRCY</source>
+        <source>Use 8 separate masternodes to mix funds up to 5000 PRCY</source>
         <translation>Използвай 8 различни мастърноуда за да смесите средства до 10000 PRCY</translation>
     </message>
     <message>

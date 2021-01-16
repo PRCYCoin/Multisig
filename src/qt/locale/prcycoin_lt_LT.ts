@@ -1738,11 +1738,11 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>Pasirinkite privatumo lygmenį.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000000 PRCY</source>
+        <source>Use 2 separate masternodes to mix funds up to 5000 PRCY</source>
         <translation>Naudokite 2 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 00000 PRCY</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000000 PRCY</source>
+        <source>Use 8 separate masternodes to mix funds up to 5000 PRCY</source>
         <translation>Naudokite 8 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 00000 PRCY</translation>
     </message>
     <message>

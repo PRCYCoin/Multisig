@@ -1519,12 +1519,12 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Vælg tilsløringsniveau</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000000 PRCY</source>
-        <translation>Brug 2 separate masternoder for at tilsløre beløb op til 1000000 PRCY</translation>
+        <source>Use 2 separate masternodes to mix funds up to 5000 PRCY</source>
+        <translation>Brug 2 separate masternoder for at tilsløre beløb op til 5000 PRCY</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000000 PRCY</source>
-        <translation>Brug 8 separate masternoder for at tilsløre op til 1000000 PRCY</translation>
+        <source>Use 8 separate masternodes to mix funds up to 5000 PRCY</source>
+        <translation>Brug 8 separate masternoder for at tilsløre op til 5000 PRCY</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>

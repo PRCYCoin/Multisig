@@ -1161,11 +1161,11 @@
         <translation>Si us plau, selecciona un nivell de privacitat.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000000 PRCY</source>
+        <source>Use 2 separate masternodes to mix funds up to 5000 PRCY</source>
         <translation>Utilitza 2 masternodes diferents per mesclar fons de fins a 10000 PRCY</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000000 PRCY</source>
+        <source>Use 8 separate masternodes to mix funds up to 5000 PRCY</source>
         <translation>Utilitza 8 masternodes diferents per mesclar fons de fins a 10000 PRCY</translation>
     </message>
     <message>

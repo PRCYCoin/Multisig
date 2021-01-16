@@ -1045,12 +1045,12 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Veuillez sélectionner un niveau de confidentialité.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000000 PRCY</source>
-        <translation>Utiliser 2 masternodes différentes pour mélanger les fonds jusqu'a 1000000 PRCY</translation>
+        <source>Use 2 separate masternodes to mix funds up to 5000 PRCY</source>
+        <translation>Utiliser 2 masternodes différentes pour mélanger les fonds jusqu'a 5000 PRCY</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000000 PRCY</source>
-        <translation>Utiliser 8 masternodes différentes pour mélanger les fonds jusqu'a 1000000 PRCY</translation>
+        <source>Use 8 separate masternodes to mix funds up to 5000 PRCY</source>
+        <translation>Utiliser 8 masternodes différentes pour mélanger les fonds jusqu'a 5000 PRCY</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>

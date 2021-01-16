@@ -1150,12 +1150,12 @@ Please check the address and try again.</source>
         <translation>Valitse yksityisyyden taso.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000000 PRCY</source>
-        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 1000000 PRCY</translation>
+        <source>Use 2 separate masternodes to mix funds up to 5000 PRCY</source>
+        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 5000 PRCY</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000000 PRCY</source>
-        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 1000000 PRCY</translation>
+        <source>Use 8 separate masternodes to mix funds up to 5000 PRCY</source>
+        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 5000 PRCY</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>

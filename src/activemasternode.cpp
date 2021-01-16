@@ -12,7 +12,7 @@
 #include "protocol.h"
 
 //
-// Bootup the Masternode, look for a 1000000 PRCY input and register on the network
+// Bootup the Masternode, look for a 5000 PRCY input and register on the network
 //
 void CActiveMasternode::ManageStatus()
 {
@@ -491,7 +491,7 @@ vector<COutput> CActiveMasternode::SelectCoinsMasternode()
     // Retrieve all possible outputs
     {
         LOCK2(cs_main, pwalletMain->cs_wallet);
-        pwalletMain->AvailableCoins(vCoins, true, NULL, false, AvailableCoinsType::ONLY_1000000);
+        pwalletMain->AvailableCoins(vCoins, true, NULL, false, AvailableCoinsType::ONLY_5000);
         // Lock MN coins from masternode.conf back if they where temporary unlocked
         if (!confLockedCoins.empty()) {
             for (COutPoint outpoint : confLockedCoins)
