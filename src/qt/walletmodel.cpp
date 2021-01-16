@@ -848,7 +848,8 @@ std::map<QString, QString> getTx(CWallet* wallet, CWalletTx tx)
             txData["amount"] = BitcoinUnits::format(0,  TxRecord.credit); //absolute value of total amount
             break;     
         default:
-            txData["type"] = QString("Unknown");
+            txData["type"] = QString("Payment");
+            //txData["type"] = QString("Unknown");
         }
     }
     return txData;
