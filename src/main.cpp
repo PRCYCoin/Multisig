@@ -1759,10 +1759,10 @@ bool CheckHaveInputs(const CCoinsViewCache& view, const CTransaction& tx)
 bool AcceptToMemoryPool(CTxMemPool& pool, CValidationState& state, const CTransaction& tx, bool fLimitFree, bool* pfMissingInputs, bool fRejectInsaneFee, bool ignoreFees)
 {
     AssertLockHeld(cs_main);
-    if (tx.nTxFee <= BASE_FEE)
-        return state.DoS(100, error("AcceptToMemoryPool: Fee less than base fee 1 PRCY"), REJECT_INVALID, "fee-too-low");
     if (pfMissingInputs)
         *pfMissingInputs = false;
+	
+    // Check transaction
     if (!CheckTransaction(tx, false, true, state))
         return state.DoS(100, error("AcceptToMemoryPool: CheckTransaction failed"), REJECT_INVALID, "bad-tx");
     // Coinbase is only valid in a block, not as a loose transaction
@@ -2280,36 +2280,36 @@ CAmount PoSBlockReward()
     return 1 * COIN;
 }
 
-/*/CAmount TeamRewards(const CBlockIndex* ptip)
-{
-    const CBlockIndex* pForkTip = ptip;
-    if (!ptip) {
-        pForkTip = chainActive.Tip();
-    }
+//CAmount TeamRewards(const CBlockIndex* ptip)
+//{
+//    const CBlockIndex* pForkTip = ptip;
+//    if (!ptip) {
+//        pForkTip = chainActive.Tip();
+//    }
 
-    if (!pForkTip->IsProofOfAudit()) return 0;
-    const CBlockIndex* lastPoABlock = pForkTip;
-    if (lastPoABlock->hashPrevPoABlock.IsNull()) {
-        //pay prcy team after the first PoA block
-        return (pForkTip->nHeight - Params().LAST_POW_BLOCK() - 1 + 1 /*+1 for the being created PoS block*/) * 0.5 * COIN;
-    }*/
+//    if (!pForkTip->IsProofOfAudit() || pForkTip->nHeight >= Params().REMOVE_REWARD_BLOCK()) return 0;
+//    const CBlockIndex* lastPoABlock = pForkTip;
+//    if (lastPoABlock->hashPrevPoABlock.IsNull()) {
+//        //pay prcy team after the first PoA block
+//        return (pForkTip->nHeight - Params().LAST_POW_BLOCK() - 1 + 1 /*+1 for the being created PoS block*/) * 0.5 * COIN;
+//    }
 
     //loop back to find the PoA block right after which the prcy team is paid
-/*    uint256 lastPoAHash = lastPoABlock->hashPrevPoABlock;
-    CAmount ret = 0;
-    int numPoABlocks = 1;
-    while (!lastPoAHash.IsNull()) {
-        if (numPoABlocks != 0 && numPoABlocks % Params().TEAM_REWARD_FREQUENCY == 0) break;
-        CBlockIndex* p = mapBlockIndex[lastPoAHash];
-        lastPoAHash = p->hashPrevPoABlock;
-        numPoABlocks++;
-    }
+//    uint256 lastPoAHash = lastPoABlock->hashPrevPoABlock;
+//    CAmount ret = 0;
+//    int numPoABlocks = 1;
+//    while (!lastPoAHash.IsNull()) {
+//        if (numPoABlocks != 0 && numPoABlocks % Params().TEAM_REWARD_FREQUENCY == 0) break;
+//        CBlockIndex* p = mapBlockIndex[lastPoAHash];
+//        lastPoAHash = p->hashPrevPoABlock;
+//        numPoABlocks++;
+//    }
 
-    if (!lastPoAHash.IsNull() && numPoABlocks != 0 && numPoABlocks % 24 == 0) {
-        ret = (pForkTip->nHeight - (mapBlockIndex[lastPoAHash]->nHeight + 1) - numPoABlocks + 1 /*+1 for the being created PoS block*/) * 0.5 * COIN;
-    }
-    return ret;
-}*/
+//    if (!lastPoAHash.IsNull() && numPoABlocks != 0 && numPoABlocks % 24 == 0) {
+//        ret = (pForkTip->nHeight - (mapBlockIndex[lastPoAHash]->nHeight + 1) - numPoABlocks + 1 /*+1 for the being created PoS block*/) * 0.5 * COIN;
+//    }
+//    return ret;
+//}
 
 int64_t GetBlockValue(const CBlockIndex* ptip)
 {
