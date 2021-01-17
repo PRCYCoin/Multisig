@@ -314,6 +314,10 @@ bool Random_SanityCheck()
         std::this_thread::sleep_for(std::chrono::milliseconds(1));
         uint64_t stop = GetPerformanceCounter();
         if (stop == start) return false;
+		
+        // We called GetPerformanceCounter. Use it as entropy.
+        RAND_add((const unsigned char*)&start, sizeof(start), 1);
+        RAND_add((const unsigned char*)&stop, sizeof(stop), 1);
 
         return true;
 }
