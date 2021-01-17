@@ -3,7 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "main.h"
-#include "random.h"
+#include "test_random.h"
 #include "util.h"
 
 #include <vector>
@@ -101,4 +101,4 @@ BOOST_AUTO_TEST_CASE(getlocator_test)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-#endif
+#endif

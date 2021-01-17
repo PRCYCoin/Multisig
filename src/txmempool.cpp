@@ -13,6 +13,7 @@
 #include "util.h"
 #include "utilmoneystr.h"
 #include "version.h"
+#include "random.h"
 
 #include <boost/circular_buffer.hpp>
 

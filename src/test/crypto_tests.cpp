@@ -9,7 +9,7 @@
 #include "crypto/sha512.h"
 #include "crypto/hmac_sha256.h"
 #include "crypto/hmac_sha512.h"
-#include "random.h"
+#include "test_random.h"
 #include "utilstrencodings.h"
 
 #include <vector>
@@ -284,4 +284,4 @@ BOOST_AUTO_TEST_CASE(rfc6979_hmac_sha256)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-#endif
+#endif

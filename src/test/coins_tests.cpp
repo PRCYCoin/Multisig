@@ -3,7 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "coins.h"
-#include "random.h"
+#include "test_random.h"
 #include "uint256.h"
 
 #include <vector>
@@ -177,4 +177,4 @@ BOOST_AUTO_TEST_CASE(coins_cache_simulation_test)
 }
 
 BOOST_AUTO_TEST_SUITE_END()
-#endif
+#endif
