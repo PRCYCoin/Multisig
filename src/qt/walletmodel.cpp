@@ -22,7 +22,7 @@
 #include "main.h"
 #include "miner.h"
 #include "sync.h"
-#include "ui_interface.h"
+#include "guiinterface.h"
 #include "wallet.h"
 #include "walletdb.h" // for BackupWallet
 #include <stdint.h>

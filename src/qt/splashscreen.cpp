@@ -10,6 +10,7 @@
 #include "clientversion.h"
 #include "init.h"
 #include "networkstyle.h"
+#include "guiinterface.h"
 #include "util.h"
 #include "version.h"
 
@@ -33,10 +34,10 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle* networkStyle) 
     float fontFactor = 1.0;
 
     // define text to place
-    QString titleText = tr("PRCY Coin Keychain Wallet");
+    QString titleText = tr("PRCY Coin Multisig");
     fLiteMode = GetBoolArg("-litemode", false);
     if (fLiteMode) {
-        titleText = tr("PRCY Coin Lite Mode Wallet");
+        titleText = tr("PRCY Coin Lite Mode Multisig");
     }
     QString versionText = QString(tr("Version %1")).arg(QString::fromStdString(FormatFullVersion()));
     QString copyrightTextBtc = QChar(0xA9) + QString(" 2009-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Bitcoin Core developers"));
