@@ -112,7 +112,7 @@ jobs:
     - name: Build Dependencies
       run: make -C depends -j$(nproc) HOST=x86_64-w64-mingw32
       working-directory: ${{ env.SOURCE_ARTIFACT }}
-    - name: Build PRCY
+    - name: Build PRCY Multisig
       run: |
         ./autogen.sh
         ./configure --disable-jni --disable-tests --disable-gui-tests --disable-bench --prefix=$(realpath depends/x86_64-w64-mingw32)
@@ -155,7 +155,7 @@ jobs:
     - name: Build Dependencies
       run: make -C depends -j$(nproc) HOST=i686-w64-mingw32
       working-directory: ${{ env.SOURCE_ARTIFACT }}
-    - name: Build PRCY
+    - name: Build PRCY Multisig
       run: |
         ./autogen.sh
         ./configure --disable-jni --disable-tests --disable-gui-tests --disable-bench --prefix=$(realpath depends/i686-w64-mingw32)
@@ -202,7 +202,7 @@ jobs:
     - name: Build Dependencies
       run: make -C depends HOST=x86_64-apple-darwin16 -j$(nproc)
       working-directory: ${{ env.SOURCE_ARTIFACT }}
-    - name: Build PRCY
+    - name: Build PRCY Multisig
       run: |
         ./autogen.sh
         ./configure --disable-jni --disable-tests --disable-gui-tests --disable-bench --prefix=$(realpath depends/x86_64-apple-darwin16)
@@ -241,7 +241,7 @@ jobs:
     - name: Build Dependencies
       run: make -C depends HOST=aarch64-linux-gnu -j$(nproc)
       working-directory: ${{ env.SOURCE_ARTIFACT }}
-    - name: Build PRCY
+    - name: Build PRCY Multisig
       run: |
         ./autogen.sh
         ./configure --disable-jni --disable-tests --disable-gui-tests --disable-bench --prefix=$(realpath depends/aarch64-linux-gnu)
