@@ -5873,7 +5873,6 @@ void static ProcessGetData(CNode* pfrom)
 
 bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, int64_t nTimeReceived)
 {
-    RandAddSeedPerfmon();
     if (fDebug)
         LogPrintf("received: %s (%u bytes) peer=%d, chainheight=%d\n", SanitizeString(strCommand), vRecv.size(), pfrom->id, chainActive.Height());
     if (mapArgs.count("-dropmessagestest") && GetRand(atoi(mapArgs["-dropmessagestest"])) == 0) {
