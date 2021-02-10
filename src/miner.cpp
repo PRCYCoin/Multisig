@@ -599,7 +599,7 @@ CBlockTemplate* CreateNewPoABlockWithKey(CReserveKey& reservekey, CWallet* pwall
 {
     CPubKey pubkey, txPub;
     CKey txPriv;
-    if (!pwallet->GenerateAddress(pubkey, txPu                                                                        b, txPriv))
+    if (!pwallet->GenerateAddress(pubkey, txPub, txPriv))
         return NULL;
 
     CScript scriptPubKey = CScript() << ToByteVector(pubkey) << OP_CHECKSIG;
