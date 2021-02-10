@@ -366,13 +366,8 @@ libbitcoin_util_a_SOURCES = \
   chainparamsbase.cpp \
   clientversion.cpp \
   random.cpp \
-<<<<<<< HEAD
-  rpcprotocol.cpp \
-  support/cleanse.cpp \
-=======
   rpc/protocol.cpp \
   support/cleanse.cpp \
->>>>>>> origin/upstream/move-wallet-files
   sync.cpp \
   uint256.cpp \
   util.cpp \

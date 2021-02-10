@@ -21,13 +21,8 @@
 #include "util.h"
 #include "utilmoneystr.h"
 #ifdef ENABLE_WALLET
-<<<<<<< HEAD
-#include "wallet.h"
-extern CWallet* pwalletMain;
-=======
 #include "wallet/wallet.h"
-extern CWallet *pwalletMain;
->>>>>>> origin/upstream/move-wallet-files
+extern CWallet* pwalletMain;
 #endif
 #include "masternode-payments.h"
 
