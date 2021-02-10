@@ -7,7 +7,7 @@
 #include "primitives/deterministicmint.h"
 #include "main.h"
 #include "stakeinput.h"
-#include "wallet.h"
+#include "wallet/wallet.h"
 
 //!PRCY Stake
 bool CPrcyStake::SetInput(CTransaction txPrev, unsigned int n)
