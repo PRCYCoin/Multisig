@@ -296,3 +296,43 @@ jobs:
       with:
         name: ${{ env.ARTIFACT_DIR }}
         path: ${{ env.ARTIFACT_DIR }}
+  build-riscv64-linux-gnu:
+    name: Build for RISC-V 64-bit
+    needs: create-source-distribution
+    runs-on: ubuntu-18.04
+    env:
+      ARTIFACT_DIR: prcycoin-v-Multisig-riscv64
+    steps:
+    - name: Getting Source
+      uses: actions/download-artifact@v1
+      with:
+        name: ${{ env.SOURCE_ARTIFACT }}
+    - name: Extract Archives
+      run: |
+        tar -xzf depends.tar.gz
+        tar -xzf prcycoin.tar.gz --strip-components=1
+      working-directory: ${{ env.SOURCE_ARTIFACT }}
+    - name: Install Required Packages
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y g++-riscv64-linux-gnu binutils-riscv64-linux-gnu
+    - name: Build Dependencies
+      run: make -C depends -j$(nproc) HOST=riscv64-linux-gnu
+      working-directory: ${{ env.SOURCE_ARTIFACT }}
+    - name: Build PRCY Multisig
+      run: |
+        ./autogen.sh
+        ./configure --disable-jni --disable-tests --disable-gui-tests --disable-bench --prefix=$(realpath depends/riscv64-linux-gnu) --enable-reduce-exports LDFLAGS=-static-libstdc++
+        make -j$(nproc)
+      working-directory: ${{ env.SOURCE_ARTIFACT }}
+    - name: Prepare Files for Artifact
+      run: |
+        mkdir -p $ARTIFACT_DIR
+        chmod +x $SOURCE_ARTIFACT/src/{prcycoin-cli-multisig,prcycoin-tx-multisig,prcycoind-multisig,qt/prcycoin-qt-multisig}
+        mv $SOURCE_ARTIFACT/src/{prcycoin-cli-multisig,prcycoin-tx-multisig,prcycoind-multisig,qt/prcycoin-qt-multisig} $ARTIFACT_DIR
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v1
+      with:
+        name: ${{ env.ARTIFACT_DIR }}
+        path: ${{ env.ARTIFACT_DIR }}
+        path: ${{ env.ARTIFACT_DIR }}
