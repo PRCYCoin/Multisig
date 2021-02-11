@@ -335,4 +335,3 @@ jobs:
       with:
         name: ${{ env.ARTIFACT_DIR }}
         path: ${{ env.ARTIFACT_DIR }}
-        path: ${{ env.ARTIFACT_DIR }}
