@@ -4617,6 +4617,11 @@ bool CWallet::selectDecoysAndRealIndex(CPartialTransaction& tx, int& myIndex, in
             return false;
         }
 
+        if (tx.nLockTime != 0) {
+            LogPrintf("\ntx.nLockTime != 0, currently disabled\n");
+            return false;
+        }
+
         CBlockIndex* atTheblock = mapBlockIndex[hashBlock];
         CBlockIndex* tip = chainActive.Tip();
         if (!chainActive.Contains(atTheblock)) continue;
