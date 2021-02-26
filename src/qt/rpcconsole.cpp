@@ -1004,7 +1004,6 @@ void RPCConsole::banSelectedNode(int bantime)
         return;
 
     if(cachedNodeid == -1)
-        return;
 
     // Get currently selected peer address
     int detailNodeRow = clientModel->getPeerTableModel()->getRowByNodeId(cachedNodeid);
