@@ -14,8 +14,8 @@
 
 #include "chainparams.h"
 #include "main.h"
-#include "rpcclient.h"
-#include "rpcserver.h"
+#include "rpc/client.h"
+#include "rpc/server.h"
 #include "util.h"
 
 #include <univalue.h>
@@ -1002,15 +1002,14 @@ void RPCConsole::banSelectedNode(int bantime)
 {
     if (!clientModel)
         return;
-	
-	    if(cachedNodeid == -1)
-        return;
+
+    if(cachedNodeid == -1)
 
     // Get currently selected peer address
     int detailNodeRow = clientModel->getPeerTableModel()->getRowByNodeId(cachedNodeid);
     if(detailNodeRow < 0)
         return;
-	
+
     // Find possible nodes, ban it and clear the selected node
     const CNodeCombinedStats *stats = clientModel->getPeerTableModel()->getNodeStats(detailNodeRow);
     if(stats) {

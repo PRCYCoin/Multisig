@@ -65,6 +65,7 @@ BITCOIN_TESTS =\
   test/sigopcount_tests.cpp \
   test/skiplist_tests.cpp \
   test/test_prcycoin.cpp \
+  test/test_random.h \
   test/timedata_tests.cpp \
   test/torcontrol_tests.cpp \
   test/transaction_tests.cpp \
@@ -76,7 +77,7 @@ BITCOIN_TESTS =\
 if ENABLE_WALLET
 BITCOIN_TESTS += \
   test/accounting_tests.cpp \
-  test/wallet_tests.cpp \
+  wallet/test/wallet_tests.cpp \
   test/rpc_wallet_tests.cpp
 endif
 

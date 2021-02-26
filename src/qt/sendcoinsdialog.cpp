@@ -21,7 +21,7 @@
 #include "coincontrol.h"
 #include "guiinterface.h"
 #include "utilmoneystr.h"
-#include "wallet.h"
+#include "wallet/wallet.h"
 #include "2faconfirmdialog.h"
 #include "timedata.h"
 
@@ -198,7 +198,7 @@ void SendCoinsDialog::on_sendButton_clicked(){
     send_amount = recipient.amount;
     bool isValidAddresss = (regex_match(address.toStdString(), regex("[a-zA-z0-9]+")))&&(address.length()==99||address.length()==110);
     bool isValidAmount = ((recipient.amount>0) && (recipient.amount<=model->getBalance()));
-    bool isMinimumAmount = (recipient.amount > 5  * COIN);
+    bool isMinimumAmount = (recipient.amount >= 5  * COIN);
 
     form->errorAddress(isValidAddresss);
     form->errorAmount(isValidAmount);

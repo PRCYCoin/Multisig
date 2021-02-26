@@ -21,7 +21,7 @@
 #include "coincontrol.h"
 #include "guiinterface.h"
 #include "utilmoneystr.h"
-#include "wallet.h"
+#include "wallet/wallet.h"
 #include "2faconfirmdialog.h"
 
 #include <regex>

@@ -17,11 +17,15 @@
 #include <math.h>
 
 unsigned int N_BITS = 0x1e050000;
+unsigned int N_BITS_SF = 0x1e127ff8;
 
 unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader* pblock)
 {
     if (N_BITS != 0 && pblock->IsPoABlockByVersion()) {
-        return N_BITS;
+        if (pindexLast->nHeight < Params().SoftFork()) {
+            return N_BITS;
+        }
+        return N_BITS_SF;
     }
     /* current difficulty formula, prcycoin - DarkGravity v3, written by Evan Duffield - evan@dashpay.io */
     const CBlockIndex* BlockLastSolved = pindexLast;
@@ -59,7 +63,15 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
         // ppcoin: target change every block
         // ppcoin: retarget with exponential moving toward target spacing
         uint256 bnNew;
-        bnNew.SetCompact(pindexLast->nBits);
+        if (pindexLast->nHeight < Params().SoftFork()) {
+            bnNew.SetCompact(pindexLast->nBits);
+        } else {
+            if (pindexLast->IsProofOfStake()) {
+                bnNew.SetCompact(pindexLast->nBits);
+            } else {
+                bnNew.SetCompact(pLastPoS->nBits);
+            }
+        }
 
         int64_t nInterval = nTargetTimespan / nTargetSpacing;
         bnNew *= ((nInterval - 1) * nTargetSpacing + nActualSpacing + nActualSpacing);
@@ -202,7 +214,11 @@ bool CheckPoAContainRecentHash(const CBlock& block)
             index++;
         }
     } else {
-        if (pindex->nHeight >= Params().START_POA_BLOCK()) {
+        if (pindex->nHeight >= Params().START_POA_BLOCK()) {	
+            // Bypass bad block			
+            if (pindex->nHeight == 17077 || pindex->nHeight == 17154) {
+                return true;
+            }
             CBlock prevPoablock;
             CBlockIndex* pblockindex = pindex;
             if (!ReadBlockFromDisk(prevPoablock, pblockindex))
@@ -358,7 +374,10 @@ bool CheckPoAMerkleRoot(const CBlock& block, bool* fMutate)
 
 //A PoA block cannot contain information of any PoA block information (hash, height, timestamp)
 bool CheckPoABlockNotContainingPoABlockInfo(const CBlock& block, const CBlockIndex* pindex)
-{
+{    // Bypass bad block
+    if (pindex->nHeight == 17154) {
+        return true;
+    } 
     uint32_t numOfPoSBlocks = block.posBlocksAudited.size();
     for (uint32_t i = 0; i < numOfPoSBlocks; i++) {
         PoSBlockSummary pos = block.posBlocksAudited.at(i);
@@ -448,5 +467,5 @@ bool CheckPoABlockRewardAmount(const CBlock& block, const CBlockIndex* pindex)
 }
 
 bool IsFixedAudit(std::string txid) {
-    return (txid == "");
+    return (txid == "9965850037f14dcb4abf1168016e9f96f53692322714e7fac92a2b8838544135");
 }
