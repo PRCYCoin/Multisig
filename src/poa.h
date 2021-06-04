@@ -48,5 +48,6 @@ bool CheckPoAblockTime(const CBlock& block);
 bool CheckPoABlockNotAuditingOverlap(const CBlock& block);
 bool CheckPoABlockRewardAmount(const CBlock& block, const CBlockIndex* pindex);
 bool IsFixedAudit(std::string txid);
+bool IsWrongAudit(std::string txid);
 
 #endif // BITCOIN_POW_H
