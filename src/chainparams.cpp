@@ -140,11 +140,13 @@ public:
         nModifierUpdateBlock = 615800;
         nPoABlockTime = 60 * 60; //a PoA block every 60 minutes
         nMinNumPoSBlocks = 59;
-        nMaxNumPoSBlocks = 120;
+        nMaxNumPoSBlocks = 65;
         nSoftForkBlock = 120000; // Soft fork block for difficulty change
         nPoANewDiff = 150000; // New PoA difficulty
         nBIP65ActivationHeight = 125000; // Last v3 block was 124712, leave a bit of padding
         nPoAFixTime = 1616716800; // Fork time for PoA fix - Friday, March 26, 2021 12:00:00 AM (GMT)
+
+        nPoAPaddingTime = 1617580800; // Fork time for PoA fix - Monday, April 5, 2021 12:00:00 AM (GMT)
 		
         /**
          * Build the genesis block. Note that the output of the genesis coinbase cannot
@@ -226,7 +228,7 @@ public:
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 28);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x57)(0x4D)(0x12)(0x23).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x57)(0x41)(0x71)(0x65).convert_to_container<std::vector<unsigned char> >();
-        // 	BIP44 coin type is from https://github.com/satoshilabs/slips/blob/master/slip-0044.md
+        // BIP44 coin type is from https://github.com/satoshilabs/slips/blob/master/slip-0044.md
         nExtCoinType = 0x80000355;
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
@@ -278,7 +280,7 @@ public:
         nStartPOABlock = 560;
         nPoABlockTime = 30 * 60;  //1 PoA block every 30 minutes
         nMinNumPoSBlocks = 29;
-        nMaxNumPoSBlocks = 60;
+        nMaxNumPoSBlocks = 33;
         nMaturity = 15;
         nMasternodeCountDrift = 4;
         nModifierUpdateBlock = 51197; //approx Mon, 17 Apr 2017 04:00:00 GMT
@@ -288,6 +290,8 @@ public:
         nPoANewDiff = 650;
         nBIP65ActivationHeight = 0;
 
+        nPoAFixTime = 1616277580; // Fork time for PoA fix - Saturday, March 20, 2021 22:00:00 AM (GMT)
+        nPoAPaddingTime = 1616281200; // Fork time for PoA fix - Saturday, March 20, 2021 23:00:00 AM (GMT)
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1608422400;
         genesis.nNonce = 23323155;
