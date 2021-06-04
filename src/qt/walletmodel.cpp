@@ -15,6 +15,7 @@
 #include "transactionrecord.h"
 #include "transactiontablemodel.h"
 
+#include "init.h" // for ShutdownRequested(). Future: move to an interface wrapper
 
 #include "base58.h"
 #include "wallet/db.h"
@@ -67,6 +68,11 @@ WalletModel::WalletModel(CWallet* wallet, OptionsModel* optionsModel, QObject* p
 WalletModel::~WalletModel()
 {
     unsubscribeFromCoreSignals();
+}
+
+bool WalletModel::isShutdownRequested()
+{
+    return ShutdownRequested();
 }
 
 CAmount WalletModel::getBalance(const CCoinControl* coinControl) const
