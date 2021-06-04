@@ -405,7 +405,6 @@ void BitcoinApplication::createWindow(const NetworkStyle* networkStyle)
 
     pollShutdownTimer = new QTimer(window);
     connect(pollShutdownTimer, SIGNAL(timeout()), window, SLOT(detectShutdown()));
-    pollShutdownTimer->start(200);
 }
 
 void BitcoinApplication::createSplashScreen(const NetworkStyle* networkStyle)
@@ -570,6 +569,7 @@ void BitcoinApplication::initializeResult(int retval)
             }
         }
 #endif
+        pollShutdownTimer->start(200);
     } else {
         quit(); // Exit main loop
     }
