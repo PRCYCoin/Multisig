@@ -19,6 +19,11 @@
 
 typedef unsigned char MessageStartChars[MESSAGE_START_SIZE];
 
+struct SeedSpec6 {
+    uint8_t addr[16];
+    uint16_t port;
+};
+
 class CDNSSeedData {
 public:
     std::string name, host;
