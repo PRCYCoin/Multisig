@@ -93,11 +93,18 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
     (77852, uint256("e6ec3ddccfb6bd378ca3cf5cc292c011ec235536a9edbb8c3fdbe17abd921d44"))
     (98768, uint256("43f42aaba4a1e8f7a4981b7d8620e5967974b0bbdee4ae22e42f14585be3a52f"))
     (105629, uint256("82ae47c00a0338f33a41b8505162cabaa4740f2187feb07f4ee4bc6138461acb"))
+    (129267, uint256("773de63a6ef8cd4d56769a0efc8625fa617bbac34802019b3a211bbe390f34a6"))
+    (132020, uint256("d93d3f4b85dd3f3995d010966f8e0163f324bfe3e748507fadf472a14c76ce36"))
+    (133535, uint256("33d415384dc2d181f9cd0208d6c8664dfdbfb95a061a639220b4ea253df7788c"))
+    (140352, uint256("cdef2002ee6d10a0a8e85ba47329455773245e6008aa691416b63d7ec3aef78d"))
+    (155115, uint256("ea78ac399244d06b407ff349ba71747d8c672ccd54216317abc28dbca04c71e5")) // A PoA block was rejected here, avoid it
+    (155116, uint256("929d16db920af3df60cf2e869ee08d174f7d476d65e53cbf07d54b7d1cca2380")) // First PoA Block after fix/difficulty bump
+    (193949, uint256("98ed9238e67297071a13b6e62fa17c5c992998a295ea7535cdcd4c3dda8aeab3")) // First PoA Block after fix/difficulty bump
     ;
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1614113250,          // * UNIX timestamp of last checkpoint block
-    219212,          // * total number of transactions between genesis and last checkpoint
+    1619022138,          // * UNIX timestamp of last checkpoint block
+    397361,          // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     1440        // * estimated number of transactions per day after checkpoint
 };
