@@ -233,7 +233,7 @@ bool CheckPoAContainRecentHash(const CBlock& block)
                 throw runtime_error("Can't read block from disk");
             PoSBlockSummary lastAuditedPoSBlockInfo = prevPoablock.posBlocksAudited.back();
             uint256 lastAuditedPoSHash = lastAuditedPoSBlockInfo.hash;
-            if (mapBlockIndex.count(lastAuditedPoSHash) < 1) {
+            if (mapBlockIndex.count(lastAuditedPoSHash) < 1 && !IsWrongAudit(lastAuditedPoSHash.GetHex())) {
                 return error("CheckPoAContainRecentHash(): Audited blocks not found");
             }
 
